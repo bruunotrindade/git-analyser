@@ -44,14 +44,16 @@ public class MergeAnalyser
 	public MergeAnalyser(Repository repos)
 	{
 		this.repos = repos;
+		RepositoryDao rdao = new RepositoryDao(repos.getProject());
+        rdao.setGeneralBasicDatas(repos);
 	}
 	
 	public void runAnalysis(ArrayList<Atributo> atributos, File saida)
 	{	
 		MergeFilesDao mergeFilesDao = new MergeFilesDao();
 		MergeCommitsDao mergeCommitsDao = new MergeCommitsDao(repos.getProject());
-		boolean boolAtrib [] = new boolean[12];
-		int ordemAtrib [] = new int[12];
+		boolean boolAtrib [] = new boolean[16];
+		int ordemAtrib [] = new int[16];
 		ArrayList<String> header = new ArrayList<String>();
 		
 		int index = 0;
@@ -64,9 +66,22 @@ public class MergeAnalyser
 		
         String linesStr = "";
         List<String> merges = repos.getListOfMerges();
-        int max = merges.size(), cont = 0;
+        int max, cont = 0;
+        try
+        {
+        	max = merges.size();
+        }
+        catch(NullPointerException npe)
+        {
+        	System.out.println("SEM MERGES");
+        	return;
+        }
+        int num = 0;
         for(String hashMerge : merges) 
         {
+        	if(num++ == 5)
+        		break;
+        	
         	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
             hashMerge = hashMerge.split(" ")[0];
             
