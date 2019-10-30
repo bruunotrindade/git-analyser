@@ -1,11 +1,15 @@
 package br.uff.ic.gems.tipmerge;
 
 import java.io.File;
+import java.text.DateFormat;
 import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
 
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
@@ -112,6 +116,8 @@ public class MergeAnalyser2
 
             //=================// Data do merge //=================//
             String mergeTimestamp = getMergeTimestamp(hashMerge);
+            mergeTimestamp = convertToDefaultTimeZone(mergeTimestamp);
+            
             
             //=================// Tempo de isolamento //=================//
             String isolamento1 = tempoIsolamento(merge.getHashBase(), merge.getParents()[0]);
@@ -197,5 +203,24 @@ public class MergeAnalyser2
             return String.format("%.2f", Statistics.timeToDays(parentUnixTs - ancestorUnixTs)).replace(",", ".");
         }
         return "0.00";
+	}
+	
+	public static String convertToDefaultTimeZone(String Date) 
+	{
+        String converted_date = "";
+        try {
+
+            DateFormat utcFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            utcFormat.setTimeZone(TimeZone.getTimeZone("GMT-05:00"));
+
+            Date date = utcFormat.parse(Date);
+
+            DateFormat currentTFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            currentTFormat.setTimeZone(TimeZone.getTimeZone("GMT-00:00"));
+
+            converted_date =  currentTFormat.format(date);
+        }catch (Exception e){ e.printStackTrace();}
+
+        return converted_date;
 	}
 }

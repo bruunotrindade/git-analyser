@@ -147,15 +147,18 @@ public class MergeAnalyser3
                 	
                 	//Verificando se o mesmo causou o conflito dos dois lados
                 	int contAmbos = 0;
+                	String descricaoArquivos = "";
                 	for (Entry<String, ArquivoConflito> entry : ac.entrySet()) 
                 	{
                 		System.out.printf("%s: %s - %s\n", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
                 		if(entry.getValue().causador[0] != null && entry.getValue().causador[0].equals(entry.getValue().causador[1]))
                 			contAmbos += 1;
+                		else
+                			descricaoArquivos += String.format("%s,%s,%s;", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
                 	}
                 	System.out.println();
                 	
-                	linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+"/x/";
+                	linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+descricaoArquivos+"/x/";
                 }
             }
             else
