@@ -56,8 +56,8 @@ public class Export {
 	{
 		try
 		{
-			FileWriter fw = new FileWriter(new File(repos.getProject().getAbsolutePath() + "/" + repos.getName() + ".csv"));
-			System.out.println(repos.getProject().getAbsolutePath() + "/" + repos.getName() + ".csv");
+			FileWriter fw = new FileWriter(new File(repos.getName() + ".csv"));
+			System.out.println(repos.getName() + ".csv");
 			
 			//Header:
 			fw.write(String.join(",", header)+"\n");

@@ -83,55 +83,57 @@ public class MergeAnalyser3
             	System.out.println();
             	continue;
             }
+            //=================// Qtde. de arquivos alterados //=================//
+        	int numIntersec = 0;
+            try
+            {
+            	//=================// Qtde. de desenvolvedores //=================//
+            	MergeCommits mergeCommits = new MergeCommits(hashMerge, repos.getProject());
+                mergeCommits.setHashBase(merge.getHashBase());
+                mergeCommits.setParents(merge.getParents()[0], merge.getParents()[1]);
+                mergeCommitsDao.setCommittersOnBranch(mergeCommits);
+                
+                int committers1 = 0;
+                int committers2 = 0;
+                List<String> committersR1 = new ArrayList<String>();
+                
+                for(Committer c : mergeCommits.getCommittersBranchOne())
+                {
+                	++committers1;
+                	
+                	committersR1.add(c.getNameEmail());
+                }
+                
+                for(Committer c : mergeCommits.getCommittersBranchTwo())
+                {
+                	++committers2;
+                	
+                	if(committersR1.contains(c.getNameEmail()))
+                		numIntersec += 1;
+                }
+                
+                if(committers1 == committers2 && committers1 == numIntersec)
+                	numIntersec = 2;
+                else if(numIntersec > 0)
+                	numIntersec = 1;
+            }
+            catch(NullPointerException npe)
+            {}
             
             //================// Conflitos //==============//
             int arquivos = 0;
+            int contAmbos = 0;
+        	String descricaoArquivos = "";
             if(RevisionAnalyzer.hasConflict(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1])) 
             {
             	System.out.println(" - Conflito");
-            	//=================// Qtde. de arquivos alterados //=================//
-            	int numIntersec = 0;
-                try
-                {
-                	//=================// Qtde. de desenvolvedores //=================//
-                	MergeCommits mergeCommits = new MergeCommits(hashMerge, repos.getProject());
-                    mergeCommits.setHashBase(merge.getHashBase());
-                    mergeCommits.setParents(merge.getParents()[0], merge.getParents()[1]);
-                    mergeCommitsDao.setCommittersOnBranch(mergeCommits);
-                    
-                    int committers1 = 0;
-                    int committers2 = 0;
-                    List<String> committersR1 = new ArrayList<String>();
-                    
-                    for(Committer c : mergeCommits.getCommittersBranchOne())
-                    {
-                    	++committers1;
-                    	
-                    	committersR1.add(c.getNameEmail());
-                    }
-                    
-                    for(Committer c : mergeCommits.getCommittersBranchTwo())
-                    {
-                    	++committers2;
-                    	
-                    	if(committersR1.contains(c.getNameEmail()))
-                    		numIntersec += 1;
-                    }
-                    
-                    if(committers1 == committers2 && committers1 == numIntersec)
-                    	numIntersec = 2;
-                    else if(numIntersec > 0)
-                    	numIntersec = 1;
-                }
-                catch(NullPointerException npe)
-                {}
+            	
+            	//=======// Arquivos //=======//
+            	List<String> arquivosList = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject());
+            	arquivos = arquivosList.size();
             
                 if(numIntersec > 0)
                 {
-                	//=======// Arquivos //=======//
-                	List<String> arquivosList = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject());
-                	arquivos = arquivosList.size();
-                	
                 	//Gerando a lista de arquivos em conflito
                 	HashMap<String, ArquivoConflito> ac = new HashMap<String, ArquivoConflito>();
                 	for(String arquivo : arquivosList)
@@ -146,8 +148,7 @@ public class MergeAnalyser3
                 	
                 	
                 	//Verificando se o mesmo causou o conflito dos dois lados
-                	int contAmbos = 0;
-                	String descricaoArquivos = "";
+                	
                 	for (Entry<String, ArquivoConflito> entry : ac.entrySet()) 
                 	{
                 		System.out.printf("%s: %s - %s\n", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
@@ -157,12 +158,12 @@ public class MergeAnalyser3
                 			descricaoArquivos += String.format("%s,%s,%s;", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
                 	}
                 	System.out.println();
-                	
-                	linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+descricaoArquivos+"/x/";
                 }
             }
             else
             	System.out.println();
+            
+            linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+descricaoArquivos+"/x/";
         }
         Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
