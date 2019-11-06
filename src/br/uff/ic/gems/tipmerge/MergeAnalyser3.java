@@ -161,11 +161,12 @@ public class MergeAnalyser3
                 	}
                 	System.out.println();
                 }
+                linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
             }
             else
             	System.out.println();
             
-            linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
+            //linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
         }
         Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
