@@ -55,7 +55,7 @@ public class MergeAnalyser3
 		MergeFilesDao mergeFilesDao = new MergeFilesDao();
 		MergeCommitsDao mergeCommitsDao = new MergeCommitsDao(repos.getProject());
 
-        String header[] = {"Hash do merge", "Intersecção de Desenvolvedores", "Arquivos em Conflito", "Arquivos com Conflito causado pelo Mesmo"};
+        String header[] = {"Hash do merge", "Intersecção de Desenvolvedores", "Arquivos em Conflito", "Arquivos com Conflito causado pelo Mesmo", "Arquivos Null"};
 		String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
@@ -122,7 +122,7 @@ public class MergeAnalyser3
             
             //================// Conflitos //==============//
             int arquivos = 0;
-            int contAmbos = 0;
+            int contAmbos = 0, contNull = 0;
         	String descricaoArquivos = "";
             if(RevisionAnalyzer.hasConflict(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1])) 
             {
@@ -154,6 +154,8 @@ public class MergeAnalyser3
                 		System.out.printf("%s: %s - %s\n", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
                 		if(entry.getValue().causador[0] != null && entry.getValue().causador[0].equals(entry.getValue().causador[1]))
                 			contAmbos += 1;
+                		else if(entry.getValue().causador[0] == null || entry.getValue().causador[1] == null)
+                			contNull += 1;
                 		else
                 			descricaoArquivos += String.format("%s,%s,%s;", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
                 	}
@@ -163,7 +165,7 @@ public class MergeAnalyser3
             else
             	System.out.println();
             
-            linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+descricaoArquivos+"/x/";
+            linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
         }
         Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
