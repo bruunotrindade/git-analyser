@@ -59,10 +59,22 @@ public class MergeAnalyser3
 		String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
+        
+        /*for(int i = 10000; i < merges.size(); i++)
+        {
+        	String teste = merges.get(i).split(" ")[0];
+        	if(teste.equals("ddaa390a62069928d89a7bd148f75e2df05d6572"))
+        	{
+        		System.out.println(i);
+        		break;
+        	}
+        }*/
+        
+        
         /*for(String hashMerge : merges) 
         {*/
         
-        String hashMerge = merges.get(18432);
+        String hashMerge = merges.get(20255);
         	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
             hashMerge = hashMerge.split(" ")[0];
 
@@ -171,7 +183,7 @@ public class MergeAnalyser3
             
             //linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
        /* }*/
-        Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
+        //Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
 	
 	/*
