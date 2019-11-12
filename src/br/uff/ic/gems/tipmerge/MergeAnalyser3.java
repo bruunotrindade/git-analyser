@@ -59,8 +59,10 @@ public class MergeAnalyser3
 		String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
-        for(String hashMerge : merges) 
-        {
+        /*for(String hashMerge : merges) 
+        {*/
+        
+        String hashMerge = merges.get(18432);
         	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
             hashMerge = hashMerge.split(" ")[0];
 
@@ -73,7 +75,7 @@ public class MergeAnalyser3
 	            if(merge.getHashBase().equals(merge.getParents()[0]) || merge.getHashBase().equals(merge.getParents()[1]))
 	            {
 	            	System.out.println();
-	            	continue;
+	            	//continue;
 	            }
 	            else
 	            	System.out.print(" - De ramos");
@@ -81,7 +83,7 @@ public class MergeAnalyser3
             catch(NullPointerException npe)
             {
             	System.out.println();
-            	continue;
+            	//continue;
             }
             //=================// Qtde. de arquivos alterados //=================//
         	int numIntersec = 0;
@@ -142,6 +144,7 @@ public class MergeAnalyser3
                 		aux.deletado = checkDeletedFile(aux.nome);                		
                 		ac.put(arquivo, aux);
                 	}
+                	System.out.println("Arquivos em conflito = " + ac.size());
                 	
                 	identificarCommitConflito(merge.getHashBase(), merge.getParents()[0], ac, 0);
                 	identificarCommitConflito(merge.getHashBase(), merge.getParents()[1], ac, 1);
@@ -167,7 +170,7 @@ public class MergeAnalyser3
             	System.out.println();
             
             //linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
-        }
+       /* }*/
         Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
 	
@@ -190,6 +193,7 @@ public class MergeAnalyser3
 			else if(ac.get(linha) != null && ac.get(linha).causador[ramoID] == null)
 			{
 				//Abrir o arquivo nesse commit pra ver
+				System.out.println("git diff " + hash + " " + linha);
 				List<String> linhasDiff = RunGit.getListOfResult("git diff " + hash + " " + linha, repos.getProject());
 				int tagStatus = 0;
 				String tags[] = {"", "+<<<<<<<", "+=======", "+>>>>>>>"};
@@ -217,6 +221,7 @@ public class MergeAnalyser3
 				}
 				else
 				{
+					System.out.println("git diff --summary HEAD.." + hash + " " + linha);
 					String arquivoDeletado = RunGit.getResult("git diff --summary HEAD.." + hash + " " + linha, repos.getProject());
 					if(arquivoDeletado != null && arquivoDeletado.contains("delete mode")) //Encontra o commit onde foi deletado
 					{
@@ -237,6 +242,7 @@ public class MergeAnalyser3
 	
 	public static boolean checkDeletedFile(String file)
 	{
+		System.out.println("git diff " + file);
 		return RunGit.getResult("git diff " + file, repos.getProject()).contains("* Unmerged path " + file);
 	}
 	
