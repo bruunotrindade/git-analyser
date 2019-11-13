@@ -65,8 +65,9 @@ public class MergeAnalyser3
         
         for(String hashMerge : merges) 
         {
+            //String hashMerge = merges.get(12342).split(" ")[0];
             hashMerge = hashMerge.split(" ")[0];
-            System.out.printf("\t-> Merge (%s) %02d/%02d", hashMerge, ++cont, max);
+        	System.out.printf("\t-> Merge (%s) %02d/%02d", hashMerge, ++cont, max);
 
             MergeFiles merge = mergeFilesDao.getMerge(hashMerge, repos.getProject());
             merge.setFilesOnBranchOne(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[0], repos.getProject(), "All Files"));
@@ -133,6 +134,7 @@ public class MergeAnalyser3
             	System.out.println(" - Conflito");
             	
             	//=======// Arquivos //=======//
+            	//System.out.println("git diff --name-only --diff-filter=U");
             	List<String> arquivosList = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject());
             	arquivos = arquivosList.size();
             
@@ -183,6 +185,7 @@ public class MergeAnalyser3
 	
 	public static void identificarCommitConflito(String hashBase, String hashParent, HashMap<String, ArquivoConflito> ac, int ramoID)
 	{
+		//System.out.println("git log -m --name-only --pretty=format:%H " + hashBase + "^.." + hashParent);
 		List<String> linhasLog = RunGit.getListOfResult("git log -m --name-only --pretty=format:%H " + hashBase + "^.." + hashParent, repos.getProject());
 		String hash = null;
 		for(String linha : linhasLog) //Linha = arquivo modificado
@@ -241,7 +244,16 @@ public class MergeAnalyser3
 	
 	public static boolean checkDeletedFile(String file)
 	{
-		return RunGit.getResult("git diff " + file, repos.getProject()).contains("* Unmerged path " + file);
+		try
+		{
+			//System.out.println("git diff " + file);
+			return RunGit.getResult("git diff " + file, repos.getProject()).contains("* Unmerged path " + file);
+		}
+		catch(NullPointerException npe)
+		{
+			//System.out.println("git status " + file + " -s");
+			return RunGit.getResult("git status " + file + " -s", repos.getProject()).startsWith("DD ");
+		}
 	}
 	
 	public static String getCommitAuthor(String hash)

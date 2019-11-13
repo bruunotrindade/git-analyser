@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/media/dados/brunotrindade/git-analyser/.metadata/.plugins/org.eclipse.jdt.core
+2390367922.index
+1175494123.index
