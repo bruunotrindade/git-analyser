@@ -59,10 +59,14 @@ public class MergeAnalyser3
 		String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
+        
+        //Removendo untracked files
+        cleanUntracked();
+        
         for(String hashMerge : merges) 
         {
-        	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
             hashMerge = hashMerge.split(" ")[0];
+            System.out.printf("\t-> Merge (%s) %02d/%02d", hashMerge, ++cont, max);
 
             MergeFiles merge = mergeFilesDao.getMerge(hashMerge, repos.getProject());
             merge.setFilesOnBranchOne(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[0], repos.getProject(), "All Files"));
@@ -166,7 +170,7 @@ public class MergeAnalyser3
             else
             	System.out.println();
             
-            //linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
+            linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
         }
         Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
@@ -243,6 +247,11 @@ public class MergeAnalyser3
 	public static String getCommitAuthor(String hash)
 	{
 		return RunGit.getResult("git log --pretty=format:%an -1 " + hash, repos.getProject());
+	}
+	
+	public static void cleanUntracked()
+	{
+		RunGit.getResult("git clean -df", repos.getProject());
 	}
 }
 

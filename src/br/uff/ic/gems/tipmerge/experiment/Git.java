@@ -47,14 +47,16 @@ public class Git {
             }
 
             // read any errors from the attempted command
+            /*System.out.println();
+            System.out.println("CHECKOUT: ");
             while ((s = stdError.readLine()) != null) {
-//                System.out.println(s);
-            }
+            	System.out.println(s);
+            }*/
 
         } catch (IOException ex) {
             Logger.getLogger(Git.class.getName()).log(Level.SEVERE, null, ex);
         }
-
+        
         return output;
     }
 
@@ -94,9 +96,11 @@ public class Git {
             }
 
             // read any errors from the attempted command
+            /*System.out.println();
+            System.out.println("MERGE: ");
             while ((s = stdError.readLine()) != null) {
-//                System.out.println(s);
-            }
+                System.out.println(s);
+            }*/
 
         } catch (IOException ex) {
             Logger.getLogger(Git.class.getName()).log(Level.SEVERE, null, ex);
