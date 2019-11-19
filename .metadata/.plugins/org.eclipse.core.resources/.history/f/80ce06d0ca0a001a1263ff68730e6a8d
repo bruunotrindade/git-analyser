@@ -54,10 +54,6 @@ public class MergeAnalyser2
         String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
-        
-        //Removendo untracked files
-        cleanUntracked();
-        
         for(String hashMerge : merges) 
         {
         	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
@@ -232,10 +228,5 @@ public class MergeAnalyser2
         }catch (Exception e){ e.printStackTrace();}
 
         return converted_date;
-	}
-	
-	public static void cleanUntracked()
-	{
-		RunGit.getResult("git clean -df", repos.getProject());
 	}
 }

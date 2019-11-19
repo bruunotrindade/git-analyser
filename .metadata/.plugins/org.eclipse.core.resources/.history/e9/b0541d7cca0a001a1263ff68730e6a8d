@@ -54,10 +54,6 @@ public class MergeAnalyser2
         String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
-        
-        //Removendo untracked files
-        cleanUntracked();
-        
         for(String hashMerge : merges) 
         {
         	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
@@ -199,12 +195,13 @@ public class MergeAnalyser2
         	long parentUnixTs = Long.parseLong(parts2[1]);
         	String parts[] = beginLineTotal.get(beginLineTotal.size()-1).split("X");
         	long ancestorUnixTs = Long.parseLong(parts[2]);
-        	for(int i = beginLineTotal.size()-2; i >= 0 && ancestorUnixTs > parentUnixTs; i--)
+        	for(int i = beginLineTotal.size()-2; i >= 0 && ancestorUnixTs > parentUnixTs)
         	{
-        		parts = beginLineTotal.get(i).split("X");
-        		ancestorUnixTs = Long.parseLong(parts[2]);
+        	
         	}
+        	
         	//System.out.println("CMD = " + "git log --pretty=format:%HX%ciX%ct " + hashBase + ".." + hashParent);
+            String parts[] = beginLineTotal.get(beginLineTotal.size()-1).split("X")/*, hashNextAncestor = parts[0], timestampNextAncestor = parts[1].substring(0, 19)*/;
             
           	//==========//  Dates   //==========//
             //System.out.println("PART1 = " + parts[2]);
@@ -232,10 +229,5 @@ public class MergeAnalyser2
         }catch (Exception e){ e.printStackTrace();}
 
         return converted_date;
-	}
-	
-	public static void cleanUntracked()
-	{
-		RunGit.getResult("git clean -df", repos.getProject());
 	}
 }

@@ -233,9 +233,4 @@ public class MergeAnalyser2
 
         return converted_date;
 	}
-	
-	public static void cleanUntracked()
-	{
-		RunGit.getResult("git clean -df", repos.getProject());
-	}
 }
