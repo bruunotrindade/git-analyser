@@ -36,7 +36,7 @@ public class MergeAnalyser2
 	{
 		for(int i = 0; i < args.length; i++)
 		{
-			System.out.println("Reposit�rio: " + args[i]);
+			System.out.println("Repositorio: " + args[i]);
 			repos = new RepositoryDao(new File(args[i])).getRepository();
 			RepositoryDao rdao = new RepositoryDao(repos.getProject());
 	        rdao.setGeneralBasicDatas(repos);
@@ -50,13 +50,13 @@ public class MergeAnalyser2
 		MergeFilesDao mergeFilesDao = new MergeFilesDao();
 		MergeCommitsDao mergeCommitsDao = new MergeCommitsDao(repos.getProject());
 
-        String header[] = {"Hash do merge", "Data do merge", "Tempo de isolamento 1 (dias)", "Tempo de isolamento 2 (dias)", "Tempo de isolamento (MAX)", "Desenvolvedores 1", "Desenvolvedores 2", "Intersecção de Desenvolvedores", "Commits 1", "Commits 2", "Arquivos alterados 1", "Arquivos alterados 2", "Intersecção de Arquivos", "Conflito", "Arquivos", "Chunks"};
+        String header[] = {"Hash do merge", "Data do merge", "Tempo de isolamento 1 [ancestral](dias)", "Tempo de isolamento 2 [ancestral](dias)", "Tempo de isolamento 1 [pai](dias)", "Tempo de isolamento 2 [pai](dias)", "Tempo de isolamento [merge]", "Desenvolvedores 1", "Desenvolvedores 2", "Intersecção de Desenvolvedores", "Commits 1", "Commits 2", "Arquivos alterados 1", "Arquivos alterados 2", "Intersecção de Arquivos", "Conflito", "Arquivos", "Chunks"};
         String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
         
         //Removendo untracked files
-        cleanUntracked();
+        cleanUntrackedFiles();
         
         for(String hashMerge : merges) 
         {
@@ -122,11 +122,21 @@ public class MergeAnalyser2
             String mergeTimestamp = getMergeTimestamp(hashMerge);
             mergeTimestamp = convertToDefaultTimeZone(mergeTimestamp);
             
-            
             //=================// Tempo de isolamento //=================//
-            String isolamento1 = tempoIsolamento(merge.getHashBase(), merge.getParents()[0]);
-            String isolamento2 = tempoIsolamento(merge.getHashBase(), merge.getParents()[1]);
-            String isolamentoMax = Math.max(Double.parseDouble(isolamento1), Double.parseDouble(isolamento2))+"";
+
+            /**
+             * Tempo de isolamento Ancestor: tempo do commit Base+1 até cada Parent.
+             * Tempo de isolamento Parent: tempo do commit Base até cada Parent;
+             * Tempo de isolamento Merge: tempo do commit Base até o Merge.
+             **/
+            
+            String isolamentoAncestor1 = getAncestorIsolationTime(merge.getHashBase(), merge.getParents()[0]);
+            String isolamentoAncestor2 = getAncestorIsolationTime(merge.getHashBase(), merge.getParents()[1]);
+            String isolamentoParent1 = getIsolationTimeBetweenCommits(merge.getHashBase(), merge.getParents()[0]);
+            String isolamentoParent2 = getIsolationTimeBetweenCommits(merge.getHashBase(), merge.getParents()[1]);
+            String isolamentoMerge = getIsolationTimeBetweenCommits(merge.getHashBase(), hashMerge);
+            
+            //String isolamentoMax = Math.max(Double.parseDouble(isolamentoAncestor1), Double.parseDouble(isolamentoAncestor2))+"";
             
             //=================// Qtde. de arquivos alterados //=================//
             int arquivosAlterados1 = 0, arquivosAlterados2 = 0, arqIntersec = 0;
@@ -177,44 +187,46 @@ public class MergeAnalyser2
                 //=================================================//
             }
             
-            linesStr += merge.getHash()+","+mergeTimestamp+","+isolamento1+","+isolamento2+","+isolamentoMax+","+committers1+","+committers2+","+numIntersec+","+commits1+","+commits2+","+arquivosAlterados1+","+arquivosAlterados2+","+arqIntersec+","+ (conflito ? "SIM" : "NAO") +","+arquivos+","+chunks+"/x/";
+            linesStr += merge.getHash()+","+mergeTimestamp+","+isolamentoAncestor1+","+isolamentoAncestor2+","+isolamentoParent1+","+isolamentoParent2+","+isolamentoMerge+","+committers1+","+committers2+","+numIntersec+","+commits1+","+commits2+","+arquivosAlterados1+","+arquivosAlterados2+","+arqIntersec+","+ (conflito ? "SIM" : "NAO") +","+arquivos+","+chunks+"/x/";
         }
         Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
 	
+	//Recuperar timestamp do merge
 	public static String getMergeTimestamp(String hashMerge)
 	{
 		return RunGit.getResult("git log -1 --pretty=format:%ci " + hashMerge, repos.getProject()).substring(0, 19);
 	}
 	
-	public static String tempoIsolamento(String hashBase, String hashParent)
+	//Recuperar o tempo de isolamento do ancestral
+	public static String getAncestorIsolationTime(String hashBase, String hashParent)
 	{
-		//System.out.println("BASE = " + hashBase + " / " + hashParent);
-		//==========//   Ancestor's data   //==========//
 		List<String> beginLineTotal = RunGit.getListOfResult("git log --pretty=format:%HX%ciX%ct " + hashBase + ".." + hashParent, repos.getProject());
-        if(beginLineTotal.size() > 0)
+		if(beginLineTotal.size() > 0)
         {
-        	//==========//   Parent's data   //==========//
-        	String parentData = RunGit.getResult("git log -1 --pretty=format:%ciX%ct " + hashParent, repos.getProject()),  parts2[] = parentData.split("X");
-        	long parentUnixTs = Long.parseLong(parts2[1]);
-        	String parts[] = beginLineTotal.get(beginLineTotal.size()-1).split("X");
+			long parentUnixTs = getCommitUnixTime(hashParent);
+			
+			String parts[] = beginLineTotal.get(beginLineTotal.size()-1).split("X");
         	long ancestorUnixTs = Long.parseLong(parts[2]);
-        	for(int i = beginLineTotal.size()-2; i >= 0 && ancestorUnixTs > parentUnixTs; i--)
+        	
+        	for(int i = beginLineTotal.size()-2; i >= 0 && ancestorUnixTs > parentUnixTs; i--) //Evitando que o tempo do ancestral seja maior que o do pai (tempo negativo)
         	{
         		parts = beginLineTotal.get(i).split("X");
         		ancestorUnixTs = Long.parseLong(parts[2]);
         	}
-        	//System.out.println("CMD = " + "git log --pretty=format:%HX%ciX%ct " + hashBase + ".." + hashParent);
-            
-          	//==========//  Dates   //==========//
-            //System.out.println("PART1 = " + parts[2]);
-            //System.out.println("PART2 = " + parts2[1]);
-            //System.out.println("ISO = " + (parentUnixTs - ancestorUnixTs));
-            return String.format("%.2f", Statistics.timeToDays(parentUnixTs - ancestorUnixTs)).replace(",", ".");
+        	return String.format("%.7f", Statistics.timeToDays(parentUnixTs - ancestorUnixTs)).replace(",", ".");
         }
-        return "0.00";
+		return "0.00000";
 	}
 	
+	//Recuperar tempo de isolamento entre dois hashes
+	public static String getIsolationTimeBetweenCommits(String hashA, String hashB)
+	{
+		long commitAtime = getCommitUnixTime(hashA), commitBtime = getCommitUnixTime(hashB);
+        return String.format("%.7f", Statistics.timeToDays(commitBtime-commitAtime)).replace(",", ".");
+	}
+	
+	//Converter para GMT-00 ou UTC
 	public static String convertToDefaultTimeZone(String Date) 
 	{
         String converted_date = "";
@@ -234,7 +246,15 @@ public class MergeAnalyser2
         return converted_date;
 	}
 	
-	public static void cleanUntracked()
+	//Recuperar horário do commit em Unix
+	public static long getCommitUnixTime(String hash)
+	{
+		String parentData = RunGit.getResult("git log -1 --pretty=format:%ciX%ct " + hash, repos.getProject()),  parts2[] = parentData.split("X");
+    	return Long.parseLong(parts2[1]);
+	}
+	
+	//Remover arquivos não gerenciados pelo Git
+	public static void cleanUntrackedFiles()
 	{
 		RunGit.getResult("git clean -df", repos.getProject());
 	}
