@@ -55,7 +55,7 @@ public class MergeAnalyser3
 		MergeFilesDao mergeFilesDao = new MergeFilesDao();
 		MergeCommitsDao mergeCommitsDao = new MergeCommitsDao(repos.getProject());
 
-        String header[] = {"Hash do merge", "Intersecção de Desenvolvedores", "Arquivos em Conflito", "Arquivos com Conflito causado pelo Mesmo", "Arquivos Null"};
+        String header[] = {"Hash do merge", "Intersecção de Desenvolvedores", "Arquivos em Conflito", "Arquivos com Conflito causado pelo Mesmo", "Arquivos Null", "Relação Arquivos Mesmo / Total de Arquivos"};
 		String linesStr = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
@@ -65,7 +65,6 @@ public class MergeAnalyser3
         
         for(String hashMerge : merges) 
         {
-            //String hashMerge = merges.get(12342).split(" ")[0];
             hashMerge = hashMerge.split(" ")[0];
         	System.out.printf("\t-> Merge (%s) %02d/%02d", hashMerge, ++cont, max);
 
@@ -131,8 +130,6 @@ public class MergeAnalyser3
         	String descricaoArquivos = "";
             if(RevisionAnalyzer.hasConflict(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1])) 
             {
-            	System.out.println(" - Conflito");
-            	
             	//=======// Arquivos //=======//
             	//System.out.println("git diff --name-only --diff-filter=U");
             	List<String> arquivosList = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject());
@@ -167,12 +164,10 @@ public class MergeAnalyser3
                 	}
                 	System.out.println();
                 }
-                linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
+                linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+(contAmbos/arquivos)+","+descricaoArquivos+"/x/";
             }
             else
             	System.out.println();
-            
-            linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+descricaoArquivos+"/x/";
         }
         Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}

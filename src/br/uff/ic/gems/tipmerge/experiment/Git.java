@@ -93,6 +93,7 @@ public class Git {
 //                    output.add(rev);
 //                }
                 output.add(s);
+                //System.out.println(s);
             }
 
             // read any errors from the attempted command

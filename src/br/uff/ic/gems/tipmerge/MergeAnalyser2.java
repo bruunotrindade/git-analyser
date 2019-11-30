@@ -58,11 +58,17 @@ public class MergeAnalyser2
         //Removendo untracked files
         cleanUntrackedFiles();
         
+        
+        
         for(String hashMerge : merges) 
         {
+        	 
+        	
         	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
             hashMerge = hashMerge.split(" ")[0];
-
+            System.out.println(hashMerge);
+        	if(hashMerge.equals("40664616731c003dd35c67af0100135c7378718a") == false)
+        		continue;
             MergeFiles merge = mergeFilesDao.getMerge(hashMerge, repos.getProject());
             merge.setFilesOnBranchOne(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[0], repos.getProject(), "All Files"));
             merge.setFilesOnBranchTwo(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[1], repos.getProject(), "All Files"));
