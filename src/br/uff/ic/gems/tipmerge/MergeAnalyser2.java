@@ -55,11 +55,6 @@ public class MergeAnalyser2
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
         
-        //Removendo untracked files
-        cleanUntrackedFiles();
-        
-        
-        
         for(String hashMerge : merges) 
         {
         	 
@@ -171,9 +166,13 @@ public class MergeAnalyser2
             {}
             
             //================// Conflitos //==============//
-            int arquivos = 0, chunks = 0;
+            int arquivos = RevisionAnalyzer.hasConflictNum(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1]);
+            int chunks = 0;
             boolean conflito = false;
-            if(RevisionAnalyzer.hasConflict(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1])) 
+            
+            //Removendo untracked files
+            cleanUntrackedFiles();
+            if(arquivos > 0) //Se o número de arquivos em conflito for positivo 
             {
             	//=======// Chunks //=======//
                 conflito = true;                
@@ -182,7 +181,7 @@ public class MergeAnalyser2
                 		chunks++;
             
                 //=======// Arquivos //=======//
-                arquivos = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject()).size();
+                //arquivos = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject()).size();
                 
                 /*Alguns comandos Git:
                 git log --reverse --ancestry-path HASH^..origin/BRANCH --pretty=format:%ci

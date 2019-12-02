@@ -1,0 +1,27 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+40763d3962507ef3e25d3c7ea597de21fd0a870d,0,1,0,0,0,
+e3207005daa30fd829c5051166d51d1081ca8769,0,1,0,0,0,
+f4e9e71c56abe65a718870927db9a406cf933997,0,1,0,0,0,
+21ea31a34e0bb83a7aab8f4ff2f6f3c665bb816a,1,1,1,0,1,
+e41483be9e145f9d09dcb665316da58b51d98bd5,1,1,1,0,1,
+a2f6bb99d640490d279c16352c4ca87dabff428e,1,1,0,0,0,package.json,Nathan Rajlich,Guillermo Rauch;
+91c7bde34b1966ace32eb41f741b55ad3927a127,1,2,2,0,1,
+213577204a60b7356834582f5b287c2c32688c17,0,2,0,0,0,
+874c1942105b567956c31d853038b7fb568b5af7,1,1,0,0,0,package.json,Kevin Roark,Guillermo Rauch;
+f8d1d33dfaab234aa8dae9fdd032e63405c74cfe,0,1,0,0,0,
+afc83ad65a88488abab7fdcf43232d27855dc7e3,0,1,0,0,0,
+620f94a007eb469dc6333a58bd91d806a44f3c15,0,1,0,0,0,
+4823d20cf1f174073b335e05fa66bfe8b1335688,0,1,0,0,0,
+8c3ca99e7c749ebe03c856aab38f8929c39fe923,0,1,0,0,0,
+8daa71302da40d43e8b817d54b2c8f05848cdb98,1,1,1,0,1,
+6df152cc5d0207d3457c8765f7f2a997ebfaefd1,1,1,0,0,0,lib/manager.js,Arnout Kazemier,Guillermo Rauch;
+7b2b302022e357bdf55317313b1394626073b61c,1,2,1,0,0,lib/transports/websocket/hybi-07-12.js,einaros,Guillermo Rauch;
+f0ef33b45ff5f757759185cd8bb9d6c471971860,1,1,0,0,0,lib/manager.js,Arnout Kazemier,Guillermo Rauch;
+1fa158c663d3e3a8d6f283161e7f5393f980b8fb,0,2,0,0,0,
+a631f86b3b062ad909276e73a9285393c2909ac3,1,1,0,0,0,test/transports.websocket.test.js,Arnout Kazemier,Guillermo Rauch;
+3a2545b49778cc545edcff42d81066bd52438cf3,0,1,0,0,0,
+206cfdf9c6e5c1143dade032fe6b9220dfa3841a,0,1,0,0,0,
+4672ab65d7ca24cba34c8611183fa42ca03a433d,0,1,0,0,0,
+18d78f54480a0c23548d9b1d6761365919c17593,2,1,1,0,1,
+31d119740c0e9522c8d1b77a4ae1762d22486d45,0,5,0,0,0,
+f86893fa7dac1c2fd52e6dac25bd3847aefc3120,2,2,1,1,0,

@@ -21,4 +21,15 @@ public class MergeStatusAnalizer {
         String MERGE_FAST_FORWARD_MESSAGE = "Fast-forward";
         return mergeMessage.stream().anyMatch((line) -> (line.contains(MERGE_FAST_FORWARD_MESSAGE)));
     }
+    
+    public static int countConflictedFiles(List<String> mergeMessage)
+    {
+    	String MERGE_CONFLICT_MERGE = "CONFLICT (";
+    	int conflictedFiles = 0;
+    	for(String line : mergeMessage)
+    		if(line.contains(MERGE_CONFLICT_MERGE))
+    			conflictedFiles += 1;
+    	
+    	return conflictedFiles;
+    }
 }

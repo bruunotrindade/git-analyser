@@ -111,11 +111,25 @@ public class RevisionAnalyzer {
 
         //System.out.println("git merge --no-commit " + rightParent);
         List<String> mergeOutput = Git.merge(repositoryPath, rightParent, false, true);
-
-        //System.exit(0);
-        //System.out.println("\t" + mergeOutput);
-
+        
         return MergeStatusAnalizer.isConflict(mergeOutput);
     }
+    
+    public static int hasConflictNum(String repositoryPath, String leftParent, String rightParent) {
 
+        //String mergeBase = Git.getMergeBase(repositoryPath, leftParent, rightParent);
+    	//System.out.println("git reset --hard");
+        Git.reset(repositoryPath);
+
+        //System.out.println("git checkout " + leftParent);
+        Git.checkout(repositoryPath, leftParent);
+
+        //System.out.println("git merge --no-commit " + rightParent);
+        List<String> mergeOutput = Git.merge(repositoryPath, rightParent, false, true);
+        
+        if(MergeStatusAnalizer.isConflict(mergeOutput))
+        	return MergeStatusAnalizer.countConflictedFiles(mergeOutput);
+
+        return 0;
+    }
 }

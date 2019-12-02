@@ -1,0 +1,91 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+6657395adf3b709b8a196853d87e756288a5d8c8,1,1,1,0,1,
+ab0a649d446f7017739151450dfee894d0d8f6a0,1,2,2,0,1,
+62ce702c77915c6fddc2fcbd95265df4b2f17a08,1,2,0,0,0,src/crypto/tls/key_agreement.go,Katie Hockman,Filippo Valsorda;src/crypto/tls/handshake_client.go,Katie Hockman,Filippo Valsorda;
+5d9d84d037da727dddca419120d6ce1ea77f92d3,0,1,0,0,0,
+fa3f24e5c2945f4445b46dd33ea66695f4ed5505,1,1,0,0,0,VERSION,Filippo Valsorda,Andrew Bonventre;
+c0555a2a7a0ca83fdbb55219299fcfe1ff33e4df,1,2,0,0,0,src/cmd/link/internal/ld/lib.go,Than McIntosh,Elias Naur;src/cmd/link/internal/ld/deadcode.go,Cherry Zhang,nikita-vanyasin;
+d77b809df908d81406ceced91fe1b1399f1e29f1,1,1,0,0,0,src/cmd/internal/obj/link.go,Cherry Zhang,Dan Scales;
+cba6efa89376c6a6660e1c24d5dadcd3fd0735b1,1,1,0,0,0,VERSION,Filippo Valsorda,Alexander Rakoczy;
+cab2e4707a424dd55740ef0adfc739d66b1f2cb6,1,1,0,0,0,VERSION,Filippo Valsorda,Alexander Rakoczy;
+6a1c22797f9cf16e0098be1d618b6c49a3b9ec34,0,1,0,0,0,
+c5a4ae8c8c1b8621b705273aa6928994131e3bce,0,1,0,0,0,
+5827153a1db7ff1c212a3fe5dc583f167b51eb9a,1,1,1,0,1,
+28e8a0c21e00896f6da4cb0a8ad31e23daf18fff,1,1,1,0,1,
+e0ee09095c2779fa3b80e2234b4e1e130cd51352,1,2,0,0,0,src/crypto/tls/cipher_suites.go,Katie Hockman,Filippo Valsorda;src/crypto/tls/common.go,Katie Hockman,Filippo Valsorda;
+ff197f326fe607bba27a0b53e47b7a565601569d,1,1,1,0,1,
+ee88e5b118b55d82f61c0892243d3311469fbe51,1,1,0,0,0,VERSION,Filippo Valsorda,Dmitri Shuralyov;
+4f8e7223f93676f2e779fa581536756f37bbe9a9,1,1,0,0,0,VERSION,Filippo Valsorda,Dmitri Shuralyov;
+55186ba70c1a9d07930ae41c1afc93145345da91,1,1,0,0,0,VERSION,Filippo Valsorda,Dmitri Shuralyov;
+bd126d0ad2561ab91360100d326ce2da0812718f,1,1,0,0,0,VERSION,Filippo Valsorda,Alexander Rakoczy;
+845e947ae34f8895d58e8da13f9b83d5505eec93,1,1,0,0,0,VERSION,Filippo Valsorda,Alexander Rakoczy;
+98188f3001e7216f61098958e64ded2e95e7be27,1,2,2,0,1,
+6b86b09ad4d3f6e53c4dc94afc62117f9d2f8d84,1,1,0,0,0,VERSION,Filippo Valsorda,Dmitri Shuralyov;
+346babe6a67fbbd570a2ec234ebf279cfb1a0078,1,1,0,0,0,VERSION,Filippo Valsorda,Dmitri Shuralyov;
+324f8365be3aa144879e6b1abb4e13c51b5f4750,1,2,0,0,0,src/crypto/sha256/sha256.go,Filippo Valsorda,Michael McLoughlin;src/crypto/sha512/sha512.go,Filippo Valsorda,Michael McLoughlin;
+e48f228c9bf152a6049a43d3e87e76086e42adf7,1,1,1,0,1,
+ad495d31d9081dbe491972d276f790d76c47af62,1,1,0,0,0,VERSION,Filippo Valsorda,Andrew Bonventre;
+7be8a5843a9bdb944774feab38883ea8ad0ad904,1,1,0,0,0,VERSION,Filippo Valsorda,Andrew Bonventre;
+88e20e81a61fe07f438f3a07534405ba47414ae0,1,1,0,0,0,VERSION,Filippo Valsorda,Andrew Bonventre;
+a10558f870524965d720a3fee92ed0f0b8d096df,1,6,6,0,1,
+4ed8ad4d69d68da66fac413ed897bdde8d47057b,1,3,3,0,1,
+4b76b996cb0ad7ba015b53c932e7f0cc4933da77,1,1,0,0,0,VERSION,Filippo Valsorda,Julie Qiu;
+3fb9dafacc45817296885a6e877ba7a5f1c199a4,1,1,0,0,0,VERSION,Filippo Valsorda,Julie Qiu;
+8b246fe0f5950315035944868b0523e6d75d1171,1,1,1,0,1,
+572c4bce6792d169d467aad26781fa8cab52f8d6,1,1,1,0,1,
+35cf0d9f6bbdda847f39d5798f066a64eb91ea4e,1,1,0,0,0,VERSION,Filippo Valsorda,Andrew Bonventre;
+3169778c152c5afdef9c8859c4177c9fedecc734,1,1,1,0,1,
+ab37582eb03527d453a0bbae08e40cec20b6ab22,1,1,1,0,1,
+e8b3500d5c7fe478d0c11c8460409ec2166e45cc,1,1,1,0,1,
+de153ac2a14c92cceb0bbb755f4a2656436c5a1c,1,1,1,0,1,
+af07f7734b53540ca8c06b1b3cef59020a24d752,1,1,1,0,1,
+13bf5b80e8d8841a2a3c9b0d5dec65a0c8636253,1,1,1,0,1,
+623650b27aa42dd2ccd20fc4a79f8fe7b8559987,1,1,0,0,0,src/crypto/rand/rand_unix.go,Filippo Valsorda,Brad Fitzpatrick;
+2e2a04a605b6c3fc6e733810bdcd0200d8ed25a8,1,1,0,0,0,VERSION,Filippo Valsorda,Andrew Bonventre;
+4d1aa482b8754c081d8f3f6b39fe61dd2e6504fc,1,1,0,0,0,src/crypto/rand/rand_unix.go,Filippo Valsorda,Michael Munday;
+77db076129160d50a098958c8e3f3fd5caa6257a,1,6,2,0,0,src/crypto/tls/key_agreement.go,Filippo Valsorda,Peter Wu;src/go/build/deps_test.go,Filippo Valsorda,Heschi Kreinick;src/crypto/tls/handshake_server.go,Filippo Valsorda,Peter Wu;src/crypto/tls/prf.go,Filippo Valsorda,Peter Wu;
+0bad1bef406e987b7b749efc3bb7ab5d08b36a1c,1,1,0,0,0,VERSION,Russ Cox,Filippo Valsorda;
+35ba5284935c4ea67060b0a6ed15142c415e256d,1,1,0,0,0,VERSION,Russ Cox,Filippo Valsorda;
+a4b7722ffaa031d1ae7b95a0565c02889de22520,1,3,0,0,0,src/crypto/rsa/rsa.go,Filippo Valsorda,Adam Langley;src/crypto/ecdsa/ecdsa.go,Filippo Valsorda,Adam Langley;src/crypto/rsa/pkcs1v15.go,Filippo Valsorda,Adam Langley;
+3d9a6ac709dd1c63c049300bf924c6eefa84eaf4,1,3,0,0,0,src/crypto/aes/cipher_amd64.go,Filippo Valsorda,Anit Gandhi;src/go/build/deps_test.go,Filippo Valsorda,Anit Gandhi;src/crypto/internal/cipherhw/cipherhw_amd64.go,Filippo Valsorda,Anit Gandhi;
+a3f9ce3313af58d6f6d904875893b60d929ebd9c,1,3,0,0,0,src/crypto/sha1/sha1.go,Russ Cox,ludweeg;src/crypto/sha256/sha256.go,Russ Cox,ludweeg;src/crypto/sha512/sha512.go,Russ Cox,ludweeg;
+3959ce667657defe1c99984adde93ca496953765,1,1,1,0,1,
+f4e5ebdf35c8252329dc4d43d4e77ab05f1c41b9,1,1,0,0,0,VERSION,Russ Cox,Andrew Bonventre;
+185e6094fd968b35b80e56aad1286c66bb2cc261,1,38,6,1,0,src/crypto/tls/handshake_messages_test.go,Russ Cox,Carl Mastrangelo;src/cmd/compile/internal/ssa/gen/AMD64.rules,Russ Cox,Ilya Tocar;src/crypto/sha1/sha1_test.go,Russ Cox,Tim Cooper;src/runtime/pprof/pprof_test.go,Russ Cox,Than McIntosh;src/crypto/tls/common.go,Russ Cox,filewalkwithme;src/crypto/tls/handshake_server.go,Russ Cox,Peter Wu;misc/cgo/test/cgo_test.go,Russ Cox,Keith Randall;src/crypto/tls/prf.go,Russ Cox,Filippo Valsorda;src/database/sql/sql.go,Russ Cox,kirk;src/cmd/link/internal/amd64/asm.go,Russ Cox,Than McIntosh;src/net/smtp/smtp_test.go,Russ Cox,Mikio Hara;src/cmd/compile/internal/gc/reflect.go,Russ Cox,Ian Lance Taylor;src/cmd/compile/internal/ssa/gen/AMD64Ops.go,Russ Cox,Ilya Tocar;src/runtime/gc_test.go,Russ Cox,Austin Clements;src/crypto/sha256/sha256_test.go,Russ Cox,Tim Cooper;src/runtime/runtime.go,Russ Cox,Alex Brainman;src/runtime/chan_test.go,Russ Cox,Lynn Boger;src/crypto/sha512/sha512.go,Russ Cox,Roger Peppe;src/cmd/compile/internal/gc/testdata/arithConst.go,Russ Cox,Cherry Zhang;src/internal/poll/fd_windows.go,Russ Cox,Aman Gupta;src/crypto/ecdsa/ecdsa.go,Russ Cox,Adam Langley;src/cmd/compile/internal/ssa/gen/generic.rules,Russ Cox,Ilya Tocar;src/cmd/link/internal/ld/data.go,Russ Cox,Joe Tsai;src/cmd/compile/internal/ssa/rewriteAMD64.go,Russ Cox,Ilya Tocar;src/crypto/tls/handshake_client.go,Russ Cox,Peter Wu;src/cmd/compile/internal/gc/ssa.go,Russ Cox,Keith Randall;src/crypto/sha256/sha256.go,Russ Cox,Roger Peppe;src/cmd/compile/internal/syntax/parser.go,Russ Cox,griesemer;src/crypto/tls/key_agreement.go,Russ Cox,Peter Wu;src/crypto/x509/verify.go,Russ Cox,Adam Langley;src/crypto/sha512/sha512_test.go,Russ Cox,Tim Cooper;
+cda3c6f91d7c3cdd370cbc4c34f34fd597d028bd,1,1,1,0,1,
+e6ad24cde71e15ef078963bdd1b992c0b68e563e,0,1,0,0,0,
+8a5ef1501dee0715093e87cdc1c9b6becb81c882,1,1,0,0,0,VERSION,Russ Cox,Chris Broadfoot;
+1ba29926f3bfd245d46cf1f287716290bc2f1034,1,1,0,0,0,VERSION,Russ Cox,Chris Broadfoot;
+47ce87877b1e2d4f34bb93fe6c7d88785b318cd5,1,7,0,0,0,src/cmd/compile/internal/gc/main.go,Russ Cox,Matthew Dempsky;src/cmd/compile/internal/gc/syntax.go,Russ Cox,Matthew Dempsky;src/cmd/compile/internal/gc/typecheck.go,Russ Cox,Robert Griesemer;src/cmd/compile/internal/ssa/compile.go,Russ Cox,Robert Griesemer;src/cmd/compile/internal/gc/noder.go,Russ Cox,Matthew Dempsky;src/cmd/compile/internal/ssa/rewritePPC64.go,Russ Cox,Robert Griesemer;src/cmd/compile/internal/ssa/regalloc.go,shawnps,Robert Griesemer;
+42afbd9e63ed870c67d7c46b4ec38d4bae0e3e63,1,7,2,0,0,src/runtime/malloc.go,Austin Clements,Vladimir Stefanovic;src/runtime/stubs.go,Austin Clements,Russ Cox;src/runtime/mheap.go,Austin Clements,Keith Randall;src/runtime/mbitmap.go,Austin Clements,David Crawshaw;src/runtime/mgc.go,Austin Clements,Cherry Zhang;
+d2286ea2843569c7d277587f3d3ef06ae4092b78,1,3,0,0,0,src/cmd/compile/internal/ssa/gen/AMD64.rules,Keith Randall,Chris Broadfoot;src/cmd/compile/internal/ssa/rewrite.go,Cherry Zhang,Chris Broadfoot;src/cmd/compile/internal/ssa/rewriteAMD64.go,Josh Bleecher Snyder,Chris Broadfoot;
+31e13c83c26c5addad6c9a15a8f06a11edc7c519,1,1,0,0,0,src/cmd/compile/internal/ssa/config.go,Cherry Zhang,David Chase;
+23aeb34df172b17b7bfaa85fb59ca64bef9073bb,1,2,0,0,0,src/runtime/malloc.go,Rick Hudson,Austin Clements;src/runtime/mgcmark.go,Rick Hudson,Austin Clements;
+9d854fd44ae669f60c15133a4d2ce407ea2bccc4,1,2,0,0,0,src/cmd/compile/internal/gc/pgen.go,Ian Lance Taylor,Gerrit Code Review;src/cmd/compile/internal/gc/init.go,Ian Lance Taylor,Keith Randall;
+4fffd4569d321feeceb1daf73595155e049bc1c4,1,7,1,0,0,src/cmd/compile/internal/gc/closure.go,Keith Randall,Ian Lance Taylor;src/cmd/compile/internal/gc/pgen.go,Keith Randall,Ian Lance Taylor;src/cmd/compile/internal/gc/lex.go,David Chase,Matthew Dempsky;src/cmd/compile/internal/gc/syntax.go,Keith Randall,Ian Lance Taylor;src/cmd/compile/internal/gc/walk.go,Keith Randall,Ian Lance Taylor;src/cmd/compile/internal/gc/gsubr.go,Keith Randall,Ian Lance Taylor;
+80bc512449e80f514f559d1d43d7e6f4943457a0,1,2,0,0,0,src/cmd/compile/internal/gc/builtin.go,Keith Randall,Matthew Dempsky;src/cmd/compile/internal/gc/order.go,Keith Randall,Matthew Dempsky;
+6e3041b92767ff38a993a265ef2daec64b3f7f11,0,1,0,0,0,
+23d5810c8fd2dc079f06c6052f404d81896d74f0,1,1,0,0,0,src/runtime/sys_windows_amd64.s,Keith Randall,Austin Clements;
+b386c34ef9c5552fe0f31c7765879c5f60b07bd1,1,4,0,0,0,src/runtime/malloc.go,Keith Randall,Austin Clements;test/fixedbugs/issue11590.go,Keith Randall,Robert Griesemer;misc/cgo/errors/ptr.go,Keith Randall,Ian Lance Taylor;test/run.go,Keith Randall,Russ Cox;
+4304fbc4d0e024d948ef637d19d89b0b6359788f,1,6,0,0,0,src/runtime/stack.go,David Chase,Michael Hudson-Doyle;test/nilptr3.go,David Chase,Yao Zhang;test/nosplit.go,David Chase,Michael Hudson-Doyle;src/cmd/internal/obj/stack.go,David Chase,Michael Hudson-Doyle;src/cmd/compile/internal/gc/racewalk.go,Gerrit Code Review,Michael Matloob;src/cmd/internal/obj/x86/obj6.go,Gerrit Code Review,Hyang-Ah Hana Kim;
+7c4fbb650c3448a19dfcfe39ac46f8a25e0d2314,1,1,0,0,0,src/runtime/stack2.go,Keith Randall,Nodir Turakulov;
+ee50cb20611bd59b889ba0698e1236a992ea7579,1,1,0,0,0,src/cmd/compile/internal/amd64/prog.go,Keith Randall,Brad Fitzpatrick;
+067e8dfd82163ddcbde248dbe5a1187a417e5d36,1,1,0,0,0,src/cmd/dist/buildtool.go,Keith Randall,Russ Cox;
+b4a7806724b78f7c26326f6acee0dcca0110b7a8,1,1,0,0,0,doc/go1.5.txt,Rob Pike,Russ Cox;
+87de9ce212988c8bdf0630750e772d8805091bcc,1,1,0,0,0,src/cmd/dist/build.go,Rob Pike,Russ Cox;
+8db173b85e1a151b61b38a15c9a4c97beac74191,1,4,3,0,0,src/cmd/go/build.go,Russ Cox,Josh Bleecher Snyder;
+31457cef6d6550fff53dd5a80cb276ffa58093c5,1,1,1,0,1,
+444839014bce7046165358bb6e920ad35c3463c2,1,2,2,0,1,
+829b286f2c5dc450394c526cd91ba8c8bea9bac8,1,3,3,0,1,
+b8540fc28867623b23c23e97108a6e975e8a49e7,1,6,5,0,0,src/runtime/stack1.go,Rick Hudson,Russ Cox;
+50e0749f8730e88e22e552449049b93ce2a418ac,1,3,1,0,0,src/runtime/race_amd64.s,Russ Cox,Dmitriy Vyukov;src/runtime/race.c,Russ Cox,Dmitriy Vyukov;
+0fcf54b3d2bc42a947c65e9a520d078b671f8432,1,20,18,1,0,src/runtime/os_dragonfly.c,Russ Cox,Joel Sing;
+3e804631d905162d9e0fc1eba63bce6f95965a24,1,11,0,0,0,src/runtime/malloc.go,Russ Cox,Austin Clements;src/runtime/mem_linux.c,Russ Cox,Austin Clements;src/cmd/cc/pgen.c,Russ Cox,Austin Clements;src/runtime/runtime.c,Russ Cox,Austin Clements;src/cmd/objdump/objdump_test.go,Russ Cox,Austin Clements;src/cmd/dist/buildruntime.c,Russ Cox,Austin Clements;src/cmd/dist/build.c,Russ Cox,Austin Clements;src/runtime/panic.c,Russ Cox,Austin Clements;src/runtime/mgc0.c,Russ Cox,Austin Clements;src/runtime/proc.c,Russ Cox,Austin Clements;src/runtime/os_linux.c,Russ Cox,Austin Clements;
+9ef4e5610809780555260f386d6e20f3df87c6ce,1,2,0,0,0,test/live.go,Russ Cox,Austin Clements;src/cmd/objdump/objdump_test.go,Russ Cox,Austin Clements;
+d6f4e5020b0dc4014a75782a72d39c99657bd659,1,1,1,0,1,
+8e171e196615bc40a3a804811acf768eee6b2aa8,1,2,0,0,0,src/runtime/mgc0.c,Rick Hudson,Russ Cox;test/maplinear.go,Rick Hudson,Russ Cox;
+f0bd539c594ab4acfdaded45625a89a13d0bd575,1,8,0,0,0,src/runtime/mgc0.h,Austin Clements,Dmitriy Vyukov;src/runtime/panic1.go,Austin Clements,Keith Randall;src/runtime/malloc.c,Austin Clements,Russ Cox;src/runtime/heapdump.c,Austin Clements,Keith Randall;src/reflect/value.go,Austin Clements,Ian Lance Taylor;src/runtime/mgc0.c,Austin Clements,Dmitriy Vyukov;src/runtime/malloc.h,Austin Clements,Russ Cox;src/runtime/stack.c,Austin Clements,Keith Randall;
+32082501859c5c3c61913df5791cafbbb45c2519,1,14,6,3,0,src/pkg/runtime/mgc0.c,Russ Cox,Keith Randall;src/pkg/syscall/mkall.sh,Shenghou Ma,Alex Brainman;src/pkg/debug/elf/file.go,Shenghou Ma,Michael Hudson-Doyle;src/pkg/runtime/panic.c,Shenghou Ma,Keith Randall;src/pkg/debug/elf/file_test.go,Shenghou Ma,Michael Hudson-Doyle;
+aae5c57e38c7c09f2009308803d4bdf1f39a3fd6,1,1,0,0,0,src/runtime/mgc0.c,Rick Hudson,Keith Randall;
+9ba99011fa9083b31a108acfb6c3d16b8c774f8f,1,2,2,0,1,
+904ec0098137f742e0dd96da3bc033d6a0b615d1,1,1,0,0,0,src/runtime/mgc0.c,Rick Hudson,Keith Randall;

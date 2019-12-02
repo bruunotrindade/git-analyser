@@ -40,6 +40,8 @@ public class MergeAnalyser3
 	public static void main(String[] args)
 	{
 		for(int i = 0; i < args.length; i++)
+			System.out.println(args[i]);
+		for(int i = 0; i < args.length; i++)
 		{
 			System.out.println("Repositorio: " + args[i]);
 			repos = new RepositoryDao(new File(args[i])).getRepository();
@@ -60,14 +62,12 @@ public class MergeAnalyser3
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
         
-        //Removendo untracked files
-        cleanUntracked();
-        
         for(String hashMerge : merges) 
         {
             hashMerge = hashMerge.split(" ")[0];
         	System.out.printf("\t-> Merge (%s) %02d/%02d", hashMerge, ++cont, max);
 
+        	
             MergeFiles merge = mergeFilesDao.getMerge(hashMerge, repos.getProject());
             merge.setFilesOnBranchOne(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[0], repos.getProject(), "All Files"));
             merge.setFilesOnBranchTwo(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[1], repos.getProject(), "All Files"));
@@ -125,16 +125,19 @@ public class MergeAnalyser3
             {}
             
             //================// Conflitos //==============//
-            int arquivos = 0;
+            int arquivos = RevisionAnalyzer.hasConflictNum(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1]);
             int contAmbos = 0, contNull = 0;
         	String descricaoArquivos = "";
-            if(RevisionAnalyzer.hasConflict(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1])) 
+        	
+        	//Removendo untracked files
+            cleanUntracked();
+            if(arquivos > 0) //Se o número de arquivos em conflito for positivo 
             {
+            	System.out.println("CONFLITO!");
             	//=======// Arquivos //=======//
             	//System.out.println("git diff --name-only --diff-filter=U");
             	List<String> arquivosList = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject());
-            	arquivos = arquivosList.size();
-            
+            	
                 if(numIntersec > 0)
                 {
                 	//Gerando a lista de arquivos em conflito
@@ -146,23 +149,24 @@ public class MergeAnalyser3
                 		ac.put(arquivo, aux);
                 	}
                 	
-                	identificarCommitConflito(merge.getHashBase(), merge.getParents()[0], ac, 0);
-                	identificarCommitConflito(merge.getHashBase(), merge.getParents()[1], ac, 1);
-                	
-                	
-                	//Verificando se o mesmo causou o conflito dos dois lados
-                	
-                	for (Entry<String, ArquivoConflito> entry : ac.entrySet()) 
+                	if(ac.size() > 0)
                 	{
-                		System.out.printf("%s: %s - %s\n", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
-                		if(entry.getValue().causador[0] != null && entry.getValue().causador[0].equals(entry.getValue().causador[1]))
-                			contAmbos += 1;
-                		else if(entry.getValue().causador[0] == null || entry.getValue().causador[1] == null)
-                			contNull += 1;
-                		else
-                			descricaoArquivos += String.format("%s,%s,%s;", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
+                		identificarCommitConflito(merge.getHashBase(), merge.getParents()[0], ac, 0);
+                		identificarCommitConflito(merge.getHashBase(), merge.getParents()[1], ac, 1);
+                		
+                		//Verificando se o mesmo causou o conflito dos dois lados
+                		for (Entry<String, ArquivoConflito> entry : ac.entrySet()) 
+                		{
+                			System.out.printf("%s: %s - %s\n", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
+                			if(entry.getValue().causador[0] != null && entry.getValue().causador[0].equals(entry.getValue().causador[1]))
+                				contAmbos += 1;
+                			else if(entry.getValue().causador[0] == null || entry.getValue().causador[1] == null)
+                				contNull += 1;
+                			else
+                				descricaoArquivos += String.format("%s,%s,%s;", entry.getValue().nome, entry.getValue().causador[0], entry.getValue().causador[1]);
+                		}
+                		System.out.println();
                 	}
-                	System.out.println();
                 }
                 linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+(contAmbos/arquivos)+","+descricaoArquivos+"/x/";
             }
