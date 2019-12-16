@@ -57,13 +57,8 @@ public class MergeAnalyser2
         
         for(String hashMerge : merges) 
         {
-        	 
-        	
-        	System.out.printf("\t-> Merge %02d/%02d", ++cont, max);
             hashMerge = hashMerge.split(" ")[0];
-            System.out.println(hashMerge);
-        	if(hashMerge.equals("40664616731c003dd35c67af0100135c7378718a") == false)
-        		continue;
+            System.out.printf("\t-> Merge (%s) %02d/%02d", hashMerge, ++cont, max);
             MergeFiles merge = mergeFilesDao.getMerge(hashMerge, repos.getProject());
             merge.setFilesOnBranchOne(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[0], repos.getProject(), "All Files"));
             merge.setFilesOnBranchTwo(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[1], repos.getProject(), "All Files"));
@@ -76,7 +71,7 @@ public class MergeAnalyser2
 	            	continue;
 	            }
 	            else
-	            	System.out.print(" (De ramos)");
+	            	System.out.println(" - De ramos");
             }
             catch(NullPointerException npe)
             {
@@ -146,7 +141,6 @@ public class MergeAnalyser2
             	arquivosAlterados1 = merge.getFilesOnBranchOne().size();   
             	arquivosAlterados2 = merge.getFilesOnBranchTwo().size();
             	
-            	//=================// Qtde. de desenvolvedores //=================//
                 mergeCommitsDao.setCommittersOnBranch(mergeCommits);
                 List<String> arqsR1 = new ArrayList<String>();
                 
@@ -174,6 +168,7 @@ public class MergeAnalyser2
             cleanUntrackedFiles();
             if(arquivos > 0) //Se o número de arquivos em conflito for positivo 
             {
+            	System.out.println("CONFLITO!");
             	//=======// Chunks //=======//
                 conflito = true;                
                 for(String line : RunGit.getListOfResult("git diff", repos.getProject()))
@@ -194,7 +189,7 @@ public class MergeAnalyser2
             
             linesStr += merge.getHash()+","+mergeTimestamp+","+isolamentoAncestor1+","+isolamentoAncestor2+","+isolamentoParent1+","+isolamentoParent2+","+isolamentoMerge+","+committers1+","+committers2+","+numIntersec+","+commits1+","+commits2+","+arquivosAlterados1+","+arquivosAlterados2+","+arqIntersec+","+ (conflito ? "SIM" : "NAO") +","+arquivos+","+chunks+"/x/";
         }
-        Export.toCSV2(repos, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
+        Export.toCSV2(repos, null, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
 	}
 	
 	//Recuperar timestamp do merge

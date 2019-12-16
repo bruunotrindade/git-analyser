@@ -1,9 +1,13 @@
 package br.uff.ic.gems.tipmerge;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.TimeZone;
 import java.util.Map.Entry;
 
 import br.uff.ic.gems.tipmerge.dao.EditedFilesDao;
@@ -12,13 +16,15 @@ import br.uff.ic.gems.tipmerge.dao.MergeFilesDao;
 import br.uff.ic.gems.tipmerge.dao.RepositoryDao;
 import br.uff.ic.gems.tipmerge.experiment.RevisionAnalyzer;
 import br.uff.ic.gems.tipmerge.model.Committer;
+import br.uff.ic.gems.tipmerge.model.EditedFile;
 import br.uff.ic.gems.tipmerge.model.MergeCommits;
 import br.uff.ic.gems.tipmerge.model.MergeFiles;
 import br.uff.ic.gems.tipmerge.model.Repository;
 import br.uff.ic.gems.tipmerge.util.Export;
 import br.uff.ic.gems.tipmerge.util.RunGit;
+import br.uff.ic.gems.tipmerge.util.Statistics;
 
-public class MergeAnalyser3
+public class MergeAnalyser4
 {
 	public static class ArquivoConflito 
 	{
@@ -55,8 +61,10 @@ public class MergeAnalyser3
 		MergeFilesDao mergeFilesDao = new MergeFilesDao();
 		MergeCommitsDao mergeCommitsDao = new MergeCommitsDao(repos.getProject());
 
-        String header[] = {"Hash do merge", "Intersecção de Desenvolvedores", "Arquivos em Conflito", "Arquivos com Conflito causado pelo Mesmo", "Arquivos Null", "Relação Arquivos Mesmo / Total de Arquivos"};
-		String linesStr = "";
+        String headerConflito[] = {"Hash do merge", "Intersecção de Desenvolvedores", "Arquivos em Conflito", "Arquivos com Conflito causado pelo Mesmo", "Arquivos Null", "Relação Arquivos Mesmo / Total de Arquivos"};
+        String headerGeral[] = {"Hash do merge", "Data do merge", "Tempo de isolamento 1 [ancestral](dias)", "Tempo de isolamento 2 [ancestral](dias)", "Tempo de isolamento 1 [pai](dias)", "Tempo de isolamento 2 [pai](dias)", "Tempo de isolamento [merge]", "Desenvolvedores 1", "Desenvolvedores 2", "Intersecção de Desenvolvedores", "Commits 1", "Commits 2", "Arquivos alterados 1", "Arquivos alterados 2", "Intersecção de Arquivos", "Conflito", "Arquivos", "Chunks"};
+        
+        String linesConflito = "", linesGeral = "";
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
         
@@ -85,39 +93,86 @@ public class MergeAnalyser3
             	System.out.println();
             	continue;
             }
-            //=================// Qtde. de arquivos alterados //=================//
-        	int numIntersec = 0;
+            
+          //=================// Data do merge //=================//
+            String mergeTimestamp = getMergeTimestamp(hashMerge);
+            mergeTimestamp = convertToDefaultTimeZone(mergeTimestamp);
+            
+            //=================// Tempo de isolamento //=================//
+
+            /**
+             * Tempo de isolamento Ancestor: tempo do commit Base+1 até cada Parent.
+             * Tempo de isolamento Parent: tempo do commit Base até cada Parent;
+             * Tempo de isolamento Merge: tempo do commit Base até o Merge.
+             **/
+            
+            String isolamentoAncestor1 = getAncestorIsolationTime(merge.getHashBase(), merge.getParents()[0]);
+            String isolamentoAncestor2 = getAncestorIsolationTime(merge.getHashBase(), merge.getParents()[1]);
+            String isolamentoParent1 = getIsolationTimeBetweenCommits(merge.getHashBase(), merge.getParents()[0]);
+            String isolamentoParent2 = getIsolationTimeBetweenCommits(merge.getHashBase(), merge.getParents()[1]);
+            String isolamentoMerge = getIsolationTimeBetweenCommits(merge.getHashBase(), hashMerge);
+            
+            //String isolamentoMax = Math.max(Double.parseDouble(isolamentoAncestor1), Double.parseDouble(isolamentoAncestor2))+"";
+            
+            //=================// Qtde. de desenvolvedores //=================//
+            MergeCommits mergeCommits = new MergeCommits(hashMerge, repos.getProject());
+            mergeCommits.setHashBase(merge.getHashBase());
+            mergeCommits.setParents(merge.getParents()[0], merge.getParents()[1]);
+            mergeCommitsDao.setCommittersOnBranch(mergeCommits);
+            int committers1 = 0, commits1 = 0;
+            int committers2 = 0, commits2 = 0;
+            int numIntersec = 0;
+            
+            mergeCommitsDao.setCommittersOnBranch(mergeCommits);
             try
             {
-            	//=================// Qtde. de desenvolvedores //=================//
-            	MergeCommits mergeCommits = new MergeCommits(hashMerge, repos.getProject());
-                mergeCommits.setHashBase(merge.getHashBase());
-                mergeCommits.setParents(merge.getParents()[0], merge.getParents()[1]);
-                mergeCommitsDao.setCommittersOnBranch(mergeCommits);
+	            List<String> committersR1 = new ArrayList<String>();
+	            
+	            for(Committer c : mergeCommits.getCommittersBranchOne())
+	            {
+	            	commits1 += c.getCommits();
+	            	++committers1;
+	            	
+	            	committersR1.add(c.getNameEmail());
+	            }
+	            
+	            for(Committer c : mergeCommits.getCommittersBranchTwo())
+	            {
+	            	commits2 += c.getCommits();
+	            	++committers2;
+	            	
+	            	if(committersR1.contains(c.getNameEmail()))
+	            		numIntersec += 1;
+	            }
+	            
+	            if(committers1 == committers2 && committers1 == numIntersec)
+	            	numIntersec = 2;
+	            else if(numIntersec > 0)
+	            	numIntersec = 1;
+	        }
+	        catch(NullPointerException npe)
+	        {}
+            
+            //=================// Qtde. de arquivos alterados //=================//
+            int arquivosAlterados1 = 0, arquivosAlterados2 = 0, arqIntersec = 0;
+            try
+            {
+            	arquivosAlterados1 = merge.getFilesOnBranchOne().size();   
+            	arquivosAlterados2 = merge.getFilesOnBranchTwo().size();
+            	
+                List<String> arqsR1 = new ArrayList<String>();
                 
-                int committers1 = 0;
-                int committers2 = 0;
-                List<String> committersR1 = new ArrayList<String>();
+                for(EditedFile c : merge.getFilesOnBranchOne())
+                	arqsR1.add(c.getFileName());
                 
-                for(Committer c : mergeCommits.getCommittersBranchOne())
-                {
-                	++committers1;
-                	
-                	committersR1.add(c.getNameEmail());
-                }
+                for(EditedFile c : merge.getFilesOnBranchTwo())
+                	if(arqsR1.contains(c.getFileName()))
+                		arqIntersec += 1;
                 
-                for(Committer c : mergeCommits.getCommittersBranchTwo())
-                {
-                	++committers2;
-                	
-                	if(committersR1.contains(c.getNameEmail()))
-                		numIntersec += 1;
-                }
-                
-                if(committers1 == committers2 && committers1 == numIntersec)
-                	numIntersec = 2;
-                else if(numIntersec > 0)
-                	numIntersec = 1;
+                if(arquivosAlterados1 == arquivosAlterados2 && arquivosAlterados1 == arqIntersec)
+                	arqIntersec = 2;
+                else if(arqIntersec > 0)
+                	arqIntersec = 1;
             }
             catch(NullPointerException npe)
             {}
@@ -125,13 +180,22 @@ public class MergeAnalyser3
             //================// Conflitos //==============//
             int arquivos = RevisionAnalyzer.hasConflictNum(repos.getProject().toString(), merge.getParents()[0], merge.getParents()[1]);
             int contAmbos = 0, contNull = 0;
+            int chunks = 0;
+            boolean conflito = false;
         	String descricaoArquivos = "";
         	
         	//Removendo untracked files
-            cleanUntracked();
+            cleanUntrackedFiles();
             if(arquivos > 0) //Se o número de arquivos em conflito for positivo 
             {
             	System.out.println("CONFLITO!");
+            	
+            	//=======// Chunks //=======//
+                conflito = true;                
+                for(String line : RunGit.getListOfResult("git diff", repos.getProject()))
+                	if(line.replace("+","").startsWith("======="))
+                		chunks++;
+            	
             	//=======// Arquivos //=======//
             	//System.out.println("git diff --name-only --diff-filter=U");
             	List<String> arquivosList = RunGit.getListOfResult("git diff --name-only --diff-filter=U", repos.getProject());
@@ -166,12 +230,15 @@ public class MergeAnalyser3
                 		System.out.println();
                 	}
                 }
-                linesStr += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+(contAmbos/arquivos)+","+descricaoArquivos+"/x/";
+                linesConflito += merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+((double)contAmbos/arquivos)+","+descricaoArquivos+"/x/";
             }
             else
             	System.out.println();
+            
+            linesGeral += merge.getHash()+","+mergeTimestamp+","+isolamentoAncestor1+","+isolamentoAncestor2+","+isolamentoParent1+","+isolamentoParent2+","+isolamentoMerge+","+committers1+","+committers2+","+numIntersec+","+commits1+","+commits2+","+arquivosAlterados1+","+arquivosAlterados2+","+arqIntersec+","+ (conflito ? "SIM" : "NAO") +","+arquivos+","+chunks+"/x/";
         }
-        Export.toCSV2(repos, null, header, linesStr.substring(0, linesStr.length()-3).split("/x/"));
+        Export.toCSV2(repos, "conflito", headerConflito, linesConflito.substring(0, linesConflito.length()-3).split("/x/"));
+        Export.toCSV2(repos, "geral", headerGeral, linesGeral.substring(0, linesGeral.length()-3).split("/x/"));
 	}
 	
 	/*
@@ -180,6 +247,7 @@ public class MergeAnalyser3
 	 * no commit do diff, a linha fica sem o +
 	 * */
 	
+	//Identificar o causador do conflito de cada arquivo
 	public static void identificarCommitConflito(String hashBase, String hashParent, HashMap<String, ArquivoConflito> ac, int ramoID)
 	{
 		List<String> linhasLog = RunGit.getListOfResult("git log -m --name-only --pretty=format:%H " + hashBase + "^.." + hashParent, repos.getProject());
@@ -238,6 +306,7 @@ public class MergeAnalyser3
 		}
 	}
 	
+	//Verificar se um arquivo foi removido
 	public static boolean checkDeletedFile(String file)
 	{
 		try
@@ -250,12 +319,76 @@ public class MergeAnalyser3
 		}
 	}
 	
+	//Recuperar o autor de um commit
 	public static String getCommitAuthor(String hash)
 	{
 		return RunGit.getResult("git log --pretty=format:%an -1 " + hash, repos.getProject());
 	}
 	
-	public static void cleanUntracked()
+	//Recuperar timestamp do merge
+	public static String getMergeTimestamp(String hashMerge)
+	{
+		return RunGit.getResult("git log -1 --pretty=format:%ci " + hashMerge, repos.getProject())/*.substring(0, 19)*/;
+	}
+	
+	//Recuperar o tempo de isolamento do ancestral
+	public static String getAncestorIsolationTime(String hashBase, String hashParent)
+	{
+		List<String> beginLineTotal = RunGit.getListOfResult("git log --pretty=format:%HX%ciX%ct " + hashBase + ".." + hashParent, repos.getProject());
+		if(beginLineTotal.size() > 0)
+        {
+			long parentUnixTs = getCommitUnixTime(hashParent);
+			
+			String parts[] = beginLineTotal.get(beginLineTotal.size()-1).split("X");
+        	long ancestorUnixTs = Long.parseLong(parts[2]);
+        	
+        	for(int i = beginLineTotal.size()-2; i >= 0 && ancestorUnixTs > parentUnixTs; i--) //Evitando que o tempo do ancestral seja maior que o do pai (tempo negativo)
+        	{
+        		parts = beginLineTotal.get(i).split("X");
+        		ancestorUnixTs = Long.parseLong(parts[2]);
+        	}
+        	return String.format("%.7f", Statistics.timeToDays(parentUnixTs - ancestorUnixTs)).replace(",", ".");
+        }
+		return "0.00000";
+	}
+	
+	//Recuperar tempo de isolamento entre dois hashes
+	public static String getIsolationTimeBetweenCommits(String hashA, String hashB)
+	{
+		long commitAtime = getCommitUnixTime(hashA), commitBtime = getCommitUnixTime(hashB);
+        return String.format("%.7f", Statistics.timeToDays(commitBtime-commitAtime)).replace(",", ".");
+	}
+	
+	//Converter para GMT-00 ou UTC
+	public static String convertToDefaultTimeZone(String Date) 
+	{
+		//Removido: não faz sentido analisar tudo em um mesmo fuso, já que as pessoas geralmente fazem commit no horário da cidade delas
+        String converted_date = Date;
+        try {
+
+            /*DateFormat utcFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            utcFormat.setTimeZone(TimeZone.getTimeZone("GMT-05:00"));
+
+            Date date = utcFormat.parse(Date);
+
+            DateFormat currentTFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            currentTFormat.setTimeZone(TimeZone.getTimeZone("GMT-00:00"));
+
+            converted_date =  currentTFormat.format(date);*/
+        }catch (Exception e){ e.printStackTrace();}
+
+        return converted_date;
+	}
+	
+	//Recuperar horário do commit em Unix
+	public static long getCommitUnixTime(String hash)
+	{
+		String parentData = RunGit.getResult("git log -1 --pretty=format:%ciX%ct " + hash, repos.getProject()),  parts2[] = parentData.split("X");
+    	return Long.parseLong(parts2[1]);
+	}
+	
+	//Remover arquivos não gerenciados pelo Git
+	public static void cleanUntrackedFiles()
 	{
 		RunGit.getResult("git clean -df", repos.getProject());
 	}

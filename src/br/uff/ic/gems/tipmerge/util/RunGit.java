@@ -22,7 +22,33 @@ import java.util.logging.Logger;
  */
 public class RunGit {
 
-    public static String getResult(String command, File repository) {
+	public static String getResultSpecial(String args[], File repository) {
+        BufferedReader stdInput = RunGit.executeSpecialGitCommand(args, repository);
+        try {
+            return stdInput.readLine();
+        } catch (IOException ex) {
+            System.out.println(ex);
+            Logger.getLogger(RunGit.class.getName()).log(Level.SEVERE, null, ex);
+            return null;
+        }
+    }
+	
+	public static List<String> getListOfResultSpecial(String args[], File repository) {
+		List<String> result = new ArrayList<>();
+        BufferedReader stdInput = RunGit.executeSpecialGitCommand(args, repository);
+        try {
+            String line;
+            while ((line = stdInput.readLine()) != null) {
+                result.add(line);
+            }
+        } catch (IOException ex) {
+            System.out.println(ex);
+            Logger.getLogger(RunGit.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return result;
+    }
+	
+	public static String getResult(String command, File repository) {
         BufferedReader stdInput = RunGit.executeGitCommand(command, repository);
         try {
             return stdInput.readLine();
@@ -53,6 +79,33 @@ public class RunGit {
         String error;
         try {
             Process exec = Runtime.getRuntime().exec(command, null, file);
+
+            stdInput = new BufferedReader(new InputStreamReader(exec.getInputStream()));
+            BufferedReader stdError = new BufferedReader(new InputStreamReader(exec.getErrorStream()));
+            if (stdError.ready()) {
+                while ((error = stdError.readLine()) != null) {
+                    System.out.println(error);
+                }
+            }
+        } catch (IOException e) {
+            System.out.println(e);
+            Logger.getLogger(RunGit.class.getName()).log(Level.SEVERE, null, e);
+        }
+        return stdInput;
+    }
+    
+    private static BufferedReader executeSpecialGitCommand(String args[], File file) {
+        BufferedReader stdInput = null;
+        String error;
+        try {
+        	ArrayList<String> list = new ArrayList<String>();
+    		for(String flag : args)
+    			list.add(flag);
+        	
+            ProcessBuilder proc = new ProcessBuilder(list);
+            proc.directory(file);
+            
+            Process exec = proc.start();
 
             stdInput = new BufferedReader(new InputStreamReader(exec.getInputStream()));
             BufferedReader stdError = new BufferedReader(new InputStreamReader(exec.getErrorStream()));

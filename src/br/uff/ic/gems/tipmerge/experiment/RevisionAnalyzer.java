@@ -121,10 +121,10 @@ public class RevisionAnalyzer {
     	//System.out.println("git reset --hard");
         Git.reset(repositoryPath);
 
-        //System.out.println("git checkout " + leftParent);
+        System.out.println("git checkout -f " + leftParent);
         Git.checkout(repositoryPath, leftParent);
 
-        //System.out.println("git merge --no-commit " + rightParent);
+        System.out.println("git merge --no-commit " + rightParent);
         List<String> mergeOutput = Git.merge(repositoryPath, rightParent, false, true);
         
         if(MergeStatusAnalizer.isConflict(mergeOutput))

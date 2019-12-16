@@ -22,7 +22,7 @@ public class Git {
 
     public static List<String> checkout(String repositoryPath, String revision) {
 //        String command = "git rev-list --parents -n 1 " + revision;
-        String command = "git checkout " + revision;
+        String command = "git checkout -f " + revision;
 
         //System.out.println("\tCommand checkout: " + command);
 

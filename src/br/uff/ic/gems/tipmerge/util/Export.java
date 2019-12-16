@@ -52,12 +52,13 @@ public class Export {
 		}
 	}
 	
-	public static void toCSV2(Repository repos, String header[], String lines[])
+	public static void toCSV2(Repository repos, String description, String header[], String lines[])
 	{
 		try
 		{
-			FileWriter fw = new FileWriter(new File(repos.getName() + ".csv"));
-			System.out.println(repos.getName() + ".csv");
+			String fileName = repos.getName() + (description != null ? "-"+description : "")   + ".csv";
+			FileWriter fw = new FileWriter(new File(fileName));
+			System.out.println("Arquivo criado: " + fileName);
 			
 			//Header:
 			fw.write(String.join(",", header)+"\n");
