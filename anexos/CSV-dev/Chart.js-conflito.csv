@@ -1,0 +1,32 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+cfb4c40b46183818960245a4add21c9695905bdf,1,2,1,0,0.5,test/scale.radialLinear.tests.js,etimberg,Zach Panzarino;
+6e9ee1f137828fe68a567c35a4d89ce38d770de1,0,1,0,0,0.0,
+924a5d0abcc6d2889cd499ff2cc2812b438c873d,0,1,0,0,0.0,
+76d284c4aeefe81216b2e00f4e356f69f6d308b0,0,1,0,0,0.0,
+148c66fe957e1211d65f975b72945a66118a514e,0,2,0,0,0.0,
+8e8cc5b61f86fa9a29e26902c024af7c003b513e,2,1,1,0,1.0,
+14021069c39814f0dba119acc1ca03f36700ff22,1,2,2,0,1.0,
+8c209405e9edf33264b8eaea9cb1f48280fae2a5,1,1,0,0,0.0,docs/01-Scales.md,Evert Timberg,Tom Duncalf;
+41c043dd239a5e63009ce13c705e589e64d5b29f,0,1,0,0,0.0,
+a8df9d9891b243d18204f95f76661b34361d6414,2,1,1,0,1.0,
+6df9b24ecda2f739192435ac5d4ab9da8b9c716e,1,3,3,0,1.0,
+b4a06f6e3408beffb18633be1eb08b0f24c41146,1,1,1,0,1.0,
+af1adf6b84f6494f8b448a58df6d49f2bdff9165,1,27,6,1,0.2222222222222222,Chart.min.js,Tanner Linsley,etimberg;Chart.js,Tanner Linsley,etimberg;.gitignore,Tanner Linsley,Evert Timberg;docs/02-Bar-Chart.md,Tanner Linsley,Evert Timberg;samples/line.html,Evert Timberg,Tanner Linsley;src/Chart.Bar.js,Tanner Linsley,Evert Timberg;docs/04-Polar-Area-Chart.md,etimberg,Evert Timberg;src/Chart.Doughnut.js,Tanner Linsley,Evert Timberg;src/Chart.PolarArea.js,Tanner Linsley,Evert Timberg;src/Chart.Radar.js,Tanner Linsley,Evert Timberg;samples/polar-area.html,Evert Timberg,Tanner Linsley;docs/06-Advanced.md,etimberg,Evert Timberg;src/Chart.Line.js,Tanner Linsley,Evert Timberg;samples/doughnut.html,Evert Timberg,Tanner Linsley;bower.json,Tanner Linsley,etimberg;docs/05-Pie-Doughnut-Chart.md,etimberg,Evert Timberg;package.json,Tanner Linsley,etimberg;samples/bar.html,Evert Timberg,Tanner Linsley;samples/radar.html,Evert Timberg,Tanner Linsley;src/Chart.Core.js,Tanner Linsley,Evert Timberg;
+e9c18f603d130011ec7cc71d0d4123f480884cd0,0,5,0,0,0.0,
+df218ead824497edfd75220f5b8bc67c03ad1fd6,2,1,1,0,1.0,
+95332e39f517dbb312dd2518c3f87460a0be88a7,1,1,0,0,0.0,src/core/core.controller.js,Evert Timberg,Derek Perkins;
+819f8657239dbdb1af0479ff6c1d99db7dbce5ef,1,1,1,0,1.0,
+dcc06eb3bb221620b268617f80498b07e562aeae,1,1,0,0,0.0,src/core/core.scaleService.js,Evert Timberg,Tanner Linsley;
+e5ee242dc60fae2b6a52f903e71c3b3a89e44862,2,1,1,0,1.0,
+2a9b3e52217ac21a743f23ebace266962ac6c844,1,1,1,0,1.0,
+b22f569e4da4470cb6863dfc5b76e29628ac6061,0,6,0,0,0.0,
+bcbd9a85e6398137ea646f997a5f1499043cc5a4,1,1,0,0,0.0,gulpfile.js,Evert Timberg,Tanner Linsley;
+7fed38f1abe18922512416aa2c74b8046837b6f6,0,1,0,0,0.0,
+7d4ead51f7c4fca00590e5f12106a72fad06225e,2,1,1,0,1.0,
+1163efbcca13ce9eb4d079a678fc206a336d8dd2,0,1,0,0,0.0,
+12e2ace03904ac07a8929f34884892b74d14c2fa,0,1,0,0,0.0,
+460399f6516465cdfe11e867bf017227f0079645,1,3,0,0,0.0,src/Chart.Bar.js,Tanner Linsley,Evert Timberg;samples/bar.html,Tanner Linsley,Evert Timberg;src/Chart.Core.js,Tanner Linsley,Evert Timberg;
+889c9de7796633a36038dc32b214187bd5d137e7,0,1,0,0,0.0,
+99bf85e91335a3656c7739a7aba7a008c79db6ed,0,1,0,0,0.0,
+30777e4a87958e83cadd58a59d912efad16161c1,1,1,1,0,1.0,
+58657d65cb139299786072df1692992bcf3610e9,0,1,0,0,0.0,

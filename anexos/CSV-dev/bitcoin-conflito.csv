@@ -1,0 +1,149 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+99df276dae91de034f67d4bfc215b8101f5dac7b,1,5,0,0,0.0,configure.ac,MarcoFalke,Pieter Wuille;.gitignore,Wladimir J. van der Laan,Pieter Wuille;src/hash.h,MarcoFalke,Pieter Wuille;.travis.yml,MarcoFalke,Pieter Wuille;Makefile.am,Wladimir J. van der Laan,Pieter Wuille;
+fad349c507a3179fa117ddf3ad6e651609c366cc,1,1,0,0,0.0,.travis.yml,Wladimir J. van der Laan,MarcoFalke;
+999968e41662c1a676936db423db82af4411d78d,1,2,1,0,0.5,src/hash.h,Wladimir J. van der Laan,MarcoFalke;
+faaeeb0d3e777d991c7cfee983bea369c109f5cc,1,4,0,1,0.0,configure.ac,Wladimir J. van der Laan,MarcoFalke;Makefile.am,Wladimir J. van der Laan,MarcoFalke;README.md,Pieter Wuille,MarcoFalke;
+e4030ab4f47065c362901109c74ca8e791c2de0a,1,6,0,5,0.0,README.md,Wladimir J. van der Laan,Pieter Wuille;
+525282769e8e3e3491b71174a13afaa696f51652,1,4,0,1,0.0,configure.ac,MarcoFalke,Pieter Wuille;Makefile.am,MarcoFalke,Pieter Wuille;src/util.h,MarcoFalke,Pieter Wuille;
+fad80b3a1e531e699af52086cc988c63f15e939d,1,12,0,6,0.0,configure.ac,Wladimir J. van der Laan,MarcoFalke;.gitignore,Wladimir J. van der Laan,MarcoFalke;src/hash.h,Wladimir J. van der Laan,MarcoFalke;.travis.yml,Wladimir J. van der Laan,MarcoFalke;Makefile.am,Wladimir J. van der Laan,MarcoFalke;README.md,Wladimir J. van der Laan,MarcoFalke;
+547a53d13507b3348d216d82353e0d6a9d8fa974,1,10,4,6,0.4,
+605d701471c3ee84682b0c149e41142d7cea95e7,1,4,1,4,0.25,.travis.yml,Jonas Schnelli,Pieter Wuille;
+e757115164c6f73c93a2d65a289b8a54e46c669d,1,1,0,0,0.0,.travis.yml,Wladimir J. van der Laan,MarcoFalke;
+0237096df5299e9f0947e902153d93932f2ea13b,1,6,6,0,1.0,
+df634908ba758232413c50e8f1f7a80d546d777b,1,1,0,0,0.0,share/genbuild.sh,Luke Dashjr,Wladimir J. van der Laan;
+63151521fd06ccddd6d5c4e3f283f26d5b9b024d,1,2,0,0,0.0,configure.ac,Pieter Wuille,Wladimir J. van der Laan;Makefile.am,Pieter Wuille,Wladimir J. van der Laan;
+e5daa2e2aef61f0b9441d19f0b67015f426c6056,1,1,0,0,0.0,contrib/gitian-descriptors/gitian-osx.yml,Luke Dashjr,Wladimir J. van der Laan;
+a68bb9f5e7ef1da5c044907dc3a1d3d4a4dbc2cc,1,5,0,0,0.0,configure.ac,Luke Dashjr,Wladimir J. van der Laan;contrib/gitian-descriptors/gitian-osx.yml,Luke Dashjr,Wladimir J. van der Laan;share/setup.nsi.in,Luke Dashjr,Wladimir J. van der Laan;src/qt/intro.cpp,Luke Dashjr,Wladimir J. van der Laan;src/bitcoind.cpp,Luke Dashjr,Wladimir J. van der Laan;
+5bc4fb7b602c420be1c746442edad6b2d8e333ab,1,1,0,0,0.0,src/net.cpp,Philip Kaufmann,Wladimir J. van der Laan;
+5b144b7113bf2691e427e64e8afb7f25ee1dad8d,1,1,0,0,0.0,src/main.cpp,MarcoFalke,Luke Dashjr;
+fdc202f4b02802bfb0ec162d71a115eb86f1bde9,1,1,0,0,0.0,src/main.cpp,Suhas Daftuar,Luke Dashjr;
+fad4ea836dc7cd1bb13c7394a6fadff419e4b026,1,4,0,0,0.0,configure.ac,Pieter Wuille,MarcoFalke;.gitignore,Wladimir J. van der Laan,MarcoFalke;.travis.yml,Jonas Schnelli,MarcoFalke;Makefile.am,Jonas Schnelli,MarcoFalke;
+fa63e49b351b3620f8140b6081d17ddc3df9b69a,1,1,0,0,0.0,Makefile.am,Wladimir J. van der Laan,MarcoFalke;
+9e475d5a4d169e758cfb0c9f0633ed476e176b0e,1,6,1,0,0.16666666666666666,configure.ac,Jeff Garzik,Pieter Wuille;.gitignore,Wladimir J. van der Laan,Pieter Wuille;.travis.yml,Jeff Garzik,Pieter Wuille;Makefile.am,Jeff Garzik,Pieter Wuille;src/util.h,Wladimir J. van der Laan,Pieter Wuille;
+31f4ba97b78e781b34b0e09130de923dc754c8f8,1,2,0,2,0.0,
+4dda253190e6f5ac6728e88fefdf6e8eaf41419c,1,2,1,0,0.5,.travis.yml,Wladimir J. van der Laan,Pieter Wuille;
+223d8630b0bf1809d29660004255237ad9d15f86,1,6,0,1,0.0,configure.ac,Wladimir J. van der Laan,Pieter Wuille;src/hash.h,Wladimir J. van der Laan,Pieter Wuille;Makefile.am,Wladimir J. van der Laan,Pieter Wuille;src/util.h,Wladimir J. van der Laan,Pieter Wuille;README.md,Wladimir J. van der Laan,Pieter Wuille;
+602ebf5279d73f13fb1b2a3c4e7508ead6af9051,1,7,5,2,0.7142857142857143,
+253e2071327266f2adf73c3869eed85a76507216,1,6,0,2,0.0,configure.ac,Wladimir J. van der Laan,Pieter Wuille;.travis.yml,Wladimir J. van der Laan,Pieter Wuille;Makefile.am,Wladimir J. van der Laan,Pieter Wuille;src/util.h,Wladimir J. van der Laan,Pieter Wuille;
+0dcfb91d5603f2212536d78260a3f2b16cb05a34,1,4,0,4,0.0,
+5b9f8425a515739e2149bf5bfb2ae6ed60bfbaf2,1,1,0,0,0.0,README.md,Wladimir J. van der Laan,Pieter Wuille;
+96df327834af3b55918adfac9b3f65adfc960b3a,0,2,0,0,0.0,
+10dc3c74737eea1f2de694c6582caf3027926034,1,1,0,0,0.0,src/wallet.cpp,Gavin Andresen,Luke Dashjr;
+4a9a8f3f48f7820cff2964489f09a34160b1671b,1,1,0,0,0.0,.gitignore,Vinnie Falco,Pieter Wuille;
+39fe9de6b2b255969971beca8fa25a33ad2e5750,1,1,0,0,0.0,bitcoin-qt.pro,Jonas Schnelli,Wladimir J. van der Laan;
+9a4eaf3cff9d37118939e38e7ce029a71e062ee9,1,1,0,0,0.0,doc/assets-attribution.txt,Wladimir J. van der Laan,Jonas Schnelli;
+a6d32c94ab91e84fc359e9b97561ae9da06c1abc,0,1,0,0,0.0,
+f50706796b7786a7d85ad0baea81b709ae3ed683,1,1,1,0,1.0,
+d53af9c729dedddfce575c21c837900bae41ba68,1,1,1,0,1.0,
+cb44c07349175514c608a115ec3bf92c23296e19,1,1,1,0,1.0,
+ab67ec869521a4b8b687103eb1ea01cb8b023eef,1,1,1,0,1.0,
+acbdc055603905d3a9221662799e6b29df4bc1af,1,33,33,0,1.0,
+e4ac5b3e5f6834f5bfbb4cfae50852ad1f46b147,1,32,32,0,1.0,
+13b0b1cd3d64cb1ec9f223512e8dcdc0ce1b2a00,1,14,14,0,1.0,
+c6911a9755ef8daf7b9ae7d277c78ebf8e25b230,1,6,5,0,0.8333333333333334,src/main.cpp,Gregory Maxwell,Luke Dashjr;
+f1a9aad7893173b0351ad32e684dad6f31598210,1,3,3,0,1.0,
+d9b50a8cfdfa0b327629dc18076dbd1563dfba3e,1,1,0,1,0.0,
+f9459ef91470563ee46279599135baad80470c4d,1,34,34,0,1.0,
+8a17087795e5d0ce1841aae6d7b0414329939d7a,1,78,9,0,0.11538461538461539,src/bitcoinrpc.cpp,Gavin Andresen,Luke Dashjr;src/util.h,Jeff Garzik,Luke Dashjr;src/crypter.cpp,Gavin Andresen,Luke Dashjr;src/makefile.mingw,Jeff Garzik,Luke Dashjr;src/util.cpp,Gavin Andresen,Luke Dashjr;src/net.h,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_en.ts,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_fa.ts,Jeff Garzik,Luke Dashjr;src/init.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_it.ts,Gavin Andresen,Luke Dashjr;src/test/DoS_tests.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_fi.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_ro_RO.ts,Gavin Andresen,Luke Dashjr;src/db.h,Gavin Andresen,Luke Dashjr;doc/build-unix.txt,Jeff Garzik,Luke Dashjr;src/qt/bitcoingui.cpp,Jeff Garzik,Luke Dashjr;src/main.h,Jeff Garzik,Luke Dashjr;src/checkpoints.cpp,Gavin Andresen,Luke Dashjr;src/qt/bitcoinaddressvalidator.cpp,Gavin Andresen,Luke Dashjr;src/main.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_nb.ts,Gavin Andresen,Luke Dashjr;src/qt/bitcoinstrings.cpp,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_da.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_de.ts,Gavin Andresen,Luke Dashjr;src/qt/transactiondesc.cpp,Jeff Garzik,Luke Dashjr;src/qt/sendcoinsdialog.cpp,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_nl.ts,Gavin Andresen,Luke Dashjr;doc/build-osx.txt,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_zh_CN.ts,Jeff Garzik,Luke Dashjr;doc/readme-qt.rst,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_hr.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_ca_ES.ts,Gavin Andresen,Luke Dashjr;src/db.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_lt.ts,Jeff Garzik,Luke Dashjr;share/setup.nsi,Gavin Andresen,Luke Dashjr;src/qt/addressbookpage.cpp,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_zh_TW.ts,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_et.ts,Gavin Andresen,Luke Dashjr;src/makefile.linux-mingw,Jeff Garzik,Luke Dashjr;src/net.cpp,Gavin Andresen,Luke Dashjr;src/walletdb.cpp,Gavin Andresen,Luke Dashjr;src/qt/bitcoin.cpp,Gavin Andresen,Luke Dashjr;src/irc.cpp,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_sk.ts,Gavin Andresen,Luke Dashjr;src/script.cpp,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_hu.ts,Gavin Andresen,Luke Dashjr;src/version.h,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_ru.ts,Jeff Garzik,Luke Dashjr;src/qt/optionsdialog.cpp,Gavin Andresen,Luke Dashjr;doc/README,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_cs.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_pl.ts,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_tr.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_pt_BR.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_fa_IR.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_sv.ts,Jeff Garzik,Luke Dashjr;bitcoin-qt.pro,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_es.ts,Jeff Garzik,Luke Dashjr;src/makefile.unix,Jeff Garzik,Luke Dashjr;src/qt/locale/bitcoin_fr_CA.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_he.ts,Gavin Andresen,Luke Dashjr;src/key.h,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_es_CL.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_sr.ts,Gavin Andresen,Luke Dashjr;doc/README_windows.txt,Gavin Andresen,Luke Dashjr;src/addrman.cpp,Gavin Andresen,Luke Dashjr;src/key.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_eu_ES.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_uk.ts,Gavin Andresen,Luke Dashjr;
+37be168579a9ad1b94d73bc383ba003fe4dbca2d,1,4,4,0,1.0,
+747b688b54076c3b35cb37cae7c529f11a18a588,1,2,2,0,1.0,
+5dc6be8bba5853a0588c6e46fa0c2a97b0096196,1,32,32,0,1.0,
+38297ba90a6447e524514b17d3ebf0b35ea6f7f2,1,14,14,0,1.0,
+4cf9b4c6fad8e2ead715c5fbbfb023e05826a94d,1,1,1,0,1.0,
+cef36fad891fba0fd8f5aec73bb17135b7fb133a,1,2,0,1,0.0,src/init.cpp,Luke Dashjr,Wladimir J. van der Laan;
+6047902934c452ae318697af688b8fb0e09a58ff,1,14,14,0,1.0,
+be2e2845ec0844d42008287842bb053aabe58b0b,1,2,2,0,1.0,
+894ce6d88d9ce13ce4be5e473b818311775da0b6,1,4,4,0,1.0,
+6d7b6681b6cf5d63a8686c99a431ec401c14379f,1,1,1,0,1.0,
+cfa880f8e32acb38efcfdff75c30c61a6d12cc76,1,1,1,0,1.0,
+9c82c574a00ca6151aa0f1f9824523c98aec8875,1,1,1,0,1.0,
+8b11bff10a6bb117ff5fa06a035ee74f5390f7d6,1,30,30,0,1.0,
+3b5c5b817f2a4c179fcd24ac10c5a3d505b40c03,1,13,13,0,1.0,
+392d30f0de7e06bc000eb1764a56ef0a04b05605,1,33,33,0,1.0,
+7181bda15dc05802aff0f899cfc86701bc80c8bc,1,15,15,0,1.0,
+661ca4136cfbed901b9d62102c71ff01e9489b3f,1,6,4,0,0.6666666666666666,src/main.cpp,Gavin Andresen,Luke Dashjr;src/main.h,Gavin Andresen,Luke Dashjr;
+f08ad34e0c7879d60d854c7014cc788e4268889f,1,5,5,0,1.0,
+d31e24aeaaf18a4117f23a937614a8bf2679e8a4,1,5,5,0,1.0,
+802bc904ba102c19631aa2aad9659df74fe0e07e,1,2,2,0,1.0,
+f31f7770d983eb85d8804c49654fc1f97b55ef7d,1,1,0,0,0.0,src/init.cpp,Philip Kaufmann,Luke Dashjr;
+cd76166b4b37a9d2d5769127c137f1e8569d11ae,1,1,1,0,1.0,
+4c063c11ff1dde6998a36212c5ebf399af236f78,1,1,0,0,0.0,src/main.cpp,Luke Dashjr,Gavin Andresen;
+cd24f370929dcff6c790ce53dc70133259c80bff,1,2,0,0,0.0,src/makefile.osx,Luke Dashjr,Matt Corallo;src/makefile.unix,Luke Dashjr,Matt Corallo;
+689b878c33e41df0bd692ac3189a0e2089abf8bf,1,1,0,0,0.0,src/main.cpp,Luke Dashjr,Gavin Andresen;
+4fb6e53968c38a3bbfa9cfa728da1d31fe3dd3fe,1,1,1,0,1.0,
+cafa8f2879c255c4526709e77b3e42c5b2533b5e,1,6,6,0,1.0,
+797d0b231bebcf2cfdb82f4d44b9a06ead2a6e3c,1,1,1,0,1.0,
+44427fa8332b2ae090256345ec5f9e6e78e04dba,1,1,0,0,0.0,src/bitcoinrpc.cpp,Gregory Maxwell,Luke Dashjr;
+23cdae18f08f9435b33718ba2fb00c66dc130b80,1,2,2,0,1.0,
+fbf99a9cdc3293b05ccc18c2f2dc6ae45da4258c,1,1,0,0,0.0,src/main.cpp,Wladimir J. van der Laan,Luke Dashjr;
+e65f25d54e10a600c7f870955dfbffa3b0e4134f,1,5,1,0,0.2,src/main.cpp,Gavin Andresen,Luke Dashjr;src/main.h,Gavin Andresen,Luke Dashjr;src/net.cpp,Gregory Maxwell,Luke Dashjr;src/key.h,Gavin Andresen,Luke Dashjr;
+7083cc308328a1d30aabdecee6439e47f1567b84,1,2,1,0,0.5,src/net.cpp,Gregory Maxwell,Luke Dashjr;
+13829c6c99b8c763e60a17dad9508226a96abc44,1,2,1,0,0.5,doc/unit-tests.txt,Gavin Andresen,Luke Dashjr;
+fad2231f8664434e913ad5c6d458fa9139492390,1,2,1,0,0.5,src/main.cpp,Luke Dashjr,Gavin Andresen;
+23e7583a8c9a0dcee9cbbf3be8bfc453298773f0,1,1,0,0,0.0,src/version.h,Gavin Andresen,Luke Dashjr;
+550c73f4c87825e8524f7f164e0bc3e80c6822b9,0,1,0,0,0.0,
+07368a9e3c60bbef8452501d34bb8d3688cbca13,0,1,0,0,0.0,
+d354f94241236cd3cf813032e17c1ae8f10397cd,1,2,2,0,1.0,
+5e322a72f94e3c759bb37cec37d8c066766b6072,1,6,4,1,0.6666666666666666,src/main.cpp,Pieter Wuille,Luke Dashjr;
+6ec9d30905e8df77e60d0195074920271abb977a,1,3,3,0,1.0,
+3703150d56ff6ee557ab330e55637c9c23835902,1,2,1,0,0.5,doc/release-process.txt,Luke Dashjr,Matt Corallo;
+a49927a46d578d142411c52b17c6f11bb19da03d,1,17,8,1,0.47058823529411764,src/script.cpp,Fordy,Luke Dashjr;src/db.h,Fordy,Luke Dashjr;src/main.h,Fordy,Luke Dashjr;src/util.cpp,Fordy,Luke Dashjr;src/bitcoinrpc.h,Fordy,Luke Dashjr;src/main.cpp,Fordy,Luke Dashjr;bitcoin-qt.pro,R E Broadley,Luke Dashjr;src/init.cpp,Fordy,Luke Dashjr;
+d67b0434f24a629372000b0bd573ea9013ca3d90,1,1,0,0,0.0,src/main.cpp,Fordy,Luke Dashjr;
+3b36da6d277c6f5ad671343e724e0336ce55c893,1,4,0,0,0.0,src/ui.cpp,Luke Dashjr,Fordy;src/ui.h,Luke Dashjr,Fordy;src/xpm/about.xpm,Luke Dashjr,Fordy;src/uibase.cpp,Luke Dashjr,Fordy;
+0134a1c08ce237b41470e62841af193e8a1e9457,1,1,1,0,1.0,
+d0e4051cd8c28871a0e390553a4884df854aa2e3,1,1,0,0,0.0,src/main.cpp,Pieter Wuille,Gavin Andresen;
+99101685f632748c774e3f5d99b7a181ace4fdd6,1,1,0,0,0.0,src/addrman.cpp,Luke Dashjr,Pieter Wuille;
+5146599b01114c568f2a8c02e1ddf8846b95d675,1,1,1,0,1.0,
+cd0527453b3be00b1cb91d6d6a53ff0d5d3029b4,1,5,5,0,1.0,
+fac3476993b4ae9b45b97c4967db9222243bea29,1,5,5,0,1.0,
+1fa846bbb620650867a911753b30e209a303118c,1,15,14,0,0.9333333333333333,src/main.cpp,Pieter Wuille,Luke Dashjr;
+9b661e57bf7803fc1a73a8906a5c117bbcdc0807,1,2,1,0,0.5,src/bitcoinrpc.cpp,Peter Todd,Luke Dashjr;
+65077e117738357b099634242c65ee10f89f01e1,1,28,0,2,0.0,src/netbase.h,Pieter Wuille,Luke Dashjr;src/noui.h,Gavin Andresen,Luke Dashjr;src/qt/guiutil.cpp,Pieter Wuille,Luke Dashjr;src/bitcoinrpc.cpp,Wladimir J. van der Laan,Luke Dashjr;src/qt/bitcoingui.h,Gavin Andresen,Luke Dashjr;src/qt/optionsmodel.cpp,Wladimir J. van der Laan,Luke Dashjr;share/setup.nsi,Gavin Andresen,Luke Dashjr;src/net.h,Pieter Wuille,Luke Dashjr;src/qt/qrcodedialog.cpp,Jeff Garzik,Luke Dashjr;src/qt/addressbookpage.cpp,Jeff Garzik,Luke Dashjr;src/makefile.linux-mingw,Wladimir J. van der Laan,Luke Dashjr;src/net.cpp,Wladimir J. van der Laan,Luke Dashjr;src/qt/bitcoin.cpp,Wladimir J. van der Laan,Luke Dashjr;src/serialize.h,Jeff Garzik,Luke Dashjr;src/script.cpp,Wladimir J. van der Laan,Luke Dashjr;src/qt/bitcoingui.cpp,Pieter Wuille,Luke Dashjr;src/main.h,Wladimir J. van der Laan,Luke Dashjr;src/qt/guiutil.h,Gavin Andresen,Luke Dashjr;doc/README,Gavin Andresen,Luke Dashjr;src/main.cpp,Gavin Andresen,Luke Dashjr;src/qt/bitcoinstrings.cpp,Jeff Garzik,Luke Dashjr;bitcoin-qt.pro,Wladimir J. van der Laan,Luke Dashjr;src/uint256.h,Pieter Wuille,Luke Dashjr;doc/README_windows.txt,Gavin Andresen,Luke Dashjr;src/qt/qtipcserver.cpp,Pieter Wuille,Luke Dashjr;contrib/gitian-descriptors/gitian-win32.yml,Wladimir J. van der Laan,Luke Dashjr;
+ee932c6e35f40360fbc3bce44840a82b19599ea2,1,1,1,0,1.0,
+a1a5a890631beaf40236ab417b2f9816ccbae5a1,1,2,2,0,1.0,
+655b1b0cc24ac4b1d6cbc131be48b0199c0c51ee,1,1,0,0,0.0,contrib/gitian-descriptors/gitian-win32.yml,Gavin Andresen,Luke Dashjr;
+824e8dde8b20854b9f0e25aa93dd4ae8c06e3877,1,3,3,0,1.0,
+8ba4282c3fd6dd26aa4956e5bc4a38c603625870,1,5,5,0,1.0,
+ccfcdc2e3d51bf2d8ca6505db6434cea12050c43,1,6,6,0,1.0,
+66116c3847eeb3f0619bc084d96f5add41a156c8,1,3,0,0,0.0,src/main.h,Jeff Garzik,Luke Dashjr;src/net.cpp,Jeff Garzik,Luke Dashjr;src/util.cpp,Dwayne C. Litzenberger,Luke Dashjr;
+a93ab877877925c60b2dbf56bdde8aa46b6b7391,1,1,0,0,0.0,src/main.cpp,Luke Dashjr,Pieter Wuille;
+c23617fef3086e0d11ccfa288afa1c1d177bcdc8,1,1,0,0,0.0,src/main.cpp,Pieter Wuille,Jeff Garzik;
+3374c3ef094b328e6c6957fdaf5a9abff0c53a33,1,7,7,0,1.0,
+79fc752b6104b796aa5e0a8a8b6d2822fb0f3299,1,1,0,0,0.0,src/keystore.h,Luke Dashjr,Wladimir J. van der Laan;
+892fcaf291cb9fc0f9efd4244f01b6b6529409ba,1,1,0,0,0.0,src/qt/notificator.h,Luke Dashjr,p2k;
+3e0e10add3f8d1dffd419dc8968935b124389690,1,1,1,0,1.0,
+fe1725a141334dab82ca007fb6fc983c358e35b2,1,1,1,0,1.0,
+658cf0b1be93e08eee400b0bd1e9d3485313475d,1,1,1,0,1.0,
+1376cd9d7f1d7df4395d5d686450bde44e260785,1,42,0,0,0.0,src/qt/locale/bitcoin_nl.ts,Gavin Andresen,Luke Dashjr;src/script.h,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_zh_CN.ts,Gavin Andresen,Luke Dashjr;src/qt/guiutil.cpp,Wladimir J. van der Laan,Luke Dashjr;src/bitcoinrpc.cpp,Pieter Wuille,Luke Dashjr;src/util.h,Gavin Andresen,Luke Dashjr;src/db.cpp,Gavin Andresen,Luke Dashjr;src/util.cpp,Pieter Wuille,Luke Dashjr;share/setup.nsi,Gavin Andresen,Luke Dashjr;src/net.h,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_en.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_zh_TW.ts,Gavin Andresen,Luke Dashjr;src/net.cpp,Pieter Wuille,Luke Dashjr;src/init.cpp,Pieter Wuille,Luke Dashjr;src/qt/bitcoin.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_it.ts,Gavin Andresen,Luke Dashjr;src/irc.cpp,Pieter Wuille,Luke Dashjr;src/serialize.h,Gavin Andresen,Luke Dashjr;src/script.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_hu.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_ru.ts,Gavin Andresen,Luke Dashjr;src/qt/bitcoingui.cpp,Gavin Andresen,Luke Dashjr;src/main.h,Gavin Andresen,Luke Dashjr;src/qt/guiutil.h,Wladimir J. van der Laan,Luke Dashjr;doc/README,Gavin Andresen,Luke Dashjr;doc/translation_process.md,Gavin Andresen,Luke Dashjr;contrib/debian/changelog,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_pt_BR.ts,Gavin Andresen,Luke Dashjr;src/main.cpp,Pieter Wuille,Luke Dashjr;src/qt/locale/bitcoin_nb.ts,Gavin Andresen,Luke Dashjr;src/qt/transactionrecord.cpp,Gavin Andresen,Luke Dashjr;src/qt/bitcoinstrings.cpp,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_da.ts,Gavin Andresen,Luke Dashjr;bitcoin-qt.pro,Pieter Wuille,Luke Dashjr;src/qt/locale/bitcoin_es.ts,Gavin Andresen,Luke Dashjr;src/makefile.osx,Pieter Wuille,Luke Dashjr;src/qt/sendcoinsdialog.h,Wladimir J. van der Laan,Luke Dashjr;src/makefile.unix,Pieter Wuille,Luke Dashjr;src/qt/locale/bitcoin_es_CL.ts,Gavin Andresen,Luke Dashjr;doc/README_windows.txt,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_de.ts,Gavin Andresen,Luke Dashjr;src/qt/locale/bitcoin_uk.ts,Gavin Andresen,Luke Dashjr;
+1fafcee66db843689e2071e844f5e4ab27b8133b,1,2,0,0,0.0,src/main.cpp,Luke Dashjr,Pieter Wuille;src/makefile.unix,Luke Dashjr,Vegard Nossum;
+166004aca586292458fd6dd2c676e20f70d1e65d,1,5,1,0,0.2,share/setup.nsi,Luke Dashjr,Matt Corallo;doc/README,Luke Dashjr,Matt Corallo;doc/README_windows.txt,Luke Dashjr,Matt Corallo;src/serialize.h,Luke Dashjr,Matt Corallo;
+2ac8af4534ad026cec5e281852d2e42616d15610,1,1,1,0,1.0,
+815a3605c1042b8ac2fa02b8e34041ab8611beed,1,5,5,0,1.0,
+eca170286ef79096b9005c28d0a6e1145b440f60,1,5,5,0,1.0,
+78b9d2de40144e6f420518bcdf62168855546ded,1,5,5,0,1.0,
+fb811c31fd28d1d637a50f784af620d085fa32d4,1,1,1,0,1.0,
+a21e4da9012f87d2cb8b2c38517efda1999fab05,1,2,2,0,1.0,
+b5d9c7d9fb2ddf66e414e22e1d599fb0ef0abb07,1,1,0,1,0.0,
+882e00e2159ce5e12170c7c1811236a039d8abfa,1,1,0,0,0.0,src/main.cpp,Luke Dashjr,Gavin Andresen;
+70f55355e29c8e45b607e782c5d76609d23cc858,1,1,0,0,0.0,contrib/debian/changelog,Gavin Andresen,Matt Corallo;
+8f378e98c5121f4f5c4936ef879f208f5f95bb5e,1,1,1,0,1.0,
+83201b12ae10267204e2652d653fe5521ef736eb,1,6,6,0,1.0,
+cc19ba76e45aad5cfb108e270b11f42be7a7b94e,1,5,5,0,1.0,
+9b53650a455c235f5b15c6df42ab58f24582596d,1,1,0,0,0.0,contrib/debian/changelog,Luke Dashjr,Matt Corallo;
+eb2a10afd600b2680f24d02ffc73d4c9d9800492,1,1,0,0,0.0,src/util.cpp,Luke Dashjr,Gavin Andresen;
+f1a6d747754b4dad22e0b90808da99ab876d4e2b,1,3,0,0,0.0,src/qt/forms/askpassphrasedialog.ui,Wladimir J. van der Laan,Luke Dashjr;doc/README,Gavin Andresen,Luke Dashjr;doc/README_windows.txt,Gavin Andresen,Luke Dashjr;
+98c0b8b85ed1971bed13dc51edc68e0651fa5e73,1,5,5,0,1.0,
+fe5cc3b7f8d42d842153996ca9790027a466689a,1,4,4,0,1.0,
+b683118cd022ae7076e669eb499fb41c16d2439c,1,10,1,1,0.1,src/ui.cpp,Gavin Andresen,Luke Dashjr;share/setup.nsi,Gavin Andresen,Luke Dashjr;contrib/Bitcoin.app/Contents/Info.plist,Wladimir J. van der Laan,Luke Dashjr;doc/README,Gavin Andresen,Luke Dashjr;src/makefile.unix,Gavin Andresen,cjdelisle;doc/README_windows.txt,Gavin Andresen,Luke Dashjr;src/headers.h,Wladimir J. van der Laan,Matt Corallo;src/serialize.h,Gavin Andresen,Luke Dashjr;
+3a6e468d9a0caceea80f274967bb0cf6aecdc8f1,0,1,0,0,0.0,
+b898c8fce687de9320bfae8dd2392e92c5464831,0,1,0,0,0.0,
+002a4dcad0c0f74b1063cf27f0a9550d5e56c3f0,1,2,0,0,0.0,.gitignore,Wladimir J. van der Laan,Gavin Andresen;bitcoin-qt.pro,Wladimir J. van der Laan,Gavin Andresen;
+a0d2f9a12dad7b33a3f12d85dee8afa4155dbc99,0,1,0,0,0.0,
+7a15d4ff67c9a6e3b6b5a63f82f76ffe1937c3b8,0,1,0,0,0.0,
+dd7868364d9a14349ff82f74fc451db5e6b6b7b9,0,1,0,0,0.0,
+b5b1d1a66b9f418c9fb293cb1cc3eac09a711c4e,1,1,0,0,0.0,src/script.cpp,Wladimir J. van der Laan,Pieter Wuille;
+491ad6db507776054c38230387f384991f42ad29,0,1,0,0,0.0,
+d4211176208b5e4ae4a699c6ce3239447752cdb2,1,1,0,0,0.0,src/keystore.cpp,Wladimir J. van der Laan,Jeff Garzik;
+b17be7e14b4a62b7935c75fe7e7645e736fd68d2,0,1,0,0,0.0,
+2fb1124b0fbbc039307f3697d7d550365c21916c,1,1,0,0,0.0,makefile.unix,Gavin Andresen,Jeff Garzik;
+fdec7fe2035f118237d30c314a27dae0624822b6,1,1,1,0,1.0,

@@ -1,0 +1,362 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+4ee03bb61a37a383e38023b3991790b074a2c908,0,1,0,0,0.0,
+a5cb3b4ead9e7c6a8a5d156107bbb053b50bbfea,0,1,0,0,0.0,
+79349fae7c361a3353a89bdf10fa4d2735c01c81,1,1,0,0,0.0,utils/modularize.js,yomboprime,Michael Herzog;
+cdcb80c180d724e71cebff29f9372a0ae7e274e8,1,1,0,0,0.0,utils/modularize.js,Lewy Blue,Michael Herzog;
+a9224dea5b2b5d621d4791e67efdbe415f52a7bd,1,2,0,0,0.0,examples/js/loaders/LWOLoader.js,Guilherme Avila,Mr.doob;examples/webgl_loader_lwo.html,Guilherme Avila,Mr.doob;
+4ac589714ade90075422fe6216ea6d1ef0318810,1,1,0,0,0.0,src/renderers/webvr/WebXRManager.js,Takahiro,Mr.doob;
+b5eacca97e799119b3f568c8ec55e61b72c1297a,1,1,0,0,0.0,src/renderers/webgl/WebGLShader.d.ts,aardgoose,Mr.doob;
+034df4ab88170af51e02928e7d1c87977623aa53,0,1,0,0,0.0,
+27b90b8f93ec52c1988309d2e4bc075ca8259901,1,2,0,0,0.0,editor/js/Strings.js,Temdog007,Mr.doob;editor/js/Menubar.Add.js,Temdog007,Mr.doob;
+c7e2c85e6cfbb5946186b7ea5edd51c333396855,1,1,0,0,0.0,examples/webgl_materials_nodes.html,sunag,WestLangley;
+c547772cf48222733968f0ddd2a45d4b55803ca9,1,1,0,0,0.0,src/renderers/WebGLRenderer.js,Takahiro,Mr.doob;
+20f22382c79c2388ffbd88469158bc40b86f61b2,0,1,0,0,0.0,
+5d5ec83b1dfdec533592f5bcc52814c4e9d1f5f4,1,1,0,0,0.0,examples/webgl_camera_array.html,WestLangley,Mr.doob;
+d51c345e0bc0ac301dae82fe937757de0aac3412,1,1,0,0,0.0,test/unit/src/core/BufferGeometry.tests.js,Garrett Johnson,Mr.doob;
+fe3f882cea4943a25c194cceaa90b2de48e4eb1d,1,1,0,0,0.0,examples/js/loaders/GLTFLoader.js,Don McCurdy,Mr.doob;
+240d2ca5ed89559ba7001a831fe17150a473a764,1,3,0,0,0.0,examples/webgl_multiple_elements_text.html,WestLangley,nicholas-yangding;examples/webgl_multiple_elements.html,WestLangley,nicholas-yangding;examples/webgl_multiple_views.html,WestLangley,nicholas-yangding;
+dbe619d6d6a0ea35050c9891974e86cbebb5abfe,0,1,0,0,0.0,
+e61e7c0ecf2d587c655d87a0366ea7c9c11865cc,0,1,0,0,0.0,
+694764d57cd9e019200d669b94e9fb390988a578,0,11,0,0,0.0,
+6769fd8e7330bdea222fa12f393365ab7bf37beb,0,2,0,0,0.0,
+1c66840124c7245ed7b10eaa9a5010614891a218,1,1,0,0,0.0,examples/webgl_gpgpu_water.html,Lewy Blue,Mr.doob;
+5ae96fa93595c324f2aba52dd40c98aa9da1e8f0,1,1,0,0,0.0,examples/js/loaders/GLTFLoader.js,Takahiro,Mr.doob;
+9554b8146c7008507a94677004bdf40c5db4fbb0,1,1,0,0,0.0,examples/js/loaders/GLTFLoader.js,Takahiro,Mr.doob;
+633c0f9d6dcff64f168abe98e5413f55652f85d9,0,1,0,0,0.0,
+7dcba1d35afeca4f0c3563c243deaa016a5163c0,0,1,0,0,0.0,
+f08d22f7515805ca2a731e0f1921f9fde942ed30,0,2,0,0,0.0,
+6b3e0852d7a67178f3b64e6d173842c3806ba4df,2,1,1,0,1.0,
+2cf6e119c42261cde16bd17ec6b2f23b44917ba4,0,1,0,0,0.0,
+371ee08d7857af6775b31c80f2d3b20af04913ae,0,1,0,0,0.0,
+c4a20fb3e7a0f73ed01d571be25f9ba8ba5fedf3,1,1,0,0,0.0,docs/examples/exporters/PLYExporter.html,Garrett Johnson,Mr.doob;
+257cb656d57bc9fb7d0ebdc31120f203bb7a91db,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+3ac4c045ab22a30961dde1f518f881349eae4f2c,2,1,1,0,1.0,
+205a2fa44fb481ad5695f356c0f840e5fb5350e0,2,1,0,0,0.0,examples/files.js,Paul Masson,Mr.doob;
+be2d26b5986b2107bfdf6167fb0246ed8c41827d,0,1,0,0,0.0,
+a18d1a217d68d13d4916dccc75beef7b3aab5b61,1,1,0,0,0.0,src/renderers/webgl/WebGLState.js,Takahiro,Mr.doob;
+ab65cb7221b12a7c014a85815dce247062a687ee,1,1,0,0,0.0,src/renderers/webgl/WebGLBufferRenderer.js,Takahiro,Mr.doob;
+1d14b57400058502b5be923c88e79b0106394f82,1,1,0,0,0.0,examples/js/loaders/GLTFLoader.js,Takahiro,Mr.doob;
+e043959eec65478848a7fa0bdf8c863ad8d50069,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+ee853eae7b23b1c3031aa7833d2da50aafe72126,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+5d14bf2819e0c5634d64ea17ebaa6c125315019b,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+a3f002285b6c491986546099fc1d0b9ae558c089,0,2,0,0,0.0,
+9fa3edc00f5add8c28fa5a62a931f701e75cf518,0,1,0,0,0.0,
+4f670970307820216b597566376676923fc69521,0,1,0,0,0.0,
+465df0826caa1c9d006ea6720500e6671e95c5a0,1,2,0,0,0.0,docs/api/cameras/Camera.html,WestLangley,Mr.doob;docs/api/core/Object3D.html,WestLangley,Mr.doob;
+6c5da91538d1976850e5130809316003e8db3e0f,0,1,0,0,0.0,
+f57df83cdab7ff20acbf704a7ee5bdda093edb76,0,1,0,0,0.0,
+25060edd370111624c9f5fc0f2f05c949ad10928,1,2,0,0,0.0,examples/obj/walt/WaltHead_bin.js,Mr.doob,Lewy Blue;examples/obj/walt/WaltHead_slim.js,Mr.doob,Lewy Blue;
+4369d6ae3dd8693afd99a708d87d1332e7283936,1,1,0,0,0.0,src/animation/PropertyBinding.js,Takahiro,Mr.doob;
+0cfed7305f141ae1535cbe3adfd894e7dbc36c8a,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+c5309cf13b96ffb25c552592c1269e428d9c245a,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+b52b4d94d7c68ab37f9e1ecbcb2b168cb16006f3,1,2,0,0,0.0,examples/js/loaders/sea3d/SEA3D.js,Remus M,Mr.doob;examples/js/loaders/sea3d/SEA3DLoader.js,Remus M,Mr.doob;
+2f1df3dc67f652cd762adfe16fd2d9e4427a3044,1,1,0,0,0.0,examples/js/loaders/XLoader.js,Don McCurdy,Mr.doob;
+0eaac7b9f8a39bc6c1d0fa9d12730e3383d6e7f8,0,1,0,0,0.0,
+77c9ea1bb0718b21ab7a697378d49c76bbacfaf6,0,1,0,0,0.0,
+7591021ce7ed5255d4db5ff83553df514cebdde1,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+405084c6ab448d6a6d616b42e9561164d8cb11d7,1,2,0,0,0.0,src/renderers/WebGLRenderer.js,Luigi De Rosa,Lewy Blue;src/renderers/WebGL2Renderer.js,Luigi De Rosa,Mr.doob;
+9276322acd79757718879fc3bc36e2243fa0a27a,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+9d9be47896c43499354ff74b2d19c884df3ccb41,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+ebb9614abc49340ba2267da6aa207608f2b298d8,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+3bca01c48fc84afe6336e730e48608c8149b0a39,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+ce2395137f6cd75be78830e537d613e09bddf4a1,1,8,0,0,0.0,src/extras/curves/CubicBezierCurve.js,Mugen87,Mr.doob;src/extras/curves/QuadraticBezierCurve.js,Mugen87,Mr.doob;src/extras/curves/QuadraticBezierCurve3.js,Mugen87,Mr.doob;src/extras/curves/CubicBezierCurve3.js,Mugen87,Mr.doob;src/extras/curves/LineCurve.js,Mugen87,Mr.doob;src/extras/curves/LineCurve3.js,Mugen87,Mr.doob;src/extras/curves/CatmullRomCurve3.js,Mugen87,Mr.doob;src/extras/curves/SplineCurve.js,Mugen87,Mr.doob;
+9a2c14717bc237d01b205666ed188ec8044fa838,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+25b55a12449127aef4a29fd0448c52d8854b12f8,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+5ef5fcb87eb96756a1a846c6ccef0e33e798fd3d,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+2435d08c5bebfa3b3f70a7f0cf67da230f3dbdce,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+64c63fc27c4d5beaf05cf1431ae24fa03b657823,1,1,0,0,0.0,examples/js/loaders/FBXLoader.js,Lewy Blue,Mr.doob;
+c261aad8aa0cf947ebf6d4da00d47e7bc7506cee,1,1,0,0,0.0,src/renderers/WebGLRenderer.js,Tentone,Mr.doob;
+40531154237883c22867c6a3be977a4ccd343f8f,1,1,0,0,0.0,src/textures/Texture.js,WestLangley,Mr.doob;
+96ca9bba3a040a2f85193c043e4bb494690336e5,0,1,0,0,0.0,
+1c647a0db87f3dc9feaeba1ac46115145e97ffee,2,1,1,0,1.0,
+68c6435710fc4c21a82e9244d6356b368379cd6b,1,1,0,0,0.0,editor/js/Sidebar.Material.js,manthrax,Mugen87;
+9fb2237298c6c4d80d919b0346be823d7147a396,1,2,0,0,0.0,utils/exporters/blender/addons/io_three/exporter/api/object.py,manthrax,Mr.doob;utils/exporters/blender/addons/io_three/exporter/object.py,manthrax,Mr.doob;
+985220c0076928f11d81ba6d8f53d584d1549932,0,4,0,0,0.0,
+c451782dc090d02b09718425cdfd105f9d50d4f8,1,1,0,0,0.0,examples/webgl_loader_gltf2.html,Takahiro,Mr.doob;
+4d1f66474bdd3370c2a3b500532fa40be3ad9bca,2,1,1,0,1.0,
+f82763ec6c103acf81a957d422cdcecb3ec3fd7d,1,1,0,0,0.0,src/renderers/shaders/ShaderLib.js,Takahiro,Mr.doob;
+6067f8953d6961e024a39a04bbbe60e3dbe0a659,0,1,0,0,0.0,
+15941e89b1c923d7a2d94049f80144e1e7a34d07,1,1,0,0,0.0,examples/webgl_loader_gltf.html,Don McCurdy,Mr.doob;
+0a24f91309d080f04f9b30c8f63dc55a80aca47f,1,1,0,0,0.0,src/renderers/webgl/WebGLShadowMap.js,Takahiro,Mr.doob;
+f3edce8db67c055bfb5153f95fbcc6b24e616770,1,1,0,0,0.0,examples/js/loaders/GLTFLoader.js,Steven Vergenz,Mr.doob;
+a302b0c9f5732181520d4a6c1d726deeec2ce0a7,0,8,0,0,0.0,
+fcfb140529814c1e5d675a90fd36f44c796034dc,0,1,0,0,0.0,
+6d2656766cae0b7b230fb31288938e7d06a5d4fd,1,1,0,0,0.0,examples/js/postprocessing/OutlinePass.js,Ben Houston,Mr.doob;
+cfbc8b2b9a479c0c81f1714866b3f700b125c1b3,0,1,0,0,0.0,
+50b2d2f70f7d245de9045c1c0cabb907d0f14880,0,1,0,0,0.0,
+aa6c39de6a3344548910af425868c67d6f5dc470,0,1,0,0,0.0,
+1f8bb9ffdab3333e9455a053a682d15bac460ec0,1,1,0,0,0.0,docs/list.js,Lewy Blue,Mr.doob;
+8ef5dfa9fc87721f28fb9ad137ef81412d9cc72b,1,1,0,0,0.0,docs/list.js,Lewy Blue,Mr.doob;
+6b08084037b5ab27299c7e0a0b516cbdf88cef15,1,1,0,0,0.0,docs/list.js,Lewy Blue,Mr.doob;
+7c1edc336825dc28a6d419969a406333a072c40d,1,1,0,0,0.0,docs/list.js,Lewy Blue,Mr.doob;
+4cccaa17967a0df2e534befcbc0b3113dc7d93eb,0,2,0,0,0.0,
+e6182d73d5efa7222568797fff9cc27dcf01e23b,0,1,0,0,0.0,
+d2b7172efc0238b3cd1ad7c113f4d98a0f2e9c34,0,1,0,0,0.0,
+e32ebc8805b354da7eb364c606ece401aceda136,0,1,0,0,0.0,
+7a32d5f82eacdeed7ac5b87ecd667115ad85854d,0,1,0,0,0.0,
+a0e607d019dfbcc7fbc1bfc1bb1c29791aedd17a,0,1,0,0,0.0,
+e00cfbf3c795703f91e7fa6ddf2325195dc7deba,1,1,0,0,0.0,examples/js/loaders/MMDLoader.js,Takahiro,Mr.doob;
+c5a0ac8bb7380a36bab55fa29ea59ece3d7dfc5e,1,1,0,0,0.0,examples/js/loaders/MMDLoader.js,Takahiro,Mr.doob;
+82fe6bfd068a1d42724fce3b44893e8dbc3c8f6f,1,1,1,0,1.0,
+1ced6b3ab3042ab80a5cf2c22de2b77002f2a276,1,1,1,0,1.0,
+5b70fa65477cbcc02d8cb9c6e7ef1d77eaeb90a4,1,1,1,0,1.0,
+6b75f6b4c2db666672efdbfee3644c221d5c6153,1,1,1,0,1.0,
+6ff95c95fc26b8d0dba13af1c011d54005b4e781,1,1,0,0,0.0,examples/webgl_loader_mmd.html,Takahiro,Mr.doob;
+7209a5b2ca0261e7c7a5171c6f9d1b9888176225,1,1,1,0,1.0,
+9d3cf8c2f51083bb20244f3f6e0b25cfb85c6837,1,1,0,0,0.0,src/renderers/shaders/ShaderChunk/ambient_pars.glsl,Mr.doob,Ben Houston;
+c892c055e0526b43c2bb0fb12208165b11abb7ec,1,2,0,0,0.0,examples/webgl_materials_transparency.html,Ben Houston,Mr.doob;src/renderers/webgl/WebGLState.js,Ben Houston,Mr.doob;
+53bf8967bd47e6d5a0a06204bac32020abd5cff7,1,2,1,0,0.5,src/renderers/shaders/ShaderLib.js,Mr.doob,Ben Houston;
+2cb466afb2cece6e428463f4a025cc7e85357e04,1,1,0,0,0.0,src/renderers/webgl/WebGLPrograms.js,Ben Houston,Mr.doob;
+462d8d7c9d85a8df2e81a1ebeca26a7362aa4a8d,2,1,0,0,0.0,src/renderers/shaders/ShaderLib.js,Mr.doob,Ben Houston;
+91d9af898324592dedce42fd7fda12649ee136a6,0,1,0,0,0.0,
+627f7ee4a6d6758923fa4e0b206f2734a2149fe1,0,1,0,0,0.0,
+0540e0e3ddfb75dcc3a6f14f98eb09e403044e6b,1,3,3,0,1.0,
+af5e17058f7a0f4cc3141b98a4cf503ffe4bb01e,2,1,1,0,1.0,
+d61b14b4c526ea53d12403558629084f3b6dd4ff,1,1,0,0,0.0,examples/webgl_multiple_elements.html,Mr.doob,WestLangley;
+956b74d8b647dbc2db3a48773a5aee20276584e6,0,1,0,0,0.0,
+0f33400fbc00a6494969b1b630ff7071290f4b1b,0,1,0,0,0.0,
+5bb75b3f663e097c59ce6ce69166abd61bccf8ed,0,1,0,0,0.0,
+914163fe317ee698fa36604dd17c7fc12fd74677,2,1,1,0,1.0,
+419478eaa171b638632109e36b3edb448dae5956,0,1,0,0,0.0,
+fdaad8df8b4d8f08db56223d99790f72313ef214,0,9,0,0,0.0,
+a72b0e082e6bed33a5118033a350974d549e14e5,1,4,2,0,0.5,src/core/Object3D.js,tschw,Mr.doob;src/renderers/WebGLRenderer.js,tschw,Mr.doob;
+d2edf117773be7004897b02886f9715589f2fa72,0,2,0,0,0.0,
+8597c9a37ba1ad688eb78e84dbd1c499223eab43,0,1,0,0,0.0,
+49d091453a0b4846159982da3d76633d4186287c,0,1,0,0,0.0,
+1be8477ac40cb89da749ea94127ad9d0d36d7670,0,1,0,0,0.0,
+d065d0a1e9ec688cd2177ad4a0abf98187dd8fc8,1,1,0,0,0.0,docs/index.html,spite,Mr.doob;
+193587faf006ad52e2b1ddf56a77b91a5580577d,0,2,0,0,0.0,
+8b500f8093aa0c6068bd2978973db3b94efdc398,2,1,1,0,1.0,
+ca09c18f45b23cd4b057e0d1a63b35124b823dc3,1,1,0,0,0.0,src/renderers/WebGLRenderer.js,gero3,Mr.doob;
+8f79ee4228de0574cbf71c3c38b7d6db6584de29,1,7,7,0,1.0,
+fa92cf15110eb7c6e552ce613dfda527e00ec087,1,1,0,0,0.0,src/objects/MorphAnimMesh.js,Ben Houston,Mr.doob;
+0b07813dc45481f1d16d3b6d2334178664861465,0,1,0,0,0.0,
+c090602a8f78efdc2516996909dc5d972b20638a,0,1,0,0,0.0,
+e06d89958e79175e3bc3735e0a8013eb32916f53,0,1,0,0,0.0,
+6f15df93dcf2f607335c1aad56a4554f2639e166,1,1,0,0,0.0,examples/js/wip/ProxyGeometry.js,Mr.doob,dubejf;
+d42a72fc797e492dab629eb1db0f80f5325345ca,1,1,0,0,0.0,src/renderers/webgl/WebGLGeometries.js,Mr.doob,gero3;
+22cad1ab86872f12ff74d6859fec665479c34c96,1,2,0,0,0.0,src/objects/Mesh.js,WestLangley,gero3;examples/js/wip/TypedGeometry.js,WestLangley,gero3;
+4de446446c044d3a37b75e4017d5e818c8a52da6,0,1,0,0,0.0,
+10049e7c02c8351cd11e006729f574fefe1e4970,1,1,0,0,0.0,examples/js/loaders/AWDLoader.js,dubejf,Mr.doob;
+70e4206dbfcc89a05406f32157fb9ca2c4977db1,0,12,0,0,0.0,
+fc4d951c226dfc419a0b8921a5f6120b352e7476,0,1,0,0,0.0,
+c2da7a27d3be99ec5645882a22224dd61092a792,0,1,0,0,0.0,
+0b3411ecf69178e9aa602727f424837fd6b2dc8b,1,2,0,0,0.0,utils/exporters/blender/addons/io_three/constants.py,tschw,Ricardo Cabello;utils/exporters/blender/addons/io_three/exporter/geometry.py,tschw,Ricardo Cabello;
+1cdddbb2240603b2e8f618878e5a66ee123432bf,0,1,0,0,0.0,
+e83bf8a30d48291ad3d978ef533da632c5f9701e,0,1,0,0,0.0,
+b7c99989a7309d638b0ac966c9865ef20ca2d999,0,1,0,0,0.0,
+4c9de4cd337a2a0e56b5badd1da31a141544b59e,1,1,0,0,0.0,examples/js/loaders/ColladaLoader.js,Mr.doob,WestLangley;
+891018d261445a36c45c64b319364de5dd1740ca,0,1,0,0,0.0,
+e57b5d1ef3c4e9a1797009fd5bf3b062deb65164,0,1,0,0,0.0,
+3e239215a6d1693628b014aae7511757c6c62929,1,7,0,0,0.0,examples/js/ShaderSkin.js,Ben Houston,Mr.doob;examples/js/shaders/NormalDisplacementShader.js,Ben Houston,Mr.doob;src/renderers/shaders/ShaderChunk/lights_phong_fragment.glsl,Ben Houston,Mr.doob;src/renderers/shaders/ShaderChunk/map_particle_fragment.glsl,Ben Houston,Mr.doob;src/renderers/shaders/ShaderChunk/linear_to_gamma_fragment.glsl,Ben Houston,Mr.doob;examples/js/ShaderTerrain.js,Ben Houston,Mr.doob;src/renderers/shaders/ShaderChunk/map_fragment.glsl,Ben Houston,Mr.doob;
+ef2c65dd6dd08edef473abbddba2367fcfe731f4,1,3,0,0,0.0,src/core/Object3D.js,repsac,Ben Houston;src/renderers/WebGLRenderer.js,Mr.doob,Ben Houston;src/Three.js,repsac,Ben Houston;
+bc0ef0dded7c6da217911ef2f8fce9882a633bd2,1,1,0,0,0.0,src/renderers/WebGLRenderer.js,Mr.doob,Ben Houston;
+c0478beba3c56321d1d86e116660f5f196dabe4b,1,4,0,0,0.0,src/renderers/WebGLRenderer.js,Mr.doob,Ben Houston;src/renderers/webgl/WebGLProgram.js,Mr.doob,Ben Houston;src/renderers/shaders/ShaderChunk/common.glsl,Mr.doob,Ben Houston;src/renderers/shaders/ShaderLib.js,Mr.doob,Ben Houston;
+9dbd7669d066b175b86e5fd418f6a8e68328b627,1,1,0,0,0.0,src/renderers/shaders/ShaderLib.js,Mr.doob,Ben Houston;
+b1550613ffdda0038b34d90a93a12053e2fb710b,1,1,0,0,0.0,src/renderers/shaders/ShaderLib.js,Mr.doob,Ben Houston;
+f560c79da2bdadb4c3b6263516987da311d1bc53,0,1,0,0,0.0,
+efbc69bd486d4674d601778d0431ea78a4f6f0f7,0,1,0,0,0.0,
+0f570f9461a6d48ee76b95f9e9abffa6ed26516a,0,1,0,0,0.0,
+b323f3bd7de05df24248b4366dcbf62259ffa051,2,1,1,0,1.0,
+194127357b9ffdea27b6d595b9fbd4006debe927,1,1,0,0,0.0,src/math/Ray.js,Mr.doob,WestLangley;
+077dc92be4fd43d745572c42d2349335ba37ca21,0,1,0,0,0.0,
+fec2de80b45b97fbc078a9d7b81a06185274c05d,0,2,0,0,0.0,
+b2b98c8f524fe4a51be971ffbed3b2a759f4934e,0,1,0,0,0.0,
+aacb30d083b557a5d9df04255d19197e4e55f2b1,0,2,0,0,0.0,
+d1fb1fe91ffafbbc019ea50622b0ecb9364be148,0,2,0,0,0.0,
+7d4ea159013e3d2227a1a76f5baf8a51dfb055c3,0,2,0,0,0.0,
+1fd15b8b4e2ba80d5aac93b61e22b340309fa0f3,1,3,0,0,0.0,docs/api/materials/Material.html,Greg Tatum,Mr.doob;docs/api/materials/MeshFaceMaterial.html,Greg Tatum,Mr.doob;docs/page.css,Greg Tatum,Mr.doob;
+0425538fd1d2e17656c6eac1aa183b8a8bf27324,0,1,0,0,0.0,
+9c28444c0883f85cf83e5b8ca5de9464307a2252,0,1,0,0,0.0,
+2f86e3dea5f0c2935f0d5a6b2dba00f768c769a3,0,1,0,0,0.0,
+c9efac91c012a7178236a3ed0c7afdbf12c2e855,1,1,1,0,1.0,
+5dcf4c711cf310c6eab147df1f3f70b4608459fe,2,1,1,0,1.0,
+3367742cb5f859a42f689f2ffacba3a8727f1810,0,1,0,0,0.0,
+55d8d2a40f2d075373d9b64479447ce0948c4efa,0,1,0,0,0.0,
+8437bfb9c6330479aca1772ebd10ca662fff6fac,0,2,0,0,0.0,
+c18368973e64b3e7ef247238d44adf1d8afe9bd9,0,1,0,0,0.0,
+edc5d1897b6d52eb882fcd2fd8c22bc63ea48c11,0,1,0,0,0.0,
+1e30568ee4637d51f7ec4cff4215d1a9b183868b,1,1,0,0,0.0,src/renderers/WebGLRenderer.js,OpenShift guest,Mr.doob;
+d1dca3d0e2e939c820ee464a10d79c57de6a50d5,1,1,0,0,0.0,utils/converters/obj/convert_obj_three.py,Ted Cipicchio,Mr.doob;
+a89b5adf1ff6e4da846a11806832a1caef9cd497,0,3,0,0,0.0,
+da425be8a9712a6df3ad62c7e7887bd82e8d3b74,0,2,0,0,0.0,
+db53cfa037c52c1e388fb275290506478fb01893,0,1,0,0,0.0,
+9493db5fe40bb2c22e1cb258bcd8737bd6f90d60,1,1,0,0,0.0,examples/js/controls/OrbitControls.js,Mr.doob,Leo Singer;
+44bb8284ff32eeb25cf705f46ab6ca2d5a23fdec,1,1,0,0,0.0,docs/api/math/Box3.html,Mr.doob,Greg Tatum;
+db1947639bfffc9d36acfce852b6c1abfc3562bb,0,2,0,0,0.0,
+220c84434858fe2ed22305545e41e03d4da633df,0,1,0,0,0.0,
+8f5c2c9e3bcdaf9f1783dbe612e61eab43dd029b,0,1,0,0,0.0,
+a49b3fba3b8431431983529ffe0e30c3008d1238,0,1,0,0,0.0,
+fcdde251e8d23b4dd43861530e6a63acc54a1577,0,1,0,0,0.0,
+b8df09792451fe0435ff6feebd411b1ff2bf8c47,0,1,0,0,0.0,
+ba01f63541b29516f61f66945af37fee7c54d393,0,1,0,0,0.0,
+823435bca0bf69ef34ccfff8c0b0724e691d4851,0,2,0,0,0.0,
+612455cd5a68ecc0953c61c7489b503669a147b1,1,1,0,0,0.0,examples/js/loaders/VRMLLoader.js,Mr.doob,Bart McLeod;
+c63e80af72f4fb5bdcb21da896db49cda14eb116,0,1,0,0,0.0,
+9ad3ba1dceeaaf1a5b1bfb8046ef11ee62aeefb8,0,1,0,0,0.0,
+2e7e660c2acd15731cdff99b382df1cdc16a2311,0,1,0,0,0.0,
+a28e942faf02c556279f31ba333030dafc32abc5,0,1,0,0,0.0,
+2e0e8c046bc34fe620c56dedb9de467be2405276,0,1,0,0,0.0,
+ec8dc3e3f31b7143b249267dd2c983a713d8ff72,0,1,0,0,0.0,
+427a7b3ecd74aa60027ae2ba400e148555e5bf47,0,1,0,0,0.0,
+940c9e06db67a1f043f4057e6caf95a9fee4421c,0,1,0,0,0.0,
+1f94c963e0d1817a92da6587f71cda1ccd805e4a,0,2,0,0,0.0,
+56a1e4fca1551d8dfab9dfc015f067ca78973ad4,2,1,1,0,1.0,
+03fde66832226b5ae0d8b21cf777854072f67b40,0,2,0,0,0.0,
+da8858069b2afad5d8e80f2a3e49a01076aeecd9,0,2,0,0,0.0,
+7af978c4afb66f6aff876d218894571b2d3e1221,0,4,0,0,0.0,
+231a36ac33e5819a4c062f7218cd665ab66ac814,0,1,0,0,0.0,
+44478c4fdc4c8faa64bb292840d3de949ce5b02d,0,1,0,0,0.0,
+1310deadf64ada0a40aee2b6cb0ae638e83854b1,0,1,0,0,0.0,
+89b9d21da3d97d83680292de7f884e6057975827,0,1,0,0,0.0,
+f7aa627d00f522f5de5ae1c5fda063a9a75b7614,2,2,0,0,0.0,build/three.js,alteredq,Mr.doob;build/three.min.js,alteredq,Mr.doob;
+0d747761dcdddcae508e44593fea244d6a60dcb9,1,1,0,0,0.0,build/three.js,alteredq,Mr.doob;
+95a05c1a05c6dc97a3b9ea4cd682b62165cff943,0,1,0,0,0.0,
+654adb5fd7679458ac960789f0402f2cb6d7e8e7,0,1,0,0,0.0,
+3c82e6af94a7d576b0f6d687e25e6764d99ec36b,0,1,0,0,0.0,
+8f576ecdb52a2f866ec5bc933a9708b7e70d2873,0,1,0,0,0.0,
+42479eaf6ce6b36c7d200fec4e6ae8e433091d65,0,2,0,0,0.0,
+8b06b2117b8169255878525e1b7b68dce53c059d,0,1,0,0,0.0,
+30d4cbbb4306e490c51be6b480f85d40435e6c70,0,1,0,0,0.0,
+ef83ebe8f4910992023314c244edd176153d06e6,1,1,0,0,0.0,build/Three.js,Jono Brandel,alteredq;
+1dcc2d756a22bdae57dfad6140291bb4d173b286,0,1,0,0,0.0,
+fbd22e761ec9ec56b28b44be2b2c03ef4f0d7690,0,2,0,0,0.0,
+d073c4b68a209d74944eadeb0077896a6bdc9306,0,2,0,0,0.0,
+ae7e147f4e313df33fc39b8f80512118c9f4dcdb,2,2,2,0,1.0,
+9cc7b75a895287d08de15bc4faef9e1d9367cf16,0,2,0,0,0.0,
+46134f6fd95f37d6fb69c7382c568659693396c3,0,1,0,0,0.0,
+c33d3454151685aab280fa6118fe3fa196831bd6,1,2,2,0,1.0,
+bb29f27471f0be5fdd84a8d5a1c0dd2f3b7d591f,0,3,0,0,0.0,
+06b10a01e6e4c039a70c9ad8d643095f762576ee,1,6,0,0,0.0,build/custom/ThreeCanvas.js,ide user ide_gero3,Mr.doob;build/custom/ThreeWebGL.js,ide user ide_gero3,Mr.doob;build/custom/ThreeDOM.js,ide user ide_gero3,Mr.doob;build/custom/ThreeExtras.js,ide user ide_gero3,Mr.doob;build/Three.js,ide user ide_gero3,Mr.doob;build/custom/ThreeSVG.js,ide user ide_gero3,Mr.doob;
+62123193b033c691df2cfbda796773d2f2dbc9d2,0,6,0,0,0.0,
+d3aa96784a268164e2da6524bb51795f9e656977,0,6,0,0,0.0,
+43bcf9192d7a742c2325841c9e8cd0f4abd830aa,0,6,0,0,0.0,
+9f94fcbba84411bd1a5232d76f74ba3d8ce4cad7,0,6,0,0,0.0,
+2b59d31716d3a81cd69892e7f82bb2f6c1149510,0,2,0,0,0.0,
+685d72ed9f396a4f7f0fd5724c8f3bd35e51781d,0,2,0,0,0.0,
+e19f442f30ef6bc79ad67d083126cb8dfc48ee4c,0,1,0,0,0.0,
+29e875a3d5d0d230f351fac8079e750d7b34e3b7,0,5,0,0,0.0,
+dba0cf0194830aa9c5e648b63234d2b6ffdbff44,0,9,0,0,0.0,
+b6e3d5738d044e6c10e4a019f2302c35aebfd2d0,1,6,0,0,0.0,build/custom/ThreeCanvas.js,alteredq,Mr.doob;build/custom/ThreeWebGL.js,alteredq,Mr.doob;build/custom/ThreeDOM.js,alteredq,Mr.doob;build/custom/ThreeExtras.js,alteredq,Mr.doob;build/Three.js,alteredq,Mr.doob;build/custom/ThreeSVG.js,alteredq,Mr.doob;
+8367e2b17fbcaf99d77fcd0f02026576da199600,0,3,0,0,0.0,
+5da812d1602a42b0bc6f3c08290b6696ecbb458b,2,2,2,0,1.0,
+673781777cf0cf65f238b93e2f94ac9cb0ebf4d6,0,2,0,0,0.0,
+bb67cbe13af9f7b583b015c398015ea38bb07e2c,0,2,0,0,0.0,
+d8c23537f46fcfb771b7a24604d1cf6e55757f5c,0,2,0,0,0.0,
+be829f4a941be31b9bb0f2f283f0653ff1c09d61,0,1,0,0,0.0,
+ef5f67d1a6dab7a8141a7884612227c54f827af2,0,1,0,0,0.0,
+b1ef3409a6f465e2432dc19196e1f3afd17893b2,1,3,0,0,0.0,src/extras/GeometryUtils.js,alteredq,Mr.doob;build/custom/ThreeExtras.js,alteredq,Mr.doob;build/Three.js,alteredq,Mr.doob;
+3aa1767844acbaa1b0d8adec32401df5e6e7b515,0,1,0,0,0.0,
+bac513dda94eb2cdd6c1deb7e1ab90af992dd7f1,0,1,0,0,0.0,
+655b1efbde069821b0041c2c5de58e695e473c18,0,7,0,0,0.0,
+10052662ab3fd9864b860a3976ba1378992e59e2,2,4,4,0,1.0,
+bad3639c26793a10898eb79b7bc1b8b91879d6bd,0,2,0,0,0.0,
+093fbbe334ed07bf17dd8c13d8bd1e34005848d1,0,3,0,0,0.0,
+8afaef45971b1dc8ae0a5fe7ac826fe2105da9e0,0,1,0,0,0.0,
+94ff102c64ad52dbaebc57e4c5978ab5c4bc18a7,1,2,0,1,0.0,build/Three.js,zz85,Mr.doob;
+40decb9093ce676b2eaf46693d3e322ab4ad326f,0,1,0,0,0.0,
+db81e4525533d50275aae4a1a856d49485297e7e,0,1,0,0,0.0,
+a6eb8106a21bb7ba0376b0d6e7ef2934e6a0586b,0,1,0,0,0.0,
+b4332d6a241bca6811768d11ca2b3235a122cfa3,0,1,0,0,0.0,
+f26eed4b1e832cb68afb11d6f7e16dc0257c63b4,0,2,0,0,0.0,
+e63d5bae2bd634d4b17ba79e7ec5b511872fb434,0,2,0,0,0.0,
+f43d6a3cd1330d44a3c48ae343dc46ce60636f57,0,1,0,0,0.0,
+93468b0094798a09c6c4084937f66026760ee74e,0,1,0,0,0.0,
+fe83a3f0521984e6f0215ff3b266a74eccd94f11,0,2,0,0,0.0,
+5a87757b1b87818ddc10e9c10dd0c88139c87d83,0,2,0,0,0.0,
+dcee8501f63dbda8845d4bac275874a040d238da,1,1,0,0,0.0,src/renderers/WebGLRenderer.js,alteredq,Andrew Wason;
+29e51a6ed947c848ef89862fa071c6537dab6954,0,1,0,0,0.0,
+e59aefce8e250b7d4df74703509d5850f33624c5,0,2,0,0,0.0,
+fb6d579d35728804de1c3cae5c2800e3c1390bee,0,1,0,0,0.0,
+e95ca433b2597edff0de587403d2a79c69af2e20,0,1,0,0,0.0,
+35b9c8dd69f1209a2ef342bd67912a9cd0e7109c,0,2,0,0,0.0,
+ce8b942ebe35ba9ffe972c0485ae01edf8ce6be0,0,2,0,0,0.0,
+c0d371be7caf0484b26c20bfc9db8729c743d807,0,3,0,0,0.0,
+c7133cac6f7ebd68b09c36862e015a3648a423ff,0,3,0,0,0.0,
+e9ca7cf7f342500236a1fb08c53e0aa5e8037828,0,1,0,0,0.0,
+0cefeed567d69057ed8be99661037aa022866e43,0,2,0,0,0.0,
+830bf1e2b691c93d837e8371913816403a150d91,0,2,0,0,0.0,
+d738718e93526950c550cdc6f4392a0ac3d7c422,0,1,0,0,0.0,
+f1559f0186e6f9046cb673280c38eb06a63e3dfe,0,1,0,0,0.0,
+280a28dfdc6abf4102c911e0cd45f6088a945597,0,4,0,0,0.0,
+7ffb2f45ba07ca460f00e1fef1c658bfab45b73a,0,1,0,0,0.0,
+213a2d9d2bd038ca8df95550748f43c1389aa23e,0,2,0,0,0.0,
+9596667876efd40a1783ee296c2cc744f5a27836,0,1,0,0,0.0,
+02cd88bd9126b822b84309edfa475f9216222449,0,2,0,0,0.0,
+4983327011795c6d71825ee940cd4f74e0b23057,0,3,0,0,0.0,
+e4b75f1c8dd650d7afc7b2402e2bce8bac8a3c9d,0,2,0,0,0.0,
+d2cbf83dd32fcbaf5dca489723e4b8c2c3fdcb0e,0,2,0,0,0.0,
+2860731edb1eebbc1b52cef0a5f0812bfe16d458,0,7,0,0,0.0,
+c234c5cc6ea8c3eb7f0a7cdaa854cdfffe0f40d7,0,3,0,0,0.0,
+b6ab1f68cf484fd2c0bb876b3e6294456ef3acf5,0,2,0,0,0.0,
+fd6da8ebcd6fbb7a84ded1cb0d6921b9befab360,1,1,0,0,0.0,build/Three.js,alteredq,Mr.doob;
+87a8c1e02c2d0c5664866432983e83a7b797ac51,0,1,0,0,0.0,
+bdbf1f78c5745bc88624dd0f9b1d17fb9d21aa98,0,6,0,0,0.0,
+f7d97caf1d28b707956fe0351ab852cd4a272d0b,0,1,0,0,0.0,
+da0b612ce8fe7bcf11995f6208eb406e1844e510,0,3,0,0,0.0,
+65e3f92d55cdb46bc611a0ff20e540a1c55113f5,1,1,0,0,0.0,build/Three.js,Bartek Drozdz,alteredq;
+e7b6f4ad3ce4f5c2637a39211d6b33d0b73bc6a9,0,2,0,0,0.0,
+08642c5239df0c2a8b2d3dbf1f5fadbcb617977e,0,1,0,0,0.0,
+e19bf176456f9891bfc1cbb29791333c1c06f14b,0,2,0,0,0.0,
+d12252421e6d30618aa482ae76e46232c383df7d,0,2,0,0,0.0,
+e88b1b4783351ba3debed7fd3b2459069739f6ce,0,1,0,0,0.0,
+36cd380725ae26348df6971d98c57df36f1ce55b,0,3,0,0,0.0,
+cc453b6bda174bd227023ffae0f1d929c767b793,2,2,0,0,0.0,src/renderers/WebGLRenderer.js,alteredq,Mikael Emtinger;build/Three.js,alteredq,Mikael Emtinger;
+a0636d934bfe3f57fbf4f7c6b0e3631b2efef70f,0,1,0,0,0.0,
+7b07f34b7d8301f1e80c5d0dac6228142e02cd0d,0,1,0,0,0.0,
+f51a53bd23993a6f973c73d36605cfbffff82703,0,1,0,0,0.0,
+3536f3f2f54fc8f3800861139ae0a814f68c92f1,0,4,0,0,0.0,
+8abdf466ce667d6994fddaa2d387a91493b65c2b,0,1,0,0,0.0,
+4f80bbf808eb8c5165629f148e4c00e642bcfd63,0,4,0,0,0.0,
+d90304c136b4c80a4520bec1c5be7d3f2682c801,0,1,0,0,0.0,
+da497665f7412e049fb76464b7ecee3d8c64c899,1,2,0,0,0.0,src/renderers/WebGLRenderer.js,Mr.doob,Mikael Emtinger;build/Three.js,Mr.doob,Mikael Emtinger;
+59071e75b3732c42b806c24fd8a782338b449747,0,3,0,0,0.0,
+2127bdeb506fbf00b32cf503f40658659a30549e,0,1,0,0,0.0,
+cf6e2de8c916a1280a6621dff1b46c7a7657aada,0,1,0,0,0.0,
+52edc3b9a9a54574c0b7d816043b90d4225fdfae,0,1,0,0,0.0,
+a861d97ab9788e17d9207d13777ad5a5651bd664,0,1,0,0,0.0,
+0750cf1742d2f3ba82e738ecd03d0f79f2d04c0b,0,2,0,0,0.0,
+0bf0e59f12020a170ce802797b95738e7326df7f,0,1,0,0,0.0,
+6b9a08e5edaddf689da728db469a442f7da2f250,0,3,0,0,0.0,
+549f9b03a5f8451486b8d7ab3c34265307ff4805,0,1,0,0,0.0,
+34d3aaf0ba058fc1cfd0667aeec001410d7ae1a6,0,2,0,0,0.0,
+0984c4145bb33fa68ab640f29008724794cb486d,0,1,0,0,0.0,
+99dd3a411b7901b9e01e4a4e3d594d2cc002c980,1,1,1,0,1.0,
+3e2f4f7cc54a562deb969ef19bf30c47941296c6,0,3,0,0,0.0,
+ced26b32e6f995008e88c956b8417e24b199f0ed,0,1,0,0,0.0,
+d05053c4933b29905db32fc40c5d45a2c7d2ef21,1,3,0,0,0.0,build/ThreeDebug.js,alteredq,Mr.doob;build/Three.js,alteredq,Mr.doob;build/ThreeExtras.js,alteredq,Mr.doob;
+0111f5ddbbece29603a7647b90b4a23fe8a0c7ee,0,1,0,0,0.0,
+abfa966fb9dedaf67fb71df7bb0e02334cb13d6f,0,3,0,0,0.0,
+b4a177f3264f33de8a5d8dea16acc42b30ac026c,0,1,0,0,0.0,
+5a6a872e754296577ac7cd7a08785a50c94957c4,0,1,0,0,0.0,
+7f719ec239183054eef2078edd1be366295bb93a,1,3,0,0,0.0,src/renderers/Projector.js,alteredq,Mr.doob;src/core/Matrix4.js,alteredq,Mr.doob;src/core/Matrix3.js,alteredq,Mr.doob;
+cee72056707a0e4553f16cac3865eb57cd02db44,1,3,0,0,0.0,src/renderers/WebGLRenderer.js,alteredq,Szymon Nowak;src/materials/Texture.js,alteredq,Szymon Nowak;build/ThreeExtras.js,alteredq,Szymon Nowak;
+b511fdc38b84701d30ca1774cc9dc953f697c082,0,3,0,0,0.0,
+dad635b64c913aecc4477c7d0f9cdbb19a27722b,0,4,0,0,0.0,
+06a977384de42351b1e5007afc8ebc92ec0cd268,0,1,0,0,0.0,
+91b9539e0201d83c7738280a3e9ad5f8b567043e,0,4,0,0,0.0,
+d14ed35ae575bf0efc7b900b025ade4966ebaa2d,0,3,0,0,0.0,
+3b5450595980526b0b11545a1707a7c2871d03ee,0,3,0,0,0.0,
+39c7e8da5745f435c768b3398fea28581d728fd4,0,3,0,0,0.0,
+8e53294e6240c7e348973a3e45ff12f60bd71780,0,4,0,0,0.0,
+feb349a7947e52ad001b383a47128db96b54ba50,0,3,0,0,0.0,
+508d22f296fbd6fb82affcc1bfcfa14ed2e523fb,1,3,0,0,0.0,build/ThreeDebug.js,alteredq,Mr.doob;build/Three.js,alteredq,Mr.doob;build/ThreeExtras.js,alteredq,Mr.doob;
+e10d8c6680114b8f291c98ec06a6d12382617572,0,1,0,0,0.0,
+774b5e843d4b24e9ef797550938c0d7bdab1ccaf,0,1,0,0,0.0,
+14bccd81ea553130dee7c1a7cf06dd2440023c1e,0,2,0,0,0.0,
+2582c77b468147d4a69a5516018ed9be47b5dfa0,0,2,0,0,0.0,
+b409e5b04ef70ce36dcdcc5c7792eadad3da098b,2,8,0,2,0.0,build/ThreeDebug.js,alteredq,Mr.doob;src/materials/MeshCubeMaterial.js,alteredq,Mr.doob;src/renderers/WebGLRenderer.js,alteredq,Mr.doob;build/Three.js,alteredq,Mr.doob;src/extras/primitives/Cube.js,alteredq,Mr.doob;examples/materials_cubemap.html,alteredq,Mr.doob;
+9cd7308d2b3a2989ea46a8c38fbbb1ce22054ed5,0,3,0,0,0.0,
+19a702241198752bdd0a03e8921b5dfeef2adb1a,0,4,0,0,0.0,
+b6e42d54d939051589d222132414976f86f99e5f,0,2,0,0,0.0,
+b09308c238e716c90abaa8adfd6367f789c4dcc8,0,2,0,0,0.0,
+514a2e613581c2716034a446d64be6cd086dd06d,0,2,0,0,0.0,
+bf6db5a714984f8c403f18388f5e8c1ee04b28e3,1,2,1,0,0.5,src/renderers/Renderer.js,sole,Mr.doob;
+c437ce68fea25e5e2b6c43a04836e80532b1b5d4,2,2,0,0,0.0,build/ThreeDebug.js,alteredq,Mr.doob;build/Three.js,alteredq,Mr.doob;
+f6e829ca21695de1bd1169d87f692413b72f32e1,0,2,0,0,0.0,
+9d2aaf4e4c73d011213fe45cba440c08ca12ffd6,1,2,0,0,0.0,build/ThreeDebug.js,alteredq,Mr.doob;build/Three.js,alteredq,Mr.doob;
+b150a747553ba0b85429f02b784d9bd440b2c6f9,0,2,0,0,0.0,
+69287b8d103122ef7130306f888ad56483481351,1,2,0,0,0.0,src/renderers/Renderer.js,Julian Walker,Mr.doob;src/renderers/WebGLRenderer.js,Julian Walker,Mr.doob;
+79ab4bf2e600694513adabb90f807761d4cdd106,0,9,0,0,0.0,
+4a7082165af96a6d7a00f7aeca413b129560234e,0,4,0,0,0.0,
+ce000d482f5b592ec2a148d8276ba3364d2e0dbb,0,2,0,0,0.0,

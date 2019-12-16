@@ -1,0 +1,84 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+302a6152b4f655bf7f49fe32f5b5676483efb159,1,8,5,0,0.625,test/app.param.js,Douglas Christopher Wilson,Alejandro Estrada;lib/express.js,Douglas Christopher Wilson,Linus Unnebäck;lib/router/index.js,Douglas Christopher Wilson,Andreas Kohn;
+62e12fe7105b552e70f32a9b288dcaf695f04737,1,11,6,0,0.5454545454545454,lib/response.js,Douglas Christopher Wilson,David Wood;lib/router/index.js,Douglas Christopher Wilson,Hrvoje Šimić;test/Router.js,Douglas Christopher Wilson,Hrvoje Šimić;lib/router/route.js,Douglas Christopher Wilson,Hrvoje Šimić;test/app.use.js,Douglas Christopher Wilson,Hrvoje Šimić;
+19c8d64855d83e24164bc83e40ebacc24179f32a,1,2,1,0,0.5,History.md,Mike Tunnicliffe,Douglas Christopher Wilson;
+c319fe260ade6c05321948960cb9185fdbbf2487,1,10,5,0,0.5,lib/middleware/init.js,Douglas Christopher Wilson,asaf david;test/req.acceptsLanguage.js,Douglas Christopher Wilson,Daniel Walasek;test/app.routes.error.js,Douglas Christopher Wilson,Daniel Walasek;lib/application.js,Douglas Christopher Wilson,asaf david;test/req.acceptsEncoding.js,Douglas Christopher Wilson,Daniel Walasek;
+e5dbb0cb4e3a1a8cb7278e889d09156ec34d13e4,1,5,3,0,0.6,test/res.sendFile.js,Douglas Christopher Wilson,chainhelen;lib/router/index.js,Douglas Christopher Wilson,Jianru Lin;
+501e24e0a941fb43b1d0b4a0363386111535cd31,1,9,7,0,0.7777777777777778,lib/router/index.js,Douglas Christopher Wilson,Blake Embrey;lib/router/route.js,Douglas Christopher Wilson,Blake Embrey;
+bcbb9d56c57ab7ad20b3be52fe8191145ab48016,1,4,1,0,0.25,test/req.acceptsLanguage.js,Douglas Christopher Wilson,Vishvajit Pathak;History.md,Mike Tunnicliffe,Douglas Christopher Wilson;test/req.acceptsEncoding.js,Douglas Christopher Wilson,Vishvajit Pathak;
+1dbfee66235c6a4e2f8e440264f71f31ddbe75d4,1,7,4,0,0.5714285714285714,lib/router/index.js,Douglas Christopher Wilson,Ángel Sanz;test/utils.js,Douglas Christopher Wilson,huaoguo;lib/utils.js,Douglas Christopher Wilson,huaoguo;
+7cafdb5824a15a26fe10a3599f26ab84698093d8,1,3,3,0,1.0,
+9848645a8e2d5b3c02d54cab4070d51710603d3e,1,2,2,0,1.0,
+b309b873f115a87c7f8858353ee41087ac3e9269,1,7,7,0,1.0,
+1f906d4ffbb29e66a58564e6cf4e585b625d7593,1,2,2,0,1.0,
+3d2ecdd5fabf697c9e3d212356b557cbba618fe3,1,3,3,0,1.0,
+f90e045334917579fa63ed52aa244e4d86fe012c,1,4,4,0,1.0,
+62d5c385759b090b4d55ff8bd934074a562ae2f7,1,3,2,0,0.6666666666666666,Readme.md,Igor Mozharovsky,Douglas Christopher Wilson;
+40f4ac3cb3d6099444a3c386924966cbbbcfaae5,1,2,1,0,0.5,package.json,Yang Wang,Douglas Christopher Wilson;
+cd6df7699dba2fcdd17dbf15348c001732818eb5,1,3,3,0,1.0,
+f6ec710534e2944cc2c631cf71f63095ff30581c,1,3,3,0,1.0,
+531f024e486c13eb6d7e2bc0966ea95b1567197a,1,8,7,0,0.875,lib/utils.js,Vladimir Grinenko,Douglas Christopher Wilson;
+a9ef9e13fb91152bf4eaa9b8afa69d9b30274c09,1,3,2,0,0.6666666666666666,lib/utils.js,Douglas Christopher Wilson,Vladimir Grinenko;
+c73d7650b5c708ddef110f505adf82fc5f5ab606,1,2,1,0,0.5,History.md,Kevin Shay,Douglas Christopher Wilson;
+8a5ecd3d893482bb04de44368d3b95825ab3de41,1,6,6,0,1.0,
+82689d68cf39226aebf838aecb54e42a4aa4ac18,1,2,2,0,1.0,
+b809498cf8ceb43f64ea3c23e0a266d354d4f37a,1,6,5,0,0.8333333333333334,Readme.md,Nick Mandel,Douglas Christopher Wilson;
+4aa2801054c6142b0d642c98b2af4037522fa9ca,1,6,6,0,1.0,
+e3e41a1118469e300e721983ad5ac5ec47b897d6,1,2,2,0,1.0,
+2262a18900882f0769fe5a35d9e67dc456d68b5f,1,2,2,0,1.0,
+ab6c1895042ef20ca843b8f33a93159b78882352,1,2,1,0,0.5,History.md,Aria Stewart,Douglas Christopher Wilson;
+ccc45a74f89b45a6551bc8ff305581dbc8175bca,1,9,8,0,0.8888888888888888,.npmignore,Douglas Christopher Wilson,Fishrock123;
+2c5ed88c902448489fc9ebcc98bd44c01a280d28,1,2,2,0,1.0,
+6aa4a450ed2eb352266d06306d42be11e545cc60,1,2,2,0,1.0,
+b8c8ecebb710891ae362ab3832ef1f7b85745e3c,1,2,2,0,1.0,
+0300b61fdd767be451b59c8af7ac6923733db084,1,2,2,0,1.0,
+b2518fe1353c89fb3afdfa800202e60d9250297b,1,2,2,0,1.0,
+916a75cf19b49686dc9affc7820536b83947878b,1,3,3,0,1.0,
+3dca534995651a38a784512b0b3132d07a512969,1,3,3,0,1.0,
+a3115882d48181dc09b40c952fd88ca225986f6a,1,2,2,0,1.0,
+20635d03fcc17e7a5533c2714e02fd27a711bb1b,1,2,2,0,1.0,
+7fb7bcc0f7571997cd1752749683073df0403aa6,1,2,2,0,1.0,
+9eafaa23d829910c4bd4824034efc43f76e42559,1,3,3,0,1.0,
+66801323927426a47bf022e9f8ef7e2038f86ecf,1,2,2,0,1.0,
+59cb99e9be8273db7432ba1d505fe8cedd87d3c2,1,3,3,0,1.0,
+e05a52078a3412e4875f90cf5211a9256bc3c8f7,1,2,2,0,1.0,
+cca88a7c47fd15a7df5434bd92e55efa95557138,1,2,2,0,1.0,
+19abf7684bfa9e173660663fb25a96b39e5989dc,1,2,2,0,1.0,
+d8237b976b64e11978b194191ef14f916475144e,1,3,3,0,1.0,
+454c4b2350011bca6374c70d0264fa42a27e1552,1,2,2,0,1.0,
+8e63521f688649219857c958d26076cb9914508d,1,3,3,0,1.0,
+f34944c539f3a8e0f35a7f41011635e40141fc3c,1,6,4,0,0.6666666666666666,Readme.md,Young Jae Sim,Douglas Christopher Wilson;History.md,Ashley Streb,Douglas Christopher Wilson;
+4ea6f21b02fdf290aea723ee42cbb0aab0313b20,1,3,3,0,1.0,
+bcee7303547f894b6cd3529ea5069a07f65f7cc9,1,4,4,0,1.0,
+8a15f83d72b231ff36ae22bfd02ecedb51dc8d6b,1,2,2,0,1.0,
+d91bf81c310898ae4a65dd6a993d7402294a4d87,1,1,1,0,1.0,
+3ffceff3ed356a711fce5fee6ed00a03f43affd8,1,11,10,0,0.9090909090909091,lib/utils.js,刘星,Douglas Christopher Wilson;
+e799c0fb7b313400ab903c0389cd21298e24926f,1,2,2,0,1.0,
+898dcfac8b77a60a4183846f2d54bd5557191089,1,2,2,0,1.0,
+9bf1247716c1f43e2c31c96fc965387abfeae531,1,3,2,0,0.6666666666666666,lib/response.js,Douglas Christopher Wilson,Jonathan Ong;
+402ec83157dbfbafc5ad6f3bca376b250a25b09e,1,5,5,0,1.0,
+db4448dda88f23dccb6f4f6f19481dda0b39e31a,1,18,18,0,1.0,
+3fbab91231ee611a8080abd20267929c3376adeb,1,2,2,0,1.0,
+db4a061ed6244afb2c4aa11244bbf0d694586614,1,9,9,0,1.0,
+097cd0c242debb3c7f369fab68fc8461bd4e891c,1,20,8,0,0.4,test/req.acceptedCharsets.js,Douglas Christopher Wilson,Jonathan Ong;test/req.signedCookies.js,Douglas Christopher Wilson,Jonathan Ong;test/Router.js,Douglas Christopher Wilson,Jonathan Ong;test/res.cookie.js,Douglas Christopher Wilson,Jonathan Ong;test/res.charset.js,Douglas Christopher Wilson,Jonathan Ong;test/app.routes.js,Douglas Christopher Wilson,Jonathan Ong;test/req.accepted.js,Douglas Christopher Wilson,Jonathan Ong;test/req.acceptedEncodings.js,Douglas Christopher Wilson,Jonathan Ong;test/middleware.basic.js,Douglas Christopher Wilson,Jonathan Ong;test/req.param.js,Douglas Christopher Wilson,Jonathan Ong;test/req.auth.js,Douglas Christopher Wilson,Jonathan Ong;test/req.acceptedLanguages.js,Douglas Christopher Wilson,Jonathan Ong;
+35c50601bdd67b54b5e8b7a779d24f6dee54c3fd,1,10,10,0,1.0,
+2901bd6916f90accfcf0f1ae1ae3acf48de61038,1,2,2,0,1.0,
+66b38b58bc17d6b6642ab3e91f12194ed9a27efe,2,1,1,0,1.0,
+8ccceacf91bffc535ef9f05ab2084c7111529896,1,2,2,0,1.0,
+6ac6305b533d3569f91ff411eee5e3c8918a4253,1,5,2,0,0.4,lib/router/index.js,Roman Shtylman,Doug Patti;test/app.options.js,Jonathan Ong,Doug Patti;History.md,Douglas Christopher Wilson,Jonathan Ong;
+26802a689cbd20c9b2c5b7760205a7f57a381e77,0,1,0,0,0.0,
+49abd7bec1cd02ae686ceb7c60c70a23f5ec5399,1,1,1,0,1.0,
+e2ad0d3d6e7cd3d47a81030e01f47d324af4e2bd,0,1,0,0,0.0,
+547d18ce46ec4bc6592b125202984950f769b4db,2,1,0,0,0.0,package.json,Tj Holowaychuk,TJ Holowaychuk;
+8a91749e12c23d1c11bb63b42dfaab01b6920fdc,0,1,0,0,0.0,
+e7c442d21c63369a02818939f63befe3e426dcc8,2,1,0,1,0.0,
+8ef6a0b4326f901d1871f88554bf3de6f0b9d60b,0,1,0,0,0.0,
+cb8e704d5c4a4b5651c47a46d75e92bd05fdf8d5,0,1,0,0,0.0,
+6455e954fcc192cb8467a5c9971a26d6f12cc67a,0,1,0,0,0.0,
+27ff13459fa3eea995003187f2c29295ef9d6d0b,0,3,0,0,0.0,
+cec677062b1bd72a4f660ecd61a5c9ffed76da85,2,1,1,0,1.0,
+ae33e7b673d79c33c5eaee13ed9c1b0e20f8fa55,0,1,0,0,0.0,
+17ab8e81aaf9c7b52bd0d64fa17bfe0127f18180,1,1,0,0,0.0,lib/express/static.js,ciaranj,visionmedia;
+a3acc21c6cc555bc4f348d2218269904e41c03c0,1,5,0,0,0.0,examples/simple.js,csausdev,visionmedia;spec/spec.async.js,csausdev,visionmedia;examples/async.js,csausdev,visionmedia;spec/spec.node.js,csausdev,visionmedia;lib/express.core.js,csausdev,visionmedia;
+9fa5a0bb1162fe1aaa5e1b558ac7a9fef77908bb,2,1,1,0,1.0,
+36fbbeb24477e7957cb29930f2c62661f84c5c33,2,3,3,0,1.0,

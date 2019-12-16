@@ -1,0 +1,164 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+400af1717c52feb7f4c3ab6669b15c75aee2d1f5,0,1,0,0,0.0,
+cc2944c7af72b1d72851236404a24ba1d2f8082a,1,63,10,2,0.15873015873015872,daemon/execdriver/lxc/driver.go,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/process.go,Jessie Frazelle,Tibor Vass;hack/vendor.sh,Michael Crosby,Tibor Vass;vendor/src/github.com/docker/libcontainer/cgroups/fs/cpu.go,Jessie Frazelle,Tibor Vass;hack/install.sh,Jessie Frazelle,Tibor Vass;daemon/graphdriver/aufs/aufs.go,Jessie Frazelle,Arnaud Porterie;daemon/volumes.go,Jessie Frazelle,Tibor Vass;daemon/delete.go,Jessie Frazelle,Tibor Vass;docs/man/docker-create.1.md,Jessie Frazelle,David Calavera;docs/sources/reference/api/docker_remote_api_v1.18.md,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/init_linux.go,Jessie Frazelle,Tibor Vass;docs/man/docker-run.1.md,Jessie Frazelle,Tibor Vass;daemon/networkdriver/portmapper/mapper_test.go,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/update-vendor.sh,Jessie Frazelle,Tibor Vass;daemon/daemon.go,Jessie Frazelle,Tibor Vass;api/client/commands.go,Jessie Frazelle,Arnaud Porterie;docs/sources/reference/builder.md,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/nsinit/README.md,Jessie Frazelle,Tibor Vass;CHANGELOG.md,Michael Crosby,Tibor Vass;docs/Dockerfile,Jessie Frazelle,Tibor Vass;pkg/archive/changes.go,Jessie Frazelle,Tibor Vass;docs/sources/reference/run.md,Jessie Frazelle,Tibor Vass;daemon/container.go,Jessie Frazelle,Tibor Vass;daemon/networkdriver/portallocator/portallocator.go,Jessie Frazelle,Jana Radhakrishnan;api/server/server.go,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/cgroups/fs/memory.go,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/cgroups/systemd/apply_systemd.go,Jessie Frazelle,Tibor Vass;docs/man/docker.1.md,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/rootfs_linux.go,Michael Crosby,Tibor Vass;api/server/server_linux.go,Jessie Frazelle,Antonio Murdaca;pkg/ioutils/readers_test.go,Jessie Frazelle,Tibor Vass;daemon/networkdriver/bridge/driver.go,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/cgroups/fs/devices.go,Jessie Frazelle,Tibor Vass;docs/mkdocs.yml,Jessie Frazelle,Tibor Vass;api/client/utils.go,Jessie Frazelle,Tibor Vass;daemon/networkdriver/portmapper/mapper.go,Jessie Frazelle,Jana Radhakrishnan;registry/auth.go,Jessie Frazelle,Tibor Vass;graph/push.go,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/integration/utils_test.go,Jessie Frazelle,Tibor Vass;integration-cli/docker_cli_run_test.go,Michael Crosby,Tibor Vass;vendor/src/github.com/docker/libcontainer/container_linux.go,Jessie Frazelle,Tibor Vass;graph/graph.go,Jessie Frazelle,Tibor Vass;daemon/config.go,Jessie Frazelle,Tibor Vass;docs/sources/release-notes.md,Jessie Frazelle,David Calavera;daemon/graphdriver/driver.go,Jessie Frazelle,Tibor Vass;VERSION,Michael Crosby,Jessie Frazelle;daemon/execdriver/native/driver.go,Jessie Frazelle,Tibor Vass;vendor/src/github.com/docker/libcontainer/integration/exec_test.go,Jessie Frazelle,Tibor Vass;docs/sources/installation/windows.md,Jessie Frazelle,Tibor Vass;integration-cli/docker_cli_build_test.go,Jessie Frazelle,David Calavera;daemon/logger/syslog/syslog.go,Jessie Frazelle,Tibor Vass;
+81b46914067b563816fca07813716717a01b4d02,1,45,20,0,0.4444444444444444,docs/sources/articles/https.md,Arnaud Porterie,Jessie Frazelle;docs/sources/userguide/dockerlinks.md,Arnaud Porterie,Casey Bisson;docs/theme/mkdocs/img/footer/sprites-small_360.png,Arnaud Porterie,James Turnbull;docs/sources/installation/centos.md,Arnaud Porterie,Doug Davis;integration/commands_test.go,Arnaud Porterie,Jessie Frazelle;docs/sources/articles/https/Makefile,Arnaud Porterie,Jessie Frazelle;docs/release.sh,Arnaud Porterie,moxiegirl;registry/session_v2.go,Arnaud Porterie,Jessie Frazelle;graph/manifest_test.go,Arnaud Porterie,Casey Bisson;graph/push.go,Arnaud Porterie,Jessie Frazelle;docs/theme/mkdocs/css/main.css,Arnaud Porterie,James Turnbull;graph/manifest.go,Arnaud Porterie,moxiegirl;docs/theme/mkdocs/toc.html,Arnaud Porterie,James Turnbull;docs/theme/mkdocs/css/docs.css,Arnaud Porterie,James Turnbull;api/client/commands.go,Arnaud Porterie,Jessie Frazelle;docs/mkdocs-swarm.yml,Arnaud Porterie,James Turnbull;docs/theme/mkdocs/nav.html,Arnaud Porterie,James Turnbull;docs/theme/mkdocs/js/base.js,Arnaud Porterie,James Turnbull;MAINTAINERS,Arnaud Porterie,Casey Bisson;docs/theme/mkdocs/header.html,Arnaud Porterie,James Turnbull;graph/pull.go,Arnaud Porterie,Jessie Frazelle;contrib/completion/fish/docker.fish,Arnaud Porterie,moxiegirl;integration-cli/docker_cli_daemon_test.go,Arnaud Porterie,Jessie Frazelle;VERSION,Arnaud Porterie,moxiegirl;docs/sources/contributing/devenvironment.md,Arnaud Porterie,Casey Bisson;
+a71d89d041d7853698c84ccf233f477383a9dcb3,0,1,0,0,0.0,
+cb2280c98e3a2aa389b64adcafb30a446e2b6d24,0,1,0,0,0.0,
+171cf3d4d3bf6cd180a44b650ba10e4bb6ffee24,1,1,0,0,0.0,VERSION,Fred Lifton,Michael Crosby;
+debf60b4665dc2bc7f11cad5a996a5fa05fe2112,1,26,0,0,0.0,builder/internals.go,Tibor Vass,Jessie Frazelle;daemon/graphdriver/aufs/aufs.go,Tibor Vass,Tianon Gravi;daemon/volumes.go,Tibor Vass,Michael Crosby;docs/sources/reference/commandline/cli.md,Tibor Vass,Vincent Batts;runconfig/parse.go,Tibor Vass,Tianon Gravi;integration-cli/docker_test_vars.go,Tibor Vass,Michael Crosby;registry/registry.go,Tibor Vass,Jessie Frazelle;daemon/execdriver/lxc/init.go,Tibor Vass,Vincent Batts;integration-cli/docker_cli_ps_test.go,Tibor Vass,Victor Vieux;docker/daemon.go,Tibor Vass,Jessie Frazelle;integration-cli/docker_cli_run_test.go,Tibor Vass,Vincent Batts;pkg/archive/diff.go,Tibor Vass,Jessie Frazelle;docs/sources/index.md,Tibor Vass,Vincent Batts;pkg/archive/archive_test.go,Tibor Vass,Vincent Batts;CHANGELOG.md,Tibor Vass,Jessie Frazelle;integration-cli/docker_cli_start_test.go,Tibor Vass,Michael Crosby;integration/runtime_test.go,Tibor Vass,Jessie Frazelle;integration-cli/docker_cli_cp_test.go,Tibor Vass,Vincent Batts;daemon/config.go,Tibor Vass,Vincent Batts;docs/sources/release-notes.md,Tibor Vass,Jessie Frazelle;graph/pull.go,Tibor Vass,Jessie Frazelle;integration-cli/docker_cli_daemon_test.go,Tibor Vass,Jessie Frazelle;VERSION,Tibor Vass,Jessie Frazelle;api/server/server.go,Tibor Vass,Vincent Batts;integration-cli/docker_cli_build_test.go,Tibor Vass,Jessie Frazelle;graph/load.go,Tibor Vass,Jessie Frazelle;
+dd5657ffd1a60fe89d57f585454a91823b2da516,0,1,0,0,0.0,
+380129d0d7e9b2dbec27aef7186ce5eddd3a3076,1,3,0,0,0.0,daemon/daemon.go,Victor Vieux,Vincent Batts;VERSION,Victor Vieux,James Turnbull;daemon/container.go,Victor Vieux,James Turnbull;
+c1ee94a343850b0d726b3c6beb6054957068805f,1,1,1,0,1.0,
+3afb89da48ee7e6e917d852416d434de9e078306,1,2,0,0,0.0,VERSION,Solomon Hykes,Victor Vieux;integration-cli/docker_cli_build_test.go,Tibor Vass,Victor Vieux;
+75b3b382ca182bf9386bc03726b4edfa41f044e8,0,1,0,0,0.0,
+c44c51e3ce1680ec2a74fc62f246490f61d7590c,0,2,0,0,0.0,
+813cebc64fb4b628e2938405d86144060c330eb9,1,2,0,2,0.0,
+6e7a93628b924d176a9caa1164db7a1526dbe573,1,2,0,0,0.0,runtime/execdriver/lxc/lxc_template.go,Michael Crosby,Dan Walsh;pkg/selinux/selinux.go,Sven Dowideit,Dan Walsh;
+eab56ac007b263708b5526609c8be2bc19881467,1,11,0,0,0.0,runconfig/parse.go,Michael Crosby,unclejack;runtime/execdriver/lxc/lxc_template.go,Michael Crosby,unclejack;pkg/libcontainer/nsinit/mount.go,Michael Crosby,unclejack;pkg/cgroups/cgroups.go,Michael Crosby,unclejack;runtime/execdriver/driver.go,Michael Crosby,unclejack;pkg/libcontainer/nsinit/exec.go,Michael Crosby,unclejack;pkg/libcontainer/nsinit/init.go,Michael Crosby,unclejack;runconfig/hostconfig.go,Michael Crosby,unclejack;runtime/execdriver/native/driver.go,Michael Crosby,unclejack;runtime/execdriver/native/default_template.go,Michael Crosby,unclejack;runtime/execdriver/lxc/lxc_template_unit_test.go,Michael Crosby,unclejack;
+12687b7c10b6bb7e2a278ba6d1a323fe5e5f81d7,0,5,0,0,0.0,
+bb43761940848650c1eab3c097d826892bd5b140,1,2,0,1,0.0,archive/archive.go,Guillaume J. Charmes,Andy Rothfusz;
+ce08083f9cd23e8f5e44228b0b73884bcf2f3562,1,1,0,1,0.0,
+27a43692c2b114ed9b6418e75d16cbb2e6c7a993,1,1,1,0,1.0,
+dce7b6a69c42fb64a99f873a5f7568799228c1e5,0,1,0,0,0.0,
+b881a6c3c2e73f2fd342975239331004f0b59e12,1,1,0,0,0.0,integration/runtime_test.go,Victor Vieux,Michael Crosby;
+51d280f944eab386ecd67acd6a1878de7b45c8d6,1,2,0,1,0.0,server.go,Victor Vieux,unclejack;
+4c1879f919689cd884848f3c2269df942a5788cf,0,1,0,0,0.0,
+3ef777ecbe439b8079715b5879f067b95e31c31b,1,2,0,0,0.0,hack/make/ubuntu,Tianon Gravi,Michael Crosby;VERSION,Tianon Gravi,Michael Crosby;
+de090116ddf400d5ab8375ed43c9c8d22ec0053f,1,1,1,0,1.0,
+0bfa22124e87197be8ce47cee4e998eb9d6891b5,1,1,0,0,0.0,docs/sources/examples/postgresql_service.rst,Solomon Hykes,James Turnbull;
+8f382aaecd223210099883bb66d4beb2e1288e10,1,1,0,0,0.0,CONTRIBUTING.md,Michael Crosby,Nick Stinemates;
+4e030c78d21f01c3b15e0f360ab7ffcf53918bea,1,1,1,0,1.0,
+0c758e93127d5575caa7042d01804f77b9f76b0c,1,1,0,0,0.0,commands.go,Guillaume J. Charmes,Michael Crosby;
+19df6c32c03a649795415bcdf2fd062715557be1,1,1,0,0,0.0,image.go,Guillaume J. Charmes,Solomon Hykes;
+0cecc2a78c246a5b809954059650a4c22442e0d6,1,2,2,0,1.0,
+2382a0f920f7473b2b2762d886470a417a5dbac7,1,1,0,0,0.0,server.go,Victor Vieux,Guillaume J. Charmes;
+cd022376b8eda39ac23debc6b52fee46e08fcfdb,0,1,0,0,0.0,
+28d4cbbc59e419f00c1ad75991b106241933ca5d,1,8,1,3,0.125,runtime.go,Victor Vieux,Michael Crosby;graph.go,Guillaume J. Charmes,Michael Crosby;image.go,Guillaume J. Charmes,Michael Crosby;graph_test.go,Guillaume J. Charmes,Andy Rothfusz;
+7cf60da38880534d76d031c4646fbd469d922385,1,2,0,0,0.0,utils.go,Solomon Hykes,Michael Crosby;utils_test.go,Solomon Hykes,Michael Crosby;
+eace2dbe1d49ad6a990f5b42f092d3f4d77bf225,1,1,0,0,0.0,archive/changes.go,Guillaume J. Charmes,Alexander Larsson;
+6c4393ccbbec0fa66f9fc7e326b5a2809615c3a1,0,4,0,0,0.0,
+b314f19db8f2180292691f20f28783042b80495e,0,1,0,0,0.0,
+4c7d24bc8b4bf436ba72d98089767e72a8f3f960,0,1,0,0,0.0,
+34d294c4615855dca1ff2399f9bed63885b33786,1,1,1,0,1.0,
+165d1bdbc0c4236df9afe85d9cd8b1e65d625865,1,2,0,0,0.0,container.go,Solomon Hykes,Michael Crosby;runtime.go,Solomon Hykes,Michael Crosby;
+98c3693acf2db18c0d0c6211498bf6e1d8f068c6,1,3,0,0,0.0,runtime.go,Solomon Hykes,Michael Crosby;graph.go,Solomon Hykes,Michael Crosby;graph_test.go,Solomon Hykes,Michael Crosby;
+36c7a7ae943220ffb1bea9cd47d2f586db00eab2,1,14,0,0,0.0,hack/PACKAGERS.md,Victor Vieux,Guillaume J. Charmes;server.go,Solomon Hykes,Guillaume J. Charmes;runtime_test.go,Victor Vieux,Guillaume J. Charmes;hack/make.sh,Michael Crosby,Guillaume J. Charmes;buildfile.go,Solomon Hykes,Guillaume J. Charmes;Dockerfile,Michael Crosby,Guillaume J. Charmes;container.go,Solomon Hykes,Guillaume J. Charmes;runtime.go,Victor Vieux,Guillaume J. Charmes;utils.go,Victor Vieux,Guillaume J. Charmes;docker/docker.go,Victor Vieux,Guillaume J. Charmes;image.go,Solomon Hykes,Guillaume J. Charmes;commands.go,Solomon Hykes,Guillaume J. Charmes;hack/make/binary,Michael Crosby,Guillaume J. Charmes;hack/make/test,Michael Crosby,Guillaume J. Charmes;
+b543516556bc71663e1db16c026eda378816548a,0,1,0,0,0.0,
+d5b32996733a764ffa58f8eb8e512d9dc244c549,1,1,1,0,1.0,
+27140018c55021e3eeb37337ea1cf40862b8bf6a,1,8,0,0,0.0,Dockerfile,Guillaume J. Charmes,Michael Crosby;runtime.go,Guillaume J. Charmes,Victor Vieux;utils.go,Guillaume J. Charmes,Alexander Larsson;docker-init/docker-init.go,Guillaume J. Charmes,Alexander Larsson;runtime_test.go,Guillaume J. Charmes,Victor Vieux;hack/make.sh,Guillaume J. Charmes,Michael Crosby;hack/make/binary,Guillaume J. Charmes,Michael Crosby;hack/make/test,Guillaume J. Charmes,Michael Crosby;
+e9ee860c91b6e9cdcafc03cff9941affb6341a0d,1,6,0,0,0.0,Dockerfile,Solomon Hykes,Michael Crosby;utils/utils.go,Solomon Hykes,Jérôme Petazzoni;container.go,Guillaume J. Charmes,Jérôme Petazzoni;runtime_test.go,Solomon Hykes,Andy Rothfusz;buildfile.go,Guillaume J. Charmes,Michael Crosby;hack/make/test,Solomon Hykes,Michael Crosby;
+43fd85eb8f1a3eb8f6dcf9dba818fdcc4602e47e,0,1,0,0,0.0,
+73545199a8e84ebc7e44bf2595c7f7b0e20f04a1,1,1,0,1,0.0,
+d3505d836ac98a95b2129206844b6e4d6ad24927,1,1,0,0,0.0,devmapper/deviceset_devmapper.go,Solomon Hykes,Alexander Larsson;
+fdba1aeed8c80b3c2f8cd14c3b393581e7ef99a8,1,1,1,0,1.0,
+1804fcba93368b4e115f607e060eb345b0594e62,1,4,0,0,0.0,hack/PACKAGERS.md,Solomon Hykes,Tianon Gravi;utils/utils.go,Michael Crosby,Guillaume J. Charmes;mount.go,Michael Crosby,Victor Vieux;runtime_test.go,Solomon Hykes,Victor Vieux;
+1781b18deb0e9e0aab1805c4a35f3e952b082894,1,1,1,0,1.0,
+ea5b19cc01134531daf3da982e03b1ab4c27a813,1,12,1,0,0.08333333333333333,Dockerfile,Michael Crosby,Guillaume J. Charmes;utils/utils.go,Michael Crosby,Guillaume J. Charmes;runtime.go,Michael Crosby,Victor Vieux;utils.go,Michael Crosby,Alexander Larsson;docker/docker.go,Michael Crosby,Guillaume J. Charmes;server.go,Michael Crosby,Guillaume J. Charmes;runtime_test.go,Michael Crosby,Victor Vieux;utils_test.go,Michael Crosby,Victor Vieux;hack/make.sh,Michael Crosby,Tianon Gravi;hack/make/binary,Michael Crosby,Tianon Gravi;hack/make/test,Michael Crosby,Victor Vieux;
+deb05a36e8cb0361c7900b128e594cd6db06ba73,1,1,0,0,0.0,devmapper/deviceset_devmapper.go,Victor Vieux,Alexander Larsson;
+462ac1efcfbbe32a57f1178b28d0bc1733b86675,0,1,0,0,0.0,
+d70cbbf1fc33f2291a686537ba5b57913809e586,1,1,1,0,1.0,
+07324a37eb7cc6daf32e47a85aedaa03b07586b5,1,1,0,0,0.0,api.go,David Sissitka,Michael Crosby;
+bd847f66c635380096b19c41c4a3536dff4199e1,1,1,1,0,1.0,
+99a83068987d6d0e23d7353eac8893c2594b6c14,1,1,0,0,0.0,VERSION,Andy Rothfusz,Michael Crosby;
+f69c4652314064a2e676220ef8e137e8499ce3b8,1,1,0,0,0.0,docs/sources/use/builder.rst,Victor Vieux,Andy Rothfusz;
+4947e32acb46051297a886c8cd2ff92a05283ab5,1,3,1,0,0.3333333333333333,network.go,Guillaume J. Charmes,Michael Crosby;api.go,Guillaume J. Charmes,Michael Crosby;
+f127c471a15050814f8d5b97b7a768f58756afff,0,1,0,0,0.0,
+b8f8f9d07e7142b56ddcb05d1b8c8322d1114436,1,3,2,0,0.6666666666666666,CHANGELOG.md,Sam Alba,Michael Crosby;
+4249867e5bf01657b22be78141fa933ea6a036f0,1,1,0,0,0.0,server_test.go,Victor Vieux,Michael Crosby;
+e2ca600fd8d56ed31c1e7937552173659217ab45,0,1,0,0,0.0,
+7c03bd1e7a8c62fcbcfeaf7d11809098fb347164,0,1,0,0,0.0,
+946bbee39a33b229b9da39e0f2062d43dde8dcee,1,3,3,0,1.0,
+a97cf23355e661d0336a71b5225ad463efa41297,1,1,1,0,1.0,
+108635582f410c4c767f0e49f4b772a9208e12da,1,3,2,0,0.6666666666666666,docs/sources/commandline/command/build.rst,Victor Vieux,Daniel Mizyrycki;
+6166380d76ad49b0a077569466b29b5352df9105,1,1,1,0,1.0,
+e1fa989ec9a2355da2a87707f4909647b69831b3,1,1,1,0,1.0,
+066873ebd25728fe702fc4b13ed12b5c8be15b97,1,1,1,0,1.0,
+ca39f15fa3285e86660cc66d2c3e446e12c9ce86,1,3,3,0,1.0,
+4bc3328e807802d77c1cdb1381d5dadf44daa6db,1,1,1,0,1.0,
+c81662eae473e2b35e4e449be18cc6dfda07e4ec,1,1,0,0,0.0,docs/sources/api/docker_remote_api.rst,Victor Vieux,Guillaume J. Charmes;
+2e0e455fa696db7a16a08b6c7dd2def7c5ff837f,1,1,0,0,0.0,utils_test.go,Solomon Hykes,Victor Vieux;
+e9011122fbc4c65afe235a75ca8197ce4fd23753,1,1,0,0,0.0,utils/utils.go,Victor Vieux,Andy Rothfusz;
+bf7d6cbb4af2e7176c66d2ad74515699b7898fea,1,1,0,0,0.0,container.go,Victor Vieux,Sam Alba;
+be49f0a1182164d0d279484ec35931c1e3ef6d3c,0,2,0,0,0.0,
+96ab3c540d5f9f8509380f50e790b184beb2be6b,2,2,2,0,1.0,
+55b5889a0fa74db30e6a07f84b02e22ea41c3e19,1,1,1,0,1.0,
+3b5ad44647bf4033502594a4048bffea656b2a08,1,1,1,0,1.0,
+893c974b08b8859a4d6d3d7d38d9c21c9b6472c3,0,2,0,0,0.0,
+352991bdf4c0a7702fcc791b961a516fb684f4c1,1,3,0,0,0.0,buildfile_test.go,Guillaume J. Charmes,Solomon Hykes;commands.go,Guillaume J. Charmes,Solomon Hykes;api.go,Guillaume J. Charmes,Solomon Hykes;
+c1a5318d8eb58d58aa7de2cf1d73f6612665d242,2,1,1,0,1.0,
+86e83186b5826e9ff4b11d3425a31a72a7535ea0,1,1,1,0,1.0,
+e43323221b15d90956a200754bbf3e1d92d7bb1c,0,3,0,0,0.0,
+659e8460060d2216329d874cf6617fc24ec479fd,1,1,1,0,1.0,
+5f93aa0ecf26699d0e905811d9125081811093b7,1,1,0,0,0.0,server.go,Victor Vieux,Solomon Hykes;
+b368d21568ae12f7a7b7fe5e0afd0460e2057d78,1,1,0,0,0.0,archive.go,Solomon Hykes,Victor Vieux;
+c063fc02387b232bff4720a7c8aab5f799f4a073,1,1,1,0,1.0,
+34a434616a7056a89328348ce3f92afd2730c777,1,1,0,0,0.0,buildfile.go,Guillaume J. Charmes,Solomon Hykes;
+555552340dd07eb446e54011071a621430fd83a0,0,1,0,0,0.0,
+79b3265ef1f654181db4a1a85154f9735a0fac6e,0,1,0,0,0.0,
+78f86ea502694bf5dbc947802ebc0f5e5426d15c,1,1,0,0,0.0,utils/utils.go,Guillaume J. Charmes,Solomon Hykes;
+250e47e2eb12015fd436a9b695c50cc2fbfb3fdc,1,2,2,0,1.0,
+abf85b25085b52e19f774dc30bd87527b3295f2a,0,1,0,0,0.0,
+78e4a385f77c33933afc47c8b3f4436ce648eb54,1,1,0,0,0.0,server.go,shin-,Guillaume J. Charmes;
+4b4918f2a78c129c4ca745147fd38f985d2635c2,1,3,3,0,1.0,
+c46382ba29c82eedab2b1601da5a81a047f078c2,1,1,1,0,1.0,
+f2383151cbcc727450f87cb80a392e2858d4b0ca,1,1,0,0,0.0,docs/sources/api/docker_remote_api.rst,Victor Vieux,Guillaume J. Charmes;
+20bf0e00e81fdff34c821fd880a92e822fb5ba15,0,2,0,0,0.0,
+66d9a733622ba9a8f9671bac7d33776981672940,1,2,0,0,0.0,server.go,Victor Vieux,Andy Rothfusz;api_params.go,Victor Vieux,Guillaume J. Charmes;
+bf63cb904592e1ca73aa3990c08ea0b752fec14d,1,2,1,0,0.5,commands.go,Victor Vieux,Solomon Hykes;
+ce0041832c95f9a1d4ea407c3a3c78d8ae08df61,1,1,0,0,0.0,docs/sources/api/docker_remote_api.rst,Victor Vieux,Solomon Hykes;
+c906239220c7ba06b8615f001fab2f42fb063aeb,1,2,0,0,0.0,api.go,Victor Vieux,Solomon Hykes;api_test.go,Victor Vieux,Solomon Hykes;
+b4682e6707301b650f041b877db0ea0053a9b340,1,2,0,0,0.0,utils/utils.go,Victor Vieux,Solomon Hykes;server.go,Victor Vieux,Solomon Hykes;
+b6825f98c04f5d42efa4d7c177d66466ad404f4f,1,1,0,0,0.0,registry/registry.go,Victor Vieux,Sam Alba;
+7e59b83053bceb683a198786290bc61da81581be,1,1,0,0,0.0,commands.go,Victor Vieux,Guillaume J. Charmes;
+ca902b6be4cb04f3f885af750609f74effd75d3d,1,1,0,0,0.0,api.go,Victor Vieux,Solomon Hykes;
+62c78696cda5660524dee596a07aac66d89437af,1,4,0,0,0.0,server.go,Victor Vieux,Solomon Hykes;runtime_test.go,Victor Vieux,Solomon Hykes;api.go,Victor Vieux,Solomon Hykes;buildfile.go,Victor Vieux,Solomon Hykes;
+3afdd82e426c70c919d902eec5ec50d488c837fa,1,1,0,0,0.0,commands.go,Victor Vieux,Solomon Hykes;
+bd38b47552ac0f4a2122979598b002ec31707e27,1,1,0,0,0.0,commands.go,Victor Vieux,Solomon Hykes;
+cd002a4d162aa273cd9e646e6fd124ef2b6f6944,1,1,0,0,0.0,server.go,Victor Vieux,Solomon Hykes;
+f339fc2eb921986749a628b92d2c9f2ecf47e3c2,1,3,0,0,0.0,utils/utils.go,Victor Vieux,Solomon Hykes;server.go,Victor Vieux,Solomon Hykes;api.go,Victor Vieux,Solomon Hykes;
+ea9095c5626077c198e3fdbb480d6205851f027b,1,1,0,0,0.0,api.go,Victor Vieux,Solomon Hykes;
+dce82bc85615ca09c999bc2186c2c9caf348dc33,1,1,0,0,0.0,server.go,Guillaume J. Charmes,Andy Rothfusz;
+ffd9e06deb9d222ac5e1f63734211c0503213e06,1,1,1,0,1.0,
+3d1bc2660c626d755582929b2e6229bfa8b625aa,1,1,0,0,0.0,commands.go,Victor Vieux,Guillaume J. Charmes;
+d7b01c049d7f965b972603bc038922342fc67d68,1,1,1,0,1.0,
+9ebfcc9a152b9e00b166a0d4fb385b61e8330607,1,1,0,0,0.0,commands.go,Victor Vieux,Guillaume J. Charmes;
+b4198de6bfb122ca2654a500a0b7bedb5e94badc,0,1,0,0,0.0,
+6fce89e60b71ee2306d66003697b6c746c456250,1,5,0,0,0.0,utils.go,Victor Vieux,Guillaume J. Charmes;image.go,Victor Vieux,Thatcher;server.go,Victor Vieux,Guillaume J. Charmes;commands.go,Victor Vieux,Guillaume J. Charmes;api_params.go,Victor Vieux,Guillaume J. Charmes;
+0d2fb295375ce74764b8d4cb2b03c19cd4e01cb4,1,2,2,0,1.0,
+372d81c32593da877685851b9cb85c688c59b998,1,1,0,0,0.0,commands.go,Guillaume J. Charmes,Ken Cochrane;
+b5831eda1e3c61567b63362b8bf09ea0a2c45ba6,0,1,0,0,0.0,
+fc29f01528ef99b88734bee252cc0af05675885e,1,1,0,0,0.0,commands.go,Victor Vieux,Guillaume J. Charmes;
+59a6316f5e0810009f5986d62f1707f8d0a6650e,0,2,0,0,0.0,
+10c0e990371e065d4fc1c9b680f03a46e5bacc5e,1,3,0,0,0.0,utils.go,Victor Vieux,Guillaume J. Charmes;commands.go,Victor Vieux,Guillaume J. Charmes;docs/sources/index.rst,Victor Vieux,Guillaume J. Charmes;
+6f9b574f25e8fca5e4a28a35b71e4755a424bed8,1,1,0,0,0.0,commands.go,Victor Vieux,Solomon Hykes;
+4f0bda2dd5cfe382f7fd9cfb9f5522f42377673b,1,4,0,0,0.0,container.go,Victor Vieux,Thatcher Peskens;utils.go,Victor Vieux,Guillaume J. Charmes;docker/docker.go,Victor Vieux,Solomon Hykes;commands.go,Victor Vieux,Solomon Hykes;
+22f5e35579c5cc4bbe191b92517d67a3ae88c2a3,2,1,1,0,1.0,
+5a5e417d46fe0bcac974e7180f50b0c59a8ec320,0,6,0,0,0.0,
+15c3096e8942ac31eb5611b41d08fcc31061be65,1,2,2,0,1.0,
+35c68944c7a5c7b7778c6cdb54b149e22c4c0c64,0,1,0,0,0.0,
+65aa3dda852115dae2501d65e2f4154c5a6ccf63,0,1,0,0,0.0,
+c937e237ad0625fc0ae8049e745bf599c27b0af8,1,1,0,0,0.0,docker/docker.go,Solomon Hykes,Guillaume J. Charmes;
+48a208baf197c035c59ecd44d285fb3640107233,0,1,0,0,0.0,
+09910785c80822fad71127db4ec30b3de8c27f08,0,1,0,0,0.0,
+d8dc6d4583a8bbe24c889f3a7dff749e4721fe2d,1,1,0,0,0.0,.gitignore,Charles Hooper,Mikhail Sobolev;
+2b090320beae64e1bf15102da5dfe96937a21a77,1,1,0,0,0.0,puppet/modules/docker/manifests/init.pp,Charles Hooper,Solomon Hykes;
+195208593d842b2a38d7ff7161b5897b4adaea42,0,1,0,0,0.0,
+53641e8b8df0373a1b53ec9b9d83e519344491e8,0,1,0,0,0.0,
+bea7894166ad879a290650f8fa1ab06f9ca3cdb5,0,1,0,0,0.0,
+eef9659c958cc5afa50fbcbe7952eec98a299753,0,1,0,0,0.0,
+b6b5e5cec1fc58550286a7242db4a91bb43c05aa,2,1,1,0,1.0,
+ad293056302eb3a3cf00cbbfb1fb6efe68fec6a2,1,5,1,0,0.2,deb/debian/copyright,Solomon Hykes,Daniel Mizyrycki;Makefile,Solomon Hykes,Daniel Mizyrycki;deb/debian/control,Solomon Hykes,Daniel Mizyrycki;deb/debian/changelog,Solomon Hykes,Daniel Mizyrycki;
+bb5b7897a419ce49ce4600bcc24ec28d1af8c923,1,1,0,0,0.0,.gitignore,Solomon Hykes,creack;
+18519f12ae15bee72126bc974ab41f3fb480655d,0,1,0,0,0.0,
+68e173ad5095f6a67af7c27d2ad7d5cc535b4062,0,1,0,0,0.0,
+89245360e89d725f7c7487dc8cf35836a12eabb8,1,1,1,0,1.0,
+fae8284b16de078c81a9085338934c546079081b,1,2,0,0,0.0,server/server.go,Charles Hooper,Solomon Hykes;image/image.go,Charles Hooper,Solomon Hykes;
+86854ffbc5423597d11932eb904cb6fe7dedcac9,0,1,0,0,0.0,
+070bc0bb6d316a2a023161a19cba667831a26698,0,1,0,0,0.0,
+150a4fe7e5aaa5d733130e22eac09cb36ffadd82,0,2,0,0,0.0,
+2441edf1a39ad75708292bcc2726184b16fb89b2,1,6,0,0,0.0,future/future.go,shin-,Solomon Hykes;container.go,shin-,Solomon Hykes;fs/layers.go,shin-,Solomon Hykes;docker.go,shin-,Solomon Hykes;fake/fake.go,shin-,Solomon Hykes;image/image.go,shin-,Solomon Hykes;
+97a8209438dcc60395b244c14f4efced583eb364,1,6,0,1,0.0,container.go,shin-,Solomon Hykes;server/server.go,shin-,Solomon Hykes;docker.go,shin-,Solomon Hykes;filesystem.go,shin-,Andrea Luzzardi;fake/fake.go,shin-,Andrea Luzzardi;
+c7f4602b184ec2cab594dfeaf73bed09aa39a749,0,1,0,0,0.0,
+cb6014d6fdfc0770523ea05ee257f00c3758874a,0,1,0,0,0.0,
+ec21a2d364573fd65086e607d23178e7d6091a9b,0,1,0,0,0.0,
+2cb444248db185a7d332434d53605e289962af0c,0,1,0,0,0.0,

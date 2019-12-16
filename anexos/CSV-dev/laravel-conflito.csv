@@ -1,0 +1,87 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+7e6af5c031988e7a7c576c6bbbd1747ddfe548cc,1,1,1,0,1.0,
+4b78ba61eac32cefa41da09149e0500e23cb06ec,1,1,0,0,0.0,resources/sass/app.scss,Taylor Otwell,Dries Vints;
+cfd5929785845000f26db851b94675d6154737b9,1,1,0,0,0.0,composer.json,Dries Vints,Taylor Otwell;
+0629a067a84a5f2c9a2d952e1231873ecac9d5c2,1,1,0,0,0.0,CHANGELOG.md,Taylor Otwell,Dries Vints;
+3c53897ee4e7eca8f8508ff9bd10e221234efadb,1,1,0,0,0.0,database/factories/UserFactory.php,Taylor Otwell,Dries Vints;
+4070dc98d434ccabc73879b53ce9b4b008b6ad7a,1,2,2,0,1.0,
+0c627804026968fb52bc5fd66d3e03de06bfb4f7,1,1,0,0,0.0,package.json,Graham Campbell,Taylor Otwell;
+5c38dee39e1061517d9cc2cc231a3d092cd31296,2,1,1,0,1.0,
+be6d4f2ec5a2da27ef308fcc23054bf05a22ce8b,1,1,1,0,1.0,
+a6c68c24c9938beef0128c3288502b8fbdf8e93d,1,1,1,0,1.0,
+11dfcf6d1a72532f288945c9ebbfef6eb5981adb,0,1,0,0,0.0,
+4696e7bcb61422e28f6c6889c604d66fa6a76dc6,1,1,1,0,1.0,
+36875bb98ea5bb2bbdb70a32147b8d864dbb0b00,0,1,0,0,0.0,
+6f6851946b359c4867c98d662c8dd473a6ecaac6,1,2,2,0,1.0,
+89a43434e77aecb7fc94119f6fae7216296b0155,0,1,0,0,0.0,
+4c2e1ed7dbe6e1686aeaf83c969d89bc0c428a98,0,1,0,0,0.0,
+64ae3d5a7e98111c1b75b3322ea0a9ec6bf55dfc,2,1,1,0,1.0,
+196c2675626ba1ac1ca8381af8d4f8cffebc8e3a,0,1,0,0,0.0,
+054bb0405669153b6156f83f8e321f1d11e03a0e,2,1,1,0,1.0,
+e72d4a86e82e6612701289566db985baabeac6c4,1,2,1,0,0.5,app/User.php,Taylor Otwell,Graham Campbell;
+d72e3f3af558acc00448273b5bf18469af975c4d,1,1,1,0,1.0,
+48fb9517d2a1d52e19ffe5988a02b056b4dba2cd,1,1,0,0,0.0,config/database.php,Graham Campbell,Taylor Otwell;
+a690bb755265ab3c7054bd62c68f960cfed2cbdd,1,2,0,0,0.0,app/Http/Middleware/Authenticate.php,Taylor Otwell,Graham Campbell;app/Http/Middleware/RedirectIfAuthenticated.php,Taylor Otwell,Graham Campbell;
+1aefbc9a54d62e941bda6d5eac7de2a0bd16e6c1,1,1,0,0,0.0,config/mail.php,Graham Campbell,Taylor Otwell;
+c131299976f322015988cea27ec05193324b8748,0,1,0,0,0.0,
+ff441abd622893752ffc1ba58ce64200606d07ff,1,3,3,0,1.0,
+3b7e6dcdca9c686db6812cf7a1c778fb67b7cea0,1,4,4,0,1.0,
+5644e8e320e63fe5463a6fb0f78fae3c4df633c7,1,1,1,0,1.0,
+5e71cc5232dc7235c609ff526bf8e06991932416,0,1,0,0,0.0,
+338f5f1cce65137f35ceed176a26355dcb9cf575,0,5,0,0,0.0,
+cb484a9d470b1d2919635d7c653606b589782aba,1,2,1,1,0.5,
+7a5bf6f554510fb8d1a5ddbc51ae43f0c285d4f0,1,5,0,0,0.0,resources/assets/sass/app.scss,Taylor Otwell,Jeffrey Way;resources/assets/sass/pages/_welcome.scss,Taylor Otwell,Jeffrey Way;public/css/app.css,Taylor Otwell,Jeffrey Way;resources/views/layouts/app.blade.php,Taylor Otwell,Jeffrey Way;resources/views/welcome.blade.php,Taylor Otwell,Jeffrey Way;
+163e51640eae47b20ba3f1adc90b902a2950dff6,0,1,0,0,0.0,
+9b00554990f643fbc8b68272f6031db879516253,1,1,1,0,1.0,
+3053d486e64238b3698c14179f9881a55f9ac08b,0,1,0,0,0.0,
+075e5e93f094f47685260f2d2b270b609816df6b,1,76,43,0,0.5657894736842105,paths.php,Taylor Otwell,尘缘;laravel/documentation/database/fluent.md,Taylor Otwell,尘缘;laravel/profiling/profiler.php,Taylor Otwell,尘缘;application/routes.php,Taylor Otwell,尘缘;laravel/cache/drivers/file.php,Taylor Otwell,尘缘;laravel/form.php,Taylor Otwell,尘缘;laravel/error.php,Taylor Otwell,尘缘;laravel/documentation/controllers.md,Taylor Otwell,尘缘;laravel/cookie.php,Taylor Otwell,尘缘;laravel/helpers.php,Taylor Otwell,尘缘;laravel/documentation/views/forms.md,Taylor Otwell,尘缘;laravel/documentation/contrib/tortoisegit.md,Taylor Otwell,尘缘;laravel/routing/controller.php,Taylor Otwell,尘缘;application/language/ru/validation.php,Taylor Otwell,尘缘;laravel/database/query.php,Taylor Otwell,尘缘;laravel/documentation/changes.md,Taylor Otwell,尘缘;laravel/session/drivers/cookie.php,Taylor Otwell,尘缘;laravel/cache/drivers/redis.php,Taylor Otwell,尘缘;laravel/documentation/ioc.md,Taylor Otwell,尘缘;laravel/database/schema/table.php,Taylor Otwell,尘缘;laravel/log.php,Taylor Otwell,尘缘;laravel/request.php,Taylor Otwell,尘缘;laravel/cli/artisan.php,Taylor Otwell,尘缘;laravel/redis.php,Taylor Otwell,尘缘;laravel/documentation/database/eloquent.md,Taylor Otwell,尘缘;artisan,Taylor Otwell,尘缘;laravel/auth/drivers/driver.php,Taylor Otwell,尘缘;laravel/tests/cases/ioc.test.php,Taylor Otwell,尘缘;public/index.php,Taylor Otwell,尘缘;laravel/tests/cases/form.test.php,Taylor Otwell,尘缘;application/config/application.php,Taylor Otwell,尘缘;public/laravel/css/style.css,Taylor Otwell,尘缘;laravel/documentation/contrib/command-line.md,Taylor Otwell,尘缘;
+0fd3815f81d181038ed731c50b60bd3e61b8d34c,1,3,1,0,0.3333333333333333,license.txt,Dayle Rees,Taylor Otwell;laravel/documentation/requests.md,Dayle Rees,Taylor Otwell;
+f0c3dbba4033777ee108e43ae97d20c918600adb,1,1,0,0,0.0,laravel/documentation/validation.md,Taylor Otwell,Franz Liedke;
+749948bc9d4c5f84d7c5e3ff5443efc823168615,0,1,0,0,0.0,
+30175c2a52c7257000da1097bead94551de39029,0,4,0,0,0.0,
+2611c1f27afb0632f6c282fa74e600bf90b1cc2b,0,1,0,0,0.0,
+9d9d1d010c5178fcc578f916ddb2187022189a14,0,1,0,0,0.0,
+3a471de777f984b8d19fe1a15e346c639ace0a12,1,1,0,0,0.0,laravel/documentation/contents.md,Dayle Rees,Franz Liedke;
+2c6ed23b4505a1b25e5a92a17e55f7f446485e67,0,5,0,0,0.0,
+7b5e37a316b230a7f5c04222053e11e03b6cee2e,0,1,0,0,0.0,
+95bb9dfee890a945f1d9b7ecf43c3b1f0a039ab8,1,1,1,0,1.0,
+79edd529e888f95a107ab5d605adf97bb7ef7cec,1,1,1,0,1.0,
+bcdde02229dfdb5423c357fc4d6bc2ab1961a310,1,1,0,0,0.0,laravel/documentation/install.md,Taylor Otwell,Shawn McCool;
+66f9ea8dbaf2bb22dbc4d869261e75ab117b2cfa,1,1,0,0,0.0,laravel/documentation/install.md,Taylor Otwell,Shawn McCool;
+ce1392aa82d753208c2f9404415118a933a39bc1,1,1,0,0,0.0,laravel/documentation/install.md,Taylor Otwell,Shawn McCool;
+8e5f1dd6f7996e3081a8a4f4fc52395c71a002b9,0,1,0,0,0.0,
+d1bb02ab6440a95a4430a20c720dc148e31c5d06,1,3,0,0,0.0,paths.php,Taylor Otwell,Phill Sparks;artisan,Taylor Otwell,Phill Sparks;public/index.php,Taylor Otwell,Phill Sparks;
+c062418ee14283d4c79f89dcbd0147cf1716e440,1,1,0,0,0.0,laravel/auth/drivers/eloquent.php,Taylor Otwell,Shawn McCool;
+0f5ffdfb56d2aeeb586e2febbc643b78838b12d1,1,1,1,0,1.0,
+012663ddbbb2803e652ff567673a823585a150ec,0,1,0,0,0.0,
+314f25bd28d5556045d1300a13a90054c6e22ccd,0,1,0,0,0.0,
+68834a47d96384d72e1f4cd853a250bae8478cb3,1,1,0,1,0.0,
+51f5fdd0c92d8de02f331151205473a9b88c58f5,1,2,2,0,1.0,
+e16ab6f3d454a7ff52329cd7fd083211563101b1,1,1,0,1,0.0,
+1a5d4250d1b70480f464faabf557344f5be31715,1,1,0,1,0.0,
+8a687053a85e16dd307ca16983381c327ec864f5,1,2,1,1,0.5,
+a85945561c0e291d0eeb5dd03e39f2e135c17fb3,1,1,1,0,1.0,
+10d9cd33ad4e46cb3028b7e556904ae2ae79e3f0,1,1,0,1,0.0,
+e1d49749a3469bb32e192300bcb2e7c68467becc,1,1,0,0,0.0,application/views/home/index.php,Taylor Otwell,Dayle Rees;
+f97f73a83530069c7fceef3ae03e2247a4fd3e25,2,1,1,0,1.0,
+63ff04991b7ea6feeac817a2e89c77c0c0aff851,2,1,1,0,1.0,
+636d05665c76145caaf96cda7eecf77fcfbe7ef4,2,1,1,0,1.0,
+062ae8756c32e935d3c8aed5e54445e36e47016a,2,1,1,0,1.0,
+aa27df8bcbf90897e6702a87d93a7932fd7da55f,0,1,0,0,0.0,
+257d917e196eef20fcd27eb91697dc3b5c75429f,1,3,3,0,1.0,
+5e4e625d68dd59d1f1289a76a1abf2cc495f6e53,0,1,0,0,0.0,
+02305fafc2f3fbac6d314ac596ee41bfb9f6fc52,0,1,0,0,0.0,
+c502f8da1a6a3086f9964be4ba35f16f4f6de8f3,2,1,1,0,1.0,
+5196d015b8009ec6f21efa254cf75d7185766935,2,2,1,1,0.5,
+f31bf1c8e4cccf913421a0c0087018951222a2d3,2,2,2,0,1.0,
+86da3af7a1be037b2e449ebaaaa6857bd3d00318,2,1,1,0,1.0,
+0e6859fb45878a2247b180d102bae5aa9b0bb05e,2,1,1,0,1.0,
+46dd65fa747d29cbdaf668db412772bb1c1c1356,2,2,1,1,0.5,
+99adf09ac7dbfb7b091fcb13338fb78030ba3a01,2,1,1,0,1.0,
+f580ef7f71e28c4a8cf2bdcefe38abb8db2a8803,2,1,1,0,1.0,
+a9f6fbd75afd78414dc2812b8053dae3b9edfe96,2,1,0,1,0.0,
+4569ebec46866820c387c0c534a43172b7472c17,2,1,1,0,1.0,
+e3b632839423507feeab5f45c2ed27e825190c5c,2,1,1,0,1.0,
+3f6aa5448713c928aa6ead0fa9c9ad9a60c3139e,2,1,0,1,0.0,
+230af4125d4ee3dfddca7393d1624a5b481a63da,2,1,1,0,1.0,
+1c694915e5238d69ef3180e33f871355e6877a81,2,1,1,0,1.0,

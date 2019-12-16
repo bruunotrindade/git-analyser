@@ -1,0 +1,284 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+cb9e1048614e41697bd56570777a3647aff223e5,1,2,2,0,1.0,
+d2dfef04e1e89ba91a78fca5a11623be5fe5ed59,1,3,0,0,0.0,src/github.com/getlantern/balancer/balancer.go,Myles Horton,oxtoacart;src/github.com/getlantern/flashlight/app/autoupdate.go,Myles Horton,oxtoacart;src/github.com/getlantern/flashlight/client/client.go,Myles Horton,oxtoacart;
+c18ce2e427e72b1795a13dad8e2d90d1a784aaf9,1,1,1,0,1.0,
+fb04b4eb32eeabde44bc4fac133d01dfe03b7a25,0,1,0,0,0.0,
+124bd66f2229a63807ca23e8330ad9486a18fb7a,1,5,0,0,0.0,src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/vpn/Service.java,Todd Blose,Ox Cart;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/GetFeed.java,Todd Blose,Ox Cart;Makefile,Todd Blose,Ox Cart;src/github.com/getlantern/flashlight/client/client.go,Todd Blose,Ox Cart;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/fragment/FeedFragment.java,Todd Blose,Ox Cart;
+f309c087c167d4d664fef6be4a50c6249d18007a,2,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,Todd Blose,myleshorton;
+dad21d38fb57a7eb63e321b4cb348e2de495ddc4,1,7,5,0,0.7142857142857143,src/github.com/getlantern/flashlight/main/flags.go,Todd Blose,Ox Cart;src/github.com/getlantern/flashlight/flashlight.go,Myles Horton,Ox Cart;
+53e04cc6e2a21e070cdab266582414c80375eb98,1,3,0,0,0.0,src/github.com/getlantern/flashlight/main/flags.go,Todd Blose,Ox Cart;src/github.com/getlantern/fronted/direct.go,Todd Blose,myleshorton;src/github.com/getlantern/flashlight/flashlight.go,Myles Horton,Ox Cart;
+7e741ed17520462da8ecff58d8a5db92665bf0d3,1,5,5,0,1.0,
+9f288a6e12ada4d226bf0537f6fd49d476a94f06,1,1,0,3,0.0,
+b3e4749abad52ea72720cf11cf453efe78e2b472,1,1,0,0,0.0,src/github.com/getlantern/flashlight/proxied/proxied.go,Ox Cart,oxtoacart;
+a2b7a2a7696f74db8895f2a46d36c26497810f14,1,1,0,0,0.0,src/github.com/getlantern/flashlight/config/fetcher.go,Ox Cart,myleshorton;
+ef4fe1aaaf890f858461acd69998b303686fa033,1,1,1,0,1.0,
+c19035de3d227d4a54cda283fff7e2b721929945,1,1,1,0,1.0,
+5bf19fb231a313e108578753a0307cad7ef597c1,1,1,0,0,0.0,lantern-ui/app/js/services.js,Todd Blose,myleshorton;
+c516cd810e4d2610d7e4b480560d30e4b5fd956b,1,1,0,0,0.0,src/github.com/getlantern/chained/dialer.go,Ox Cart,myleshorton;
+0191f417753abd32281426f7e00d607514cd59ec,1,2,0,0,0.0,lantern-ui/app/js/services.js,Myles Horton,myleshorton;src/github.com/getlantern/flashlight/client/handler.go,myleshorton,José Carlos;
+f222a6572b1e7c5a28da463fd8e06e4bfd421de2,1,2,0,0,0.0,src/github.com/getlantern/flashlight/client/chained.go,Ox Cart,fffw;src/github.com/getlantern/flashlight/client/handler.go,Ox Cart,José Carlos;
+0bb9435b6e7813bb4e49d40e1e7fe784f6c0d82b,1,1,0,0,0.0,src/github.com/getlantern/flashlight/client/chained.go,Ox Cart,fffw;
+de26997b9ddfb38365308171952d497bc4fb1b4a,1,2,2,0,1.0,
+6976adb6c94a2516d2264e9b04729f37041e52a9,0,1,0,0,0.0,
+be0cb3dd6472cd8223c80a7608f064ebd21e2af3,1,1,1,0,1.0,
+7e59b385452152e82e492d0850c32d8b2c93f9b6,1,1,1,0,1.0,
+eec452251b3ce441ad47b848c1f09824a9f15d11,1,9,2,7,0.2222222222222222,
+fc1761b321cc8f1268f7095d2b1e9e0d2a5d5fb9,0,3,0,0,0.0,
+84e3e2bd8d8069b481864ef64d6b65ba765a693a,0,2,0,0,0.0,
+49fe9f8201112adbdb970a6051ae42679e783ac5,0,1,0,0,0.0,
+9a6edd2dae0a12eeac23bf78675751d037c6e5c7,0,1,0,0,0.0,
+b1cf74bdd9751f964217c4c883df97482b974252,0,1,0,0,0.0,
+0197957d1e7326a678f0da11f4cba38ef6aaf2f2,2,1,1,0,1.0,
+95fd98039460d4283150131e99d0c0edb8307949,0,1,0,0,0.0,
+c439ca143dba0baead8651698486515dcf1a7d6d,1,1,1,0,1.0,
+ca4d35fdaf0d5501ffc03bfd02f06485ceb5427e,1,2,2,0,1.0,
+e975c209bd49c2f4ecef59b3a6e3122e161504bb,1,3,0,0,0.0,src/github.com/getlantern/fronted/direct_test.go,Ox Cart,Ulysses Aalto;src/github.com/getlantern/geolookup/geolookup_test.go,Myles Horton,Ulysses Aalto;src/github.com/getlantern/flashlight/util/util_test.go,Ox Cart,Ulysses Aalto;
+c6b65cd47ccaf3f0b69e1960062683ace5276617,1,1,0,0,0.0,src/github.com/getlantern/flashlight/util/http.go,atavism,oxtoacart;
+6d48d952ae4e65413883e80d081e8034fe2f1624,1,720,0,716,0.0,src/github.com/getlantern/flashlight/main/main.go,José Carlos Nieto,Todd Blose;src/github.com/getlantern/flashlight/flashlight.go,fffw,Ox Cart;.gitignore,José Carlos Nieto,Todd Blose;Makefile,José Carlos Nieto,Todd Blose;
+29203b12b9c378a347cc0eb1c2029a0f31d5c334,1,1,0,1,0.0,
+502994ba38dbb599d4672ac96aac40b3564af180,1,23,0,14,0.0,src/github.com/getlantern/lantern-mobile/build.gradle,myleshorton,Ox Cart;src/github.com/getlantern/flashlight/main/main.go,myleshorton,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/UI.java,myleshorton,Ox Cart;src/github.com/getlantern/lantern/feed.go,Todd Blose,Ox Cart;src/github.com/getlantern/lantern-mobile/app/src/main/res/layout/activity_lantern_main.xml,myleshorton,Ox Cart;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/GetFeed.java,Todd Blose,Ox Cart;src/github.com/getlantern/lantern-mobile/app/src/main/res/layout/feed_error.xml,myleshorton,Ox Cart;src/github.com/getlantern/flashlight/config/fetcher.go,myleshorton,Ox Cart;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/activity/LanternMainActivity.java,myleshorton,Ox Cart;
+75d1b1d1a01161985d5fd0a03a47d9253c6192ae,0,1,0,0,0.0,
+3d6415185c374c55fb25a2cc4f17aecf3e752a51,1,1,0,0,0.0,src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/activity/LanternMainActivity.java,Todd Blose,oxtoacart;
+4255c987f13bcb80beb1addf4b07bc8efe71edd5,0,1,0,0,0.0,
+9e178c26363ffe69022d8a19a354f1c9d74399ff,0,1,0,0,0.0,
+289c9e1afd9e5c1e68aaaee4d1fbdb3076b08d8b,1,1,1,0,1.0,
+e60cbe69cbb5977f090002b70b2095c02ca5c857,1,1,0,0,0.0,src/github.com/getlantern/flashlight/config/config.go,Ox Cart,fffw;
+a383880e7ba997277b78177caf02b31fa1955003,0,5,0,0,0.0,
+e618d60a4905aa3e9b92c9baa3f067ee7058883e,0,1,0,0,0.0,
+ae80f6bc4d4dd4a6df493ef1073e4ad6d906d087,2,10,10,0,1.0,
+21c5155e78d6f6bf4354a5de4ff30a4caa35e6de,1,1,1,0,1.0,
+6f35ca7c85f7784d6c5271e6459414b102356005,1,2,0,0,0.0,Makefile,fffw,Ox Cart;src/github.com/getlantern/lantern-mobile/.idea/misc.xml,myleshorton,Ox Cart;
+e78d7056678dd9a4f751bd74bb3302420369c429,1,1,0,0,0.0,src/github.com/getlantern/flashlight/config/config.go,Ox Cart,oxtoacart;
+d4bd5aa036073fca247b9c502545edacbd2fb984,1,2,0,2,0.0,
+549ad449a2552f3690ec4bffcc745fc7aa03f757,1,2,0,2,0.0,
+f296e52a664280724e13d8e880b3913b52d0fbe6,1,8,0,8,0.0,
+36d744f199c108578bfb11d191ac3e6debdf5ffc,1,2,2,0,1.0,
+4ef335c4f1a8bcf73e70d6059d11b1ed7af071d5,1,6,0,6,0.0,
+914edd350e18c2c492c2669647b9767918a41560,1,2,2,0,1.0,
+d884bbac5b0b4dbb57311d3b3fe23a0a8f094a6a,1,1,1,0,1.0,
+b6100bc00ec15c9d47e8a4c059851bb24a5e19c2,1,19,9,7,0.47368421052631576,.gitignore,Myles Horton,Ox Cart;README.md,Myles Horton,Ox Cart;.travis.yml,Myles Horton,Ox Cart;
+363f5ea93af1d53c57eaed311e520e04692da0b5,0,1,0,0,0.0,
+1f3bb7ba706e217d8455d610c18bfcbe5144a128,1,3,3,0,1.0,
+9f29175feeed1942cf94e97bf5608b9b26641272,1,2,2,0,1.0,
+8a29d5a5430041fd8309202dedfa85f0d83a539b,1,1,1,0,1.0,
+bc5964f2463f39dadc568106b531fe77f231fb17,1,1,1,0,1.0,
+11673adb059411cd05a45d690e49de95cf5a2e1f,2,3,0,0,0.0,src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/UI.java,Todd Blose,oxtoacart;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/activity/LanternMainActivity.java,Todd Blose,oxtoacart;src/github.com/getlantern/flashlight/client/fronted.go,Todd Blose,Ox Cart;
+73827a5f8c70dc41d083eae56a91c464554fe29f,1,1,1,0,1.0,
+4bf2ce80b43f321c0bb007844ee4452f2fa60a6f,1,9,5,0,0.5555555555555556,src/github.com/getlantern/flashlight/config/config.go,Myles Horton,myleshorton;src/github.com/getlantern/flashlight/autoupdate/autoupdate.go,Myles Horton,myleshorton;src/github.com/getlantern/flashlight/util/http.go,oxtoacart,Myles Horton;src/github.com/getlantern/fronted/direct.go,oxtoacart,Myles Horton;
+7bed9c3d5284b0e7c2d1efb408e9120bbe21ecaf,0,1,0,0,0.0,
+c1f2e809ff57629471fa016b7fd1f6f4d9ccc679,1,88,0,13,0.0,src/github.com/miekg/dns/labels_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/zscan.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/lantern/interface.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/udp_linux.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/ListAdapter.java,Todd Blose,Myles Horton;src/github.com/miekg/dns/privaterr.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/util/util_test.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/drawable/send_btn.xml,Todd Blose,Myles Horton;src/github.com/miekg/dns/update_test.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/genconfig/genconfig.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/values/arrays.xml,Todd Blose,Myles Horton;src/github.com/miekg/dns/client.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/app.iml,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/sdk/Utils.java,Todd Blose,Myles Horton;src/github.com/miekg/dns/xfr_test.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/AndroidManifest.xml,Todd Blose,Myles Horton;src/github.com/miekg/dns/server_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/tsig.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/config/config.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/sig0.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/msg.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/geolookup/geolookup.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/.travis.yml,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/logging/logging.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/settings/settings.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/idn/punycode_test.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/vpn/VpnBuilder.java,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/genconfig/cloud.yaml,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/systray.go,Todd Blose,Myles Horton;src/github.com/getlantern/tlsdialer/tlsdialer.go,Ox Cart,Myles Horton;src/github.com/miekg/dns/parse_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/defaults.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/xfr.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/config/flags.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/sdk/sdk.iml,Todd Blose,Myles Horton;src/github.com/miekg/dns/labels.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/udp.go,Todd Blose,Myles Horton;.gitignore,Todd Blose,myleshorton;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/vpn/Service.java,Todd Blose,Myles Horton;src/github.com/miekg/dns/types.go,Todd Blose,Myles Horton;Makefile,Todd Blose,oxtoacart;src/github.com/miekg/dns/client_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/clientconfig_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/dnssec.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/edns.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/values/ids.xml,Todd Blose,Myles Horton;src/github.com/miekg/dns/privaterr_test.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/null_systray.go,Todd Blose,Myles Horton;src/github.com/getlantern/fronted/direct.go,Todd Blose,oxtoacart;src/github.com/getlantern/lantern-mobile/app/src/main/res/raw/settings.yaml,Todd Blose,Myles Horton;src/github.com/miekg/dns/dns_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/zscan_rr.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/example_test.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/build.gradle,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/activity/LanternMainActivity.java,Todd Blose,Myles Horton;src/github.com/miekg/dns/doc.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/rawmsg.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/server.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/autoupdate.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/sanitize_test.go,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/build.gradle,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/external/badvpn/tun2socks/tun2socks.c,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/values/colors.xml,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/values/styles.xml,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/UI.java,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/client/client.go,Ox Cart,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/values/strings.xml,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/proguard-rules.pro,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/client/reverseproxy.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/dnssec_keygen.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/dnssec_keyscan.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/flashlight.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/README.md,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/layout/activity_lantern_main.xml,Todd Blose,Myles Horton;src/github.com/getlantern/lantern-mobile/app/src/main/res/layout/drawer_item.xml,Todd Blose,Myles Horton;src/github.com/miekg/dns/dnssec_privkey.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/dns.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/dnssec_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/sig0_test.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/idn/punycode.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/client/balancer.go,Todd Blose,Myles Horton;src/github.com/miekg/dns/zgenerate.go,Todd Blose,Myles Horton;src/github.com/getlantern/flashlight/pac.go,José Carlos Nieto,Myles Horton;
+104e35302660af5db241495f0701ece87501f9f6,2,1,0,0,0.0,src/github.com/getlantern/lantern-ui/app/_css/app.css,myleshorton,José Carlos Nieto;
+3c6119cff9bbf40276b0f763b2bfbe3ca29a93e9,1,136,0,1,0.0,src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_gl.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_sk.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/clipboard/readme.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_en.js.template,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_lv.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/dist/angular-websocket.min.js.map,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/release.sh,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_de.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_pl.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ro.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/dist/angular-websocket-mock.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_tr.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_nl.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-resource/angular-resource.min.js.map,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_bg.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/angular-websocket-mock.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_uk.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_sv.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_he.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_et.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/jquery/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2.jquery.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ko.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/angular.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/clipboard/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_cs.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_el.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/img/mobile-ad/zh/main.png,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/clipboard/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-mocks/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-sanitize/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ja.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_zh-TW.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/topojson/topojson.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_fr.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-scenario/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_es.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/angular-websocket.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/lodash/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_lt.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2.css,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/normalize.css/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate/angular-translate.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_pt-PT.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/topojson/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ru.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/dist/angular-websocket.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/angular.min.js.gzip,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ca.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/normalize.css/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/composer.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_zh-CN.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-resource/angular-resource.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/img/mobile-ad/en/main.png,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate/angular-translate.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-sanitize/angular-sanitize.min.js.map,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/angular-websocket.min.js.map,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-resource/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-sanitize/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_fa.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_is.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-mocks/package.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate-loader-static-files/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/partials/bookmarks.html,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/dist/angular-websocket.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-sanitize/angular-sanitize.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_eu.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-mocks/angular-mocks.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_da.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-scenario/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-scenario/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/angular-websocket.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/component.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/package.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_rs.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_vi.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-scenario/angular-scenario.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_th.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/angular-csp.css,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_hr.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-resource/package.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-resource/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-mocks/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate-loader-static-files/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_fi.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/topojson/LICENSE,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/clipboard/package.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-mocks/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/topojson/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/clipboard/dist/clipboard.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/ngclipboard/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-resource/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ar.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/js/app.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/_css/bookmark.css,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/angular.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_hu.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate-loader-static-files/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-sanitize/README.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ms.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/LICENSE,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-resource/angular-resource.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_pt-BR.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/clipboard/dist/clipboard.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-local-storage/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_mk.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-websocket/CHANGELOG.md,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/clipboard/package.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/normalize.css/.bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/img/mobile-ad/fa/main.png,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-scenario/package.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/angular.min.js.map,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular/package.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-sanitize/package.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_it.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_id.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-sanitize/angular-sanitize.js,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/angular-translate/bower.json,José Carlos Nieto,myleshorton;src/github.com/getlantern/lantern-ui/app/bower_components/select2/select2_locale_ka.js,José Carlos Nieto,myleshorton;
+da2a5a504e64747bc2bb39b8df3b0b6e4c6197a0,1,9,0,0,0.0,src/github.com/getlantern/lantern-ui/app/js/controllers.js,fffw,myleshorton;src/github.com/getlantern/lantern-ui/app/js/services.js,fffw,myleshorton;.gitignore,fffw,myleshorton;Makefile,fffw,myleshorton;src/github.com/getlantern/lantern-ui/app/partials/modals.html,fffw,myleshorton;src/github.com/getlantern/lantern-ui/app/js/constants.js,fffw,myleshorton;src/github.com/getlantern/lantern-ui/app/index.html,fffw,myleshorton;src/github.com/getlantern/lantern-ui/app/_css/app.css,fffw,myleshorton;src/github.com/getlantern/lantern-ui/app/partials/bookmarks.html,fffw,myleshorton;
+b340cd1b67b452bae5c446686d15d49fbd045330,2,1,1,0,1.0,
+204893a70e9b31f760b4e109eafb93f4206c529e,1,5,0,1,0.0,src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/sdk/Utils.java,Todd Blose,oxtoacart;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/UI.java,Todd Blose,oxtoacart;src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/activity/LanternMainActivity.java,Todd Blose,oxtoacart;src/github.com/getlantern/lantern-mobile/sdk/build.gradle,Todd Blose,oxtoacart;
+f43d91a8f930af638def503e7ddd3ed78cdb9616,2,2,2,0,1.0,
+66272552a5a2482331cac715e16b5c06f7c03ebc,2,1,0,1,0.0,
+2c278741d85d21969e603cb5881d6119e8968c4e,2,1,1,0,1.0,
+b08704903f85ff1101515b4b0369c05292a8349a,2,1,1,0,1.0,
+80afb73e03d30ba6a3dcba08f7acb89dcc9cc229,1,1,0,0,0.0,Makefile,myleshorton,Ox Cart;
+d475438b0e5edf06f96b8df46ba4299789f98982,0,3,0,0,0.0,
+a192503d4af53606bee9ff4eeb0716f281443aa8,2,5,4,1,0.8,
+bd57b2fdf4ea1f4d02c5fddf61e5284fc3b9b6fb,1,4,0,0,0.0,Dockerfile,myleshorton,Myles Horton;.gitignore,myleshorton,Myles Horton;Makefile,myleshorton,Myles Horton;src/github.com/getlantern/lantern-ui/app/partials/bookmarks.html,myleshorton,Myles Horton;
+f4e5934bb58ce9260b9608d3a5433a7ad4c3fca2,1,4,4,0,1.0,
+31e346bbd246b18f9df24f1c6b458e0a9a31a94f,1,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,Ox Cart,myleshorton;
+5293cbb18d14bb46cac2e4a4ed0f29397285496b,2,1,0,0,0.0,server.dev.js,Rogelio Alberto,rogelio Alberto;
+8ae5b10fb8d17e5277fcf8f3baa615ea84c25a38,2,2,1,1,0.5,
+eaac213f69959a3f5b68f5a5985f924ad08b1290,1,6,5,0,0.8333333333333334,src/github.com/getlantern/lantern-mobile/app/src/main/java/org/getlantern/lantern/model/UI.java,Todd Blose,Ox Cart;
+5d26d81a1836446a91649db49f56f9b8a98feda0,0,1,0,0,0.0,
+3c84826857250f3941bbe72402f9469859d58819,0,1,0,0,0.0,
+de9f3d8c58d0a556942357a49dcf29f6cba74815,1,5,0,2,0.0,src/github.com/getlantern/flashlight/settings/settings.go,Todd Blose,fffw;Makefile,Todd Blose,Ox Cart;src/github.com/getlantern/flashlight/flashlight.go,Todd Blose,fffw;
+5158569b1eab789732be32d18840965a9729026c,2,1,0,1,0.0,
+a1d9fdfb438271ba5a8d01734249bb6c2a45c1d5,0,4,0,0,0.0,
+2b910dbaeb7ffa819e993dee8e0f2aa393bdbd12,1,3,0,2,0.0,src/github.com/getlantern/lantern-mobile/defaults.go,Todd Blose,fffw;
+3dcfafe3fff43da5ea02b282341f8ce6347f77f8,1,10,10,0,1.0,
+308c3d77c6c9cd0f4f2aee087ca6dac67453ce65,0,1,0,0,0.0,
+82aa5002bce58b6a0bf42365159923fcb8e04e7a,1,3,0,0,0.0,src/github.com/getlantern/flashlight/client/client.go,José Carlos Nieto,Todd Blose;src/github.com/getlantern/lantern-mobile/lantern/client.go,José Carlos Nieto,Todd Blose;src/github.com/getlantern/lantern-mobile/lantern/interface_test.go,José Carlos Nieto,Todd Blose;
+e5762e8cf99bf189af7483bd91498117e25c625d,1,2,0,2,0.0,
+3eb9f1a675042bd2c1b0b8ce2da945c34e61d7c1,1,2,0,2,0.0,
+0acd96616b4796519b8da0d314021164c410d074,1,2,0,0,0.0,src/github.com/getlantern/flashlight/geolookup/geolookup.go,Myles Horton,myleshorton;src/github.com/getlantern/flashlight/flashlight.go,Myles Horton,myleshorton;
+6950f03d958eca50d89efde6f90455c4cc91e05e,1,4,0,1,0.0,src/github.com/getlantern/lantern-mobile/defaults.go,Todd Blose,myleshorton;src/github.com/getlantern/flashlight/client/handler.go,Todd Blose,myleshorton;src/github.com/getlantern/flashlight/client/reverseproxy.go,Todd Blose,myleshorton;
+4e245937da88395018c2d4fed6e38be4e9131e50,1,6,0,0,0.0,src/github.com/getlantern/balancer/balancer.go,Todd Blose,Ulysses Aalto;src/github.com/getlantern/balancer/dialer.go,Todd Blose,Ulysses Aalto;src/github.com/getlantern/flashlight/client/handler.go,José Carlos Nieto,Ulysses Aalto;src/github.com/getlantern/flashlight/client/client.go,Todd Blose,Ulysses Aalto;src/github.com/getlantern/flashlight/client/balancer.go,José Carlos Nieto,Ulysses Aalto;src/github.com/getlantern/flashlight/flashlight.go,Todd Blose,Ulysses Aalto;
+9da194e3a273feb486bce41863460375facf8199,1,1,0,0,0.0,src/github.com/getlantern/flashlight/config/config.go,fffw,Ulysses Aalto;
+977952e74ac105f30005632a454a07f836d5ab44,0,1,0,0,0.0,
+362fa210d1c016767bc210ddd0de1d583e28e84f,1,1,0,0,0.0,src/github.com/getlantern/flashlight/client/chained.go,fffw,José Carlos;
+55c6bf7f0bb396c8adf911565dbc405c68cfe83c,1,1,0,0,0.0,Makefile,Ulysses Aalto,fffw;
+c54ecea3c9b4ba8ab8ab1bedfbf721898f63e3aa,1,1,0,1,0.0,
+081df9f6e5a69b88bfe30fa0ce760552e893719a,1,4,0,4,0.0,
+90280b1e755a31d58dc2d249929b0d84745be295,1,1,0,0,0.0,src/github.com/getlantern/analytics/analytics.go,José Carlos,myleshorton;
+24a98e4a9ae69a60774707a6166c3255f9820405,1,2,0,0,0.0,src/github.com/getlantern/detour/mock_test.go,fffw,José Carlos;src/github.com/getlantern/detour/detour.go,fffw,José Carlos;
+ac5db4085a57c77dd58d392a0df0d1150db0bf09,1,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,Ulysses Aalto,myleshorton;
+78041bc08c7398ad077eb7a6f628102c7af7586b,1,1,0,0,0.0,src/github.com/getlantern/enproxy/conn_impl.go,Ulysses Aalto,myleshorton;
+0fd79463ff34929e42252e292cbee97f46101685,1,4,0,1,0.0,.gitignore,Ulysses Aalto,myleshorton;Makefile,Ulysses Aalto,myleshorton;src/github.com/getlantern/lantern-android/libflashlight/make.bash,Ulysses Aalto,Myles Horton;
+0bd3151b48bb9edbfebd9a178355cac03c24921c,2,1,1,0,1.0,
+0c52170d2a69f2bc03558a42d3b51129d8eee706,1,4,0,0,0.0,Makefile,Ulysses Aalto,Myles Horton;src/github.com/getlantern/lantern-ui/dist/index.html,Ulysses Aalto,Myles Horton;src/github.com/getlantern/lantern-ui/dist/style/app.css,Ulysses Aalto,Myles Horton;src/github.com/getlantern/flashlight/flashlight.go,Ulysses Aalto,José Carlos;
+4d5771d374c736974bf9ff4485391ec97d98ef57,0,1,0,0,0.0,
+783651e6b167a18eee3de7171ccef83c38bc5288,1,1,0,1,0.0,
+1fa6055863e878c7d2b84fde587cdb88e4727535,1,1,0,1,0.0,
+1ce3b90b83e547fff05eb85bbb481aa33875600c,1,6,0,6,0.0,
+d9e93ed38404bedb4e4d68b6d33cc3a32a7575ac,0,1,0,0,0.0,
+7d157614f685fb47e06f9542996229e757b83f79,0,1,0,0,0.0,
+f21a24e2673b6dd433034e6345899866a7f7f0a7,0,1,0,0,0.0,
+ed62387219f090965f34f50c382e5bc98ed1e2d8,1,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,José Carlos Nieto,myleshorton;
+5f38a62cf4535c37045b0ece38471d1820e78431,1,1,1,0,1.0,
+8b15c6886274c8b0215b843515a32e368f137178,1,1,0,0,0.0,Makefile,myleshorton,José Carlos Nieto;
+042921ae3c39e788ac2668037db62cb1c252da0f,0,1,0,0,0.0,
+fc3f7ec1007cee4ffbdc9fd90212523faa6ccba5,1,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,José Carlos Nieto,myleshorton;
+b7b1b1649690f0307eda24e9015e794f6fc62e41,0,2,0,0,0.0,
+cc873f70d17fac05aaa83ea619c060ec5b41533b,2,1,0,0,0.0,setenv.bash,Myles Horton,aranhoide;
+b674fc2b7a6857b9c2076c0a0d35a8591f68fe7c,1,3,0,0,0.0,src/github.com/getlantern/geolookup/geolookup.go,Myles Horton,aranhoide;src/github.com/getlantern/flashlight/server/server.go,oxtoacart,aranhoide;src/github.com/getlantern/geolookup/geolookup_test.go,Alan Hoyte,aranhoide;
+97d2d786436f5321d3e9954b2854dd16f39d7684,1,1,0,0,0.0,.gitignore,Ox Cart,oxtoacart;
+220caf7e837339f48c70f389ce3c2f6687651c70,0,5,0,0,0.0,
+5e87ef15ae8bd1120d9b17791c4c67c94cd24138,0,1,0,0,0.0,
+a167b752112a9cadb54cd60b2934042ea53dfc76,1,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,Myles Horton,myleshorton;
+7e8ffa0b54888cee123c715f2ccad2b50381cec4,1,9,0,2,0.0,.gitignore,Alan Hoyte,Ox Cart;src/github.com/getlantern/peerscanner/main.go,Alan Hoyte,Ox Cart;src/github.com/getlantern/peerscanner/group.go,Alan Hoyte,Ox Cart;src/github.com/getlantern/flashlight/server/server.go,Alan Hoyte,Ox Cart;src/github.com/getlantern/peerscanner/host.go,Alan Hoyte,Ox Cart;src/github.com/getlantern/flashlight/config/flags.go,Alan Hoyte,Ox Cart;src/github.com/getlantern/flashlight/flashlight.go,Alan Hoyte,Ox Cart;
+9485e2e13c2fd442303f6ea266fa4d08b9d296b3,1,1,1,0,1.0,
+b162d8b3f382794fe4f9bb4bcfa8b3a3cd1d18f6,1,2,0,2,0.0,
+fea59b9a9e6836a4839953e4d3019f0251fa04dd,1,1,0,1,0.0,
+7be52470109ab407a983089b1b41d291e6ffd774,1,1,0,1,0.0,
+64b3558cc69dd7a59791389f39d8407cdd7bbbe1,1,1,0,1,0.0,
+eece9b455038c75f37b70c21635fb35f55e6efe9,1,1,0,1,0.0,
+7ac2a83344e5954bc0241cd8ac348e205199615f,1,1,0,1,0.0,
+ad040f5a4137a0d7964f47d3547d07befbcbb02e,1,2,0,2,0.0,
+3be46b571c3d5881984cff62937e747181db8f85,1,1,0,1,0.0,
+10ca8db48636c5b5d70ddfc12226d47e1bd85791,1,1,1,0,1.0,
+65a3815f0f187f76af11d7dfcaabdc456ab7014a,1,5,0,5,0.0,
+785b0adae138d36fa30b527a16c90c6a41bad19d,2,1,1,0,1.0,
+35b51160369a5102d9d055eb15f2d4a6f17bd4b8,1,2,0,0,0.0,src/github.com/getlantern/flashlight/genconfig/cloud.yaml,fffw,Ox Cart;src/github.com/getlantern/flashlight/config/masquerades.go,fffw,Ox Cart;
+4cef7c2699a4b7776a892d5cca53ce1252390e41,1,1,0,0,0.0,README.md,oxtoacart,myleshorton;
+ac1ccf3835850c210ce1b84785a088211d68cf40,2,1,1,0,1.0,
+0bda5da8e90a803501c65314ebc3370d2e0f9380,1,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,José Carlos Nieto,oxtoacart;
+4b45a1f316287faea45be6ff20edca7ee9c5cec9,1,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,Ox Cart,oxtoacart;
+71dc854114d142bcd22a4d15ab53d51b6ebd149a,2,1,0,0,0.0,src/github.com/getlantern/lantern-ui/app/js/controllers.js,Ox Cart,oxtoacart;
+d4048796d6d2f3ea3a81bdce9905680b655a4a55,1,1,0,0,0.0,src/github.com/getlantern/flashlight/proxiedsites/proxiedsites.go,Ox Cart,fffw;
+e2ddb4bf53eb08d56e9a658496b551afab1356e6,0,1,0,0,0.0,
+7ece7bd11a528d49e7e43bd8e8878666efa4ab98,0,3,0,0,0.0,
+e12005402326fc170af402c9df29dd17e599877a,0,1,0,0,0.0,
+abb8ee2bd3368c22530b3fbb0764a6c5a1019832,1,1,0,0,0.0,crosscompile.bash,Ox Cart,oxtoacart;
+4cf4123fe3aa63eddcfc73a605df1ec9600ab18e,1,2,0,0,0.0,src/github.com/getlantern/flashlight/ui/ui.go,atavism,oxtoacart;README.md,Carlos Nieto,oxtoacart;
+343b2eb59062095d3e6802a147de49330f303615,0,2,0,0,0.0,
+753f14fa554d72296addecc1ff29223b863e68ad,0,8,0,0,0.0,
+5bd2a2327a011bef7f6cecc662cee0275e9e09a5,2,8,7,1,0.875,
+1336c010153b201908500656494d7796ac21aff6,2,4,4,0,1.0,
+b9e9dfc93fdd74a4c74a0651d1901245e6cedd57,1,2,0,2,0.0,
+ffd823ed416dc22bec71fb31a2f892ef2c834bd5,1,3,0,5,0.0,
+665c21d4ba6f938bf75b22580f6903fa9e418360,1,2,0,2,0.0,
+f5df53156aa48cabb4b5ae04dab6dd511a37a3b5,1,3,0,5,0.0,
+ecd1eb770679ede4caf9f1726c6c81dbcdf78727,0,3,0,0,0.0,
+3530b9a5078ae9512153a95b3135eaa9b0f38821,0,3,0,0,0.0,
+2eff8d6113aa256a079267b74518ccb708c96d48,2,1,1,0,1.0,
+ee0156567b851266d6a740b69832234e9ad5d25c,1,5,1,4,0.2,
+a93bf077db67c5d0041d2e27aa559ad741a44f88,2,7,7,0,1.0,
+72c23082d07a55451ce78c819146216ea40089a9,2,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,Ox Cart,myleshorton;
+7bfced7be582c90a738b230973a4a35f77e70380,2,1,1,0,1.0,
+6af02251ab14fd412138450bcd4f5e7e29eee967,2,1,1,0,1.0,
+16466de64608e548ef99f60e53baa5834be9682b,2,1,0,0,0.0,src/github.com/getlantern/flashlight/README.md,Ox Cart,aranhoide;
+f12da10835e04bd37f95ffeba069b9c49662bd67,2,1,0,0,0.0,src/github.com/getlantern/flashlight/flashlight.go,Ox Cart,myleshorton;
+e281a742459578d9a3c40c4cdee02fbd634bdd38,2,4,0,4,0.0,
+cffc2e66cb34b261cd127aef44ede2931837e79f,1,5,0,4,0.0,src/main/java/org/lantern/proxy/DefaultProxyTracker.java,Ox Cart,Myles Horton;
+db944eacd96964191c8e24eb5d0eea6893c040f3,2,2,0,2,0.0,
+2eaa6c028db78a46cddadd9cc52c65dee4d30f95,1,1,0,1,0.0,
+a406f8b961712c8fa00b91694d4987f008ace8e2,1,3,1,2,0.3333333333333333,
+45c772c77cfba67a3d66760cb87b28b68d0ef06f,1,1,0,1,0.0,
+c5a0c7b1d5cae2ab8e72f5e54898377eaf3c1053,0,1,0,0,0.0,
+252d0f21291293636008c617fd55219364e694a7,2,4,0,4,0.0,
+50f2513c9733fbf314fd7fe1ec8dd91f9a08264f,1,8,2,5,0.25,src/main/java/org/lantern/proxy/pt/BasePluggableTransport.java,Ox Cart,Myles Horton;
+49c2d876970cf9847a9b62c671bea664ca447277,1,1,0,1,0.0,
+4e753a3bf8ecef98816b8cf65f5f26267f129db1,0,1,0,0,0.0,
+2a85aecc5b6d7fc61b934c43db3af3862ac9b644,2,1,1,0,1.0,
+c96457ce432520ecc0bc811f18a2e005fb44b539,0,1,0,0,0.0,
+81694229f586cc3087db1b54d7fbf1120a691c3d,0,1,0,0,0.0,
+9f5ef8eae856de395d58e01d0977dfd1ae965194,1,1,0,1,0.0,
+b644903131434b68510320c1b1a68d5795daa0f6,1,4,0,4,0.0,
+117df42f77f70dd2c833daaa612933e24e70c045,2,1,1,0,1.0,
+134abd5382cf982f552268f018afad6b35fca554,2,1,1,0,1.0,
+0c16f1de49ab20540bf4fa7a47f4360c82dc8425,1,3,0,0,0.0,src/main/java/org/lantern/S3Config.java,Ox Cart,oxtoacart;pom.xml,Ox Cart,Myles Horton;src/main/java/org/lantern/proxy/DefaultProxyTracker.java,Ox Cart,myleshorton;
+ec916dcf03d63247ad8dc252b579c09d96b99571,2,4,0,4,0.0,
+7f7ae53b30046909a149fbf0e14773ad3bd5d4cc,0,1,0,0,0.0,
+80352bc19656d80f7fdacebcf65fabfcc5686519,1,2,0,1,0.0,src/main/java/org/lantern/proxy/FallbackProxy.java,Ox Cart,aranhoide;
+5fc22022fe80c2de4fc12dbbcf04c9e6c65ce578,1,1,0,1,0.0,
+17dcb9e93e06034bf9716662f1e90da2b47bbb2f,1,5,0,0,0.0,src/main/java/org/lantern/Launcher.java,Ox To A Cart,myleshorton;installMetaRefresh.bash,Ox Cart,myleshorton;src/main/java/org/lantern/proxy/DispatchingChainedProxyManager.java,Ox To A Cart,myleshorton;src/main/java/org/lantern/kscope/DefaultKscopeAdHandler.java,Ox To A Cart,myleshorton;src/main/java/org/lantern/proxy/DefaultProxyTracker.java,Ox Cart,myleshorton;
+baa31cad50fe225c4cf7ede0e173caca9f887d10,0,1,0,0,0.0,
+69defadd2df73d10073f3443b4c31643a6f104bc,0,1,0,0,0.0,
+ad27fa97295ac26b4ae4b4b7a1527a3038937da9,0,2,0,0,0.0,
+a401c2557af78f72a9ba280c93ac44c01a4c7ee4,1,2,0,0,0.0,src/main/java/org/lantern/simple/Give.java,Ox To A Cart,myleshorton;src/main/java/org/lantern/monitoring/StatsManager.java,Ox To A Cart,myleshorton;
+a1077b63dfb06d2b890db15de1cfe7ec19121b42,1,1,1,0,1.0,
+7cfd2b59b433ce77b360a994b7fc7f71cd7148a1,1,6,0,3,0.0,src/main/java/org/lantern/FallbackProxy.java,Ox To A Cart,Myles Horton;src/main/java/org/lantern/S3ConfigFetcher.java,Ox To A Cart,Myles Horton;pom.xml,Ox To A Cart,Myles Horton;
+98967cb531e36db566c6c9eb8a8c46e0460de697,0,1,0,0,0.0,
+049231dde784a196f1400c21ee7a06b51ee4b474,1,1,1,0,1.0,
+982e1c4e961e2368f29a9d19101b5b59685e0b8b,0,1,0,0,0.0,
+246aa55379efaf1bed22ae77d21f8362eb1161af,0,1,0,0,0.0,
+8dfc0c45b3ca82c98663580c8abfe9260077a34b,1,2,0,1,0.0,pom.xml,Myles Horton,oxtoacart;
+0c87617797f580a2e0c272c28c0927a036796a5b,1,2,0,0,0.0,app/js/controllers.js,skivvies,_pants;app/partials/modals.html,skivvies,_pants;
+0dc09c56b9aa364ac9016a79399b0074698502bf,1,1,1,0,1.0,
+35efc0f885a30aacf89cd21072fe3e61cbc2b14b,1,1,0,1,0.0,
+099c5444820cdfc5566da71b025a0396e6b44046,1,3,0,1,0.0,src/main/java/org/lantern/ChromeRunner.java,myleshorton,Myles Horton;src/test/java/org/lantern/GoogleOauth2CallbackServletTest.java,Ox To A Cart,Myles Horton;
+ef68c1ab1360e758596cb1da27a4dd914dde66d0,1,2,0,1,0.0,src/main/java/org/lantern/ChromeRunner.java,Ox To A Cart,myleshorton;
+f078e2055570d98be641e2aeb2fb68ee4e30bd83,1,3,0,2,0.0,src/test/java/org/lantern/LanternModuleTest.java,_pants,Ox To A Cart;
+c6ed54b417649308a327affbad33dca219867844,1,1,1,0,1.0,
+45d6d5cc68077c2962fb457c4062f9d13e497a97,0,1,0,0,0.0,
+a2096d8c70120ec9cdf75f05f724edff3935c41e,0,1,0,0,0.0,
+8520909de0c6691e13d70f24f4ff922d6736a1cd,1,1,0,0,0.0,start.bash,Ox Cart,Myles Horton;
+7d9ff157a58ce9194d7684e887bcab1f2597aea4,0,1,0,0,0.0,
+c455af9e50a7cf68e150bfb8b8aa8f4d13a0129f,1,3,0,0,0.0,src/main/java/org/lantern/kscope/DefaultKscopeAdHandler.java,Myles Horton,oxtoacart;src/test/java/org/lantern/TestingUtils.java,Myles Horton,oxtoacart;src/main/java/org/lantern/DefaultXmppHandler.java,Myles Horton,Ox To A Cart;
+d0e56c70ea13fdd0a82d23d5b8a68343210a5a78,1,2,2,0,1.0,
+1507b28156142fb78e95a71b695f8a8653068c43,0,1,0,0,0.0,
+dcc29d95b801878b2faa9bb9447dbec72d25b58d,0,2,0,0,0.0,
+ad85c013a9dd87d153b9b73eefabbed835388931,0,2,0,0,0.0,
+9bd377ce9b3b50e88d41548f14a651afcd48b1aa,0,3,0,0,0.0,
+8acb0c4bc7073a8ed04f39c1afa1e35ca74c1e7a,1,2,2,0,1.0,
+f3a3d3bf43ad7adcfd0c045ef53465520d0915df,2,1,1,0,1.0,
+bed5f67b7cc256955265416b04b5b09cba453ef5,2,1,1,0,1.0,
+09ea288b1cc12261073d9b235d18227e495947a5,1,1,1,0,1.0,
+c23ff847b78983c901edb0f27a3ed40908ffe4fc,1,2,0,0,0.0,src/main/java/org/lantern/LanternUtils.java,Leah X Schmidt,myleshorton;src/main/java/org/lantern/state/Model.java,Leah X Schmidt,_pants;
+3e78517bdb4c5d2f0e3f4c3002b456b8a0c6a787,1,1,0,0,0.0,src/main/java/org/lantern/LanternUtils.java,Leah X Schmidt,Myles Horton;
+0ec164541d89396eb981df40d392760b519657c2,1,1,0,0,0.0,src/test/java/org/lantern/LanternTrustStoreTest.java,Myles Horton,Leah X Schmidt;
+e61d92c2349a1677ed5aca4ac778977adb50b887,1,2,2,0,1.0,
+9fa775eb958b16547c398809aaa115030009d6ff,1,8,0,0,0.0,test/unit/controllersSpec.js,_pants,Igor Minar;.gitignore,_pants,Igor Minar;app/js/app.js,_pants,Igor Minar;app/js/controllers.js,_pants,Igor Minar;.travis.yml,_pants,Igor Minar;app/index.html,_pants,Igor Minar;scripts/test.bat,_pants,Igor Minar;README.md,_pants,Igor Minar;
+335cc35f24b3b8ff34f3b7472b6215023d2b24ef,0,2,0,0,0.0,
+1d421aac4ce2158f8a27939501f30c4dd06054ea,1,2,0,0,0.0,src/main/java/org/lantern/DefaultPeerFactory.java,Leah X Schmidt,Myles Horton;src/main/java/org/lantern/state/Peer.java,Leah X Schmidt,Myles Horton;
+e43fc45af06669b4442df3bfc1d47ddbb5a97dd5,1,2,0,0,0.0,src/main/java/org/lantern/DefaultPeerFactory.java,Leah X Schmidt,Myles Horton;src/main/java/org/lantern/state/Peer.java,Leah X Schmidt,Myles Horton;
+552878fa0035a827a59e6b571ce3baea2101a20e,0,2,0,0,0.0,
+770c8ce1d4564394fb2a94f4d3cfb9635a4b88b6,0,2,0,0,0.0,
+23138f78f6660aaee41a6ae2c90c7a5c426dc104,0,5,0,0,0.0,
+81049d7a20fc2454cb2e3e36253d1e975d5ec9cb,0,5,0,0,0.0,
+182502877b2dc19484b826a999953166889e0650,0,1,0,0,0.0,
+898b62e1206a8c51eaa6944060a2e0bb79853973,0,1,0,0,0.0,
+70e091a6010d40de67bfe16e78bb54917e514bf9,2,1,1,0,1.0,
+f17c2ebaa8cbab898af8d36fc398022cde9eb13d,2,1,1,0,1.0,
+bec149843054cec031472f7b5046ed104c7b4ab3,0,2,0,0,0.0,
+85c83dfac8274e1ddd3b95ef9afbf06ec98f8e19,0,2,0,0,0.0,
+833dfc42fa2b20c9c9184a697da1acec827dbb4c,0,1,0,0,0.0,
+5645345cc5db0736f4430f35330a49ffadd2a08f,0,1,0,0,0.0,
+14a10730a82cad073edbfbd50f212477135e5b74,0,1,0,0,0.0,
+4745527e1ec96e6e66a6e89df020b9ecacea395b,0,1,0,0,0.0,
+72fb9aac3c63814f7a6e442f1d83a688d6dfb38e,0,1,0,0,0.0,
+af72c64f7bd6f8d818bdb72213d22820ebd3fc05,0,1,0,0,0.0,
+5d7694b2a00f6bc6888acace9eff629dfa87f556,1,7,4,0,0.5714285714285714,src/main/java/org/lantern/LanternUtils.java,Myles Horton,Leah X Schmidt;src/test/java/org/lantern/LanternProxyingTest.java,Myles Horton,Leah X Schmidt;src/test/java/org/lantern/LanternUtilsTest.java,Myles Horton,Leah X Schmidt;
+e135f2b6eedada49c72717e920e24c10f96fcc19,1,7,4,0,0.5714285714285714,src/main/java/org/lantern/LanternUtils.java,Myles Horton,Leah X Schmidt;src/test/java/org/lantern/LanternProxyingTest.java,Myles Horton,Leah X Schmidt;src/test/java/org/lantern/LanternUtilsTest.java,Myles Horton,Leah X Schmidt;
+14def1992a331c8ace8738dbc5c18cee4793731e,2,1,1,0,1.0,
+6805ddb0dc12d08aa27b6359f4f87340e6b9850f,2,1,1,0,1.0,
+6e7756b8a7a6b24e01fdd909484948698785d0b5,1,4,4,0,1.0,
+1a0f7105858ba2703e2107e5fe38b53764e48c51,0,1,0,0,0.0,
+627df2cab083a4eda48dbf508a8cb407845a31bb,0,2,0,0,0.0,
+c2e8f3ab7e590411d4782a80c4c2d3bf4064fa13,1,7,1,2,0.14285714285714285,src/main/java/org/lantern/Launcher.java,_pants,Myles Horton;.gitmodules,_pants,Myles Horton;src/main/java/org/lantern/Settings.java,_pants,Myles Horton;src/main/java/org/lantern/Whitelist.java,_pants,Myles Horton;
+9d514d3cec825ce7b7ad29212c971549fa811ec0,1,7,1,2,0.14285714285714285,src/main/java/org/lantern/Launcher.java,_pants,Myles Horton;.gitmodules,_pants,Myles Horton;src/main/java/org/lantern/Settings.java,_pants,Myles Horton;src/main/java/org/lantern/Whitelist.java,_pants,Myles Horton;
+61799e0e2fe7166baf309e214876fe91a87c0b6b,0,2,0,0,0.0,
+444f943d5c2b8c91b35f99d5ffb4fe225ec14955,0,2,0,0,0.0,
+35b5f09a0571fc6c46f16f74cc6b96ff579fe999,0,2,0,0,0.0,
+1937174f9016ec9514f1fe056994f90e1e35a951,1,1,1,0,1.0,
+e64e8cec667c901fa2fd3000d6a541a7c1975e47,1,2,1,0,0.5,installerBuild.bash,_pants,Myles Horton;
+e88889b61e8da48974b46ad2afe01db8f357f38b,2,2,1,0,0.5,installerBuild.bash,_pants,Myles Horton;
+29a8718cd6f651e161846a511c8879f740d4603f,0,1,0,0,0.0,
+c3e2e65404ccd89744004bba92547b9b813ec74e,0,1,0,0,0.0,
+21a04fa81bb0b6046858302217bd75dd52496a14,0,1,0,0,0.0,
+ab4cd01ef9622e0ae04eb18e58de592132a9ae0d,0,1,0,0,0.0,
+9645675d819cdc4df470ea87ef2d42f486da9769,0,1,0,0,0.0,
+2a07300e98b43620a00e2244d59b14621d49c0b8,1,12,11,0,0.9166666666666666,src/main/java/org/lantern/LanternUtils.java,Myles Horton,Willie Forkner;
+491d9a427ed8494921a76e421c973bf1015f03ed,1,12,11,0,0.9166666666666666,src/main/java/org/lantern/LanternUtils.java,Myles Horton,Willie Forkner;
+456e4e6171be70ef6031586b3e21cc8622f20bb0,0,1,0,0,0.0,
+07b9c4f8720d41874a9d1916b8d0ed81e6d67798,0,1,0,0,0.0,
+3e43c90f65113f8fb4ab2381093341a362c5a9d5,0,1,0,0,0.0,
+bd571ae2a89db66301168c33f3c421b78416dbf9,0,1,0,0,0.0,
+17e88653daed92f511c99b12c492c8b568932bf3,2,2,2,0,1.0,
+c25a6706fcb6dd4b94d6a66f3b6c1e300850a2a8,2,3,3,0,1.0,

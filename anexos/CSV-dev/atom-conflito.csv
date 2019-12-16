@@ -1,0 +1,433 @@
+Hash do merge,Intersecção de Desenvolvedores,Arquivos em Conflito,Arquivos com Conflito causado pelo Mesmo,Arquivos Null,Relação Arquivos Mesmo / Total de Arquivos
+61cb1bce741c4ed0afa0aa1f406afa963cf99555,2,1,1,0,1.0,
+58a10a2cc9d69f4e7d2ad39c5d9acaf65a517c37,1,2,0,0,0.0,src/main-process/squirrel-update.js,Rafael Oleza,Antonio Scandurra;spec/squirrel-update-spec.coffee,Rafael Oleza,Antonio Scandurra;
+5b61fbaf3a177eb557d51b41d6aea430f2ed2db8,1,2,0,0,0.0,package-lock.json,Rafael Oleza,Max Brunsfeld;package.json,Rafael Oleza,Max Brunsfeld;
+52c0698f76bc6e627c1b339d6d85963db3b2843d,1,1,0,0,0.0,appveyor.yml,Jason Rudolph,Max Brunsfeld;
+5ddb665831e6018f0b610f0d0435a87669a6cdb4,1,2,0,0,0.0,apm/package-lock.json,Winston Liu,Jason Rudolph;apm/package.json,Winston Liu,Jason Rudolph;
+5f0aad2ec7afd866e70decbb8da165c1078131b9,1,2,1,0,0.5,src/module-cache.js,Winston Liu,Rafael Oleza;
+66ecbe209db7af1f66e77700c6e24183bcddebba,0,1,0,0,0.0,
+30c00f88f859d92fe6968dcbd6ce2de57ac1b4c0,0,2,0,0,0.0,
+79f68363495d552450175803ef1f3d3aef1d0409,0,9,0,0,0.0,
+975f203dc7b4df46db5c3e2fc9e2c8dfa162fdd7,1,3,0,0,0.0,src/main-process/win-shell.js,David Wilson,Rafael Oleza;script/lib/package-application.js,David Wilson,Jason Rudolph;resources/win/atom.js,David Wilson,Winston Liu;
+49cb6f4a7b3625cd1e7f9dbd01c9fd0ce4c17bf6,0,2,0,0,0.0,
+41840abdc2898eb46c3b6c6c7d8935acdf6e471b,0,4,0,0,0.0,
+ec59214287e0d77230d11c4426da2966df203d7f,0,2,0,0,0.0,
+813d017d1b05cfe161d6d56e65d919ea930c6b23,0,1,0,0,0.0,
+0c547301aa0d303077edcf230754c5c87d30b81d,0,1,0,0,0.0,
+bc8d95702dee4627b2f5dba9888e49b4d6359384,0,2,0,0,0.0,
+77dcd96a66f4fe0689b5d8ef4e1fa79f574be91b,0,1,0,0,0.0,
+eb495f3ccf0d7e9d3276e83388e79e154413f3cb,0,1,0,0,0.0,
+1ebfcbae8911175579b17289468126d7d537373c,1,4,0,0,0.0,package-lock.json,Winston Liu,Rafael Oleza;script/package.json,Winston Liu,Antonio Scandurra;script/package-lock.json,Winston Liu,Antonio Scandurra;package.json,Winston Liu,Rafael Oleza;
+a4c6f31589b8e21306c887f538f56ce4a2c72d03,0,3,0,0,0.0,
+9d1406cb052f14b2e8961d94a40b0bdd48706edd,1,1,0,0,0.0,script/lib/generate-startup-snapshot.js,Rafael Oleza,Antonio Scandurra;
+c8d3c7e4c07c03b8e9fa637fa97d20b1a98f2a81,0,1,0,0,0.0,
+98e45729077a5798b2df8b8479d7c82ddc69c8c2,1,1,0,0,0.0,script/vsts/platforms/linux.yml,David Wilson,Rafael Oleza;
+2b15c1ed486926f5ab319d9001639137c8c7e4e5,1,1,0,0,0.0,src/native-compile-cache.js,David Wilson,Rafael Oleza;
+6b3e90699b756c270b3ade61829224ea57f9c130,0,2,0,0,0.0,
+db40641a84b21c8f9d279bd9416fa033c767fcb0,1,1,0,0,0.0,package.json,Nathan Sobo,Jason Rudolph;
+dbb6c7b1b6457d2bbd4f08a39d07f30f969c2c83,1,2,0,0,0.0,spec/main-process/atom-application.test.js,Winston Liu,Rafael Oleza;src/atom-environment.js,Winston Liu,Rafael Oleza;
+165a297d3103b336a2cd76c86ea04e8351b7fb1c,0,1,0,0,0.0,
+275499b8b3faa937b0294d37c40bc7841e41b2dd,0,5,0,0,0.0,
+8dcdae902ac9f6c2475c749660e5708d64777f81,1,2,0,0,0.0,packages/grammar-selector/spec/grammar-selector-spec.js,Benjamin Gray,Rafael Oleza;packages/grammar-selector/lib/grammar-list-view.js,Benjamin Gray,Rafael Oleza;
+6c88a7d303b79d0a842585a42744714cc91ca964,1,1,0,0,0.0,package.json,simurai,Rafael Oleza;
+99881f1796381449deaf2c66bae1577682d9c886,1,1,1,0,1.0,
+32a007597ef1c50eab310a3a18f060f6ebb1dfad,1,3,0,0,0.0,spec/main-process/atom-application.test.js,Wliu,David Wilson;src/atom-environment.coffee,Wliu,Lee Dohm;spec/atom-environment-spec.coffee,Wliu,Lee Dohm;
+c4b3381984ed490e61caf3aeea3718b1ccf987d2,1,2,0,0,0.0,packages/README.md,Ryan Olson,simurai;package.json,Ryan Olson,simurai;
+d74e6d692db5b76df3d16fed602401b19cd7fc63,0,1,0,0,0.0,
+59b4fb4a6405c696c99a6318ee5c46659e755485,1,2,2,0,1.0,
+fed020c382c3062bf4562430873618aacabe726f,1,2,2,0,1.0,
+44110cb22a42965666f4b7af21466859147c1d7e,2,2,2,0,1.0,
+8b9f5d1827cd4a8542ab6cf672d49397a4f5a876,2,2,2,0,1.0,
+f3a4cc1d3a872fe3b9c54cacfb891ec87a97c196,0,3,0,0,0.0,
+f6f1cb52207ebe41dcdb161f1f39877f98f4d037,1,1,1,0,1.0,
+e3e315c5e9f94b53a30196dff379fcbbb46f0b87,0,2,0,0,0.0,
+05eebac3b36c87ab83bf61ecf35a5b0d68d5ab57,0,2,0,0,0.0,
+467415af1912cc0092b08530efebade389118902,1,2,0,0,0.0,src/clipboard.js,Wliu,Benjamin Gray;script/lib/generate-startup-snapshot.js,Wliu,Tilde Ann Thurium;
+a28ae68f3ba83b34af5744b0a62397abccd8bec4,0,1,0,0,0.0,
+298db7314c708eda698008b49ba776acb091b473,0,1,0,0,0.0,
+639164034f271a6599edb6c895df1875029f8b64,1,1,0,0,0.0,package.json,Ashi Krishnan,Ash Wilson;
+9beec5f17551250dfd8ba3db44ecb18fb4aef19d,1,1,1,0,1.0,
+b61ade47fc45c82e9d2c11e623e9e55646b00817,0,3,0,0,0.0,
+cbd8a2d251b94a31c509d7204ce452d5b170e4d8,0,1,0,0,0.0,
+ab47adbd38646cc308d56dd851df0aa6c07ccd27,1,1,1,0,1.0,
+c6a1ffedf0c349daaf54e1ed93a7a7d130b68d5d,0,1,0,0,0.0,
+4de1a5c23d37bac235606d80d58383c8b14c54bc,1,1,0,0,0.0,package.json,Max Brunsfeld,David Wilson;
+aca13c1d6d8b5357d0a3e0c25ae51dc52382caaa,2,2,2,0,1.0,
+7f5a7c9b902bfbc0d52a57a619924c4d91a61ce8,1,1,0,0,0.0,package.json,Jason Rudolph,Wliu;
+8fee5f8fb2e6af26a499fe51c12d83c366f080aa,0,1,0,0,0.0,
+d7eff0ec55349e90fd1082264f03afdcfa366d73,0,1,0,0,0.0,
+8f672b2e5f1d13951f14f9606b642f1130d4fa11,1,1,0,0,0.0,src/main-process/atom-window.js,Philip Weiss,Jordan Eldredge;
+056c825d188e132dbbb34f13f1935c236e4a659f,1,2,0,0,0.0,src/main-process/file-recovery-service.js,Wliu,Max Brunsfeld;src/main-process/atom-window.js,Wliu,Max Brunsfeld;
+cd84216f111c3d31ed5805e71b5904a7734a53c0,1,1,0,0,0.0,src/main-process/atom-application.coffee,Wliu,Nathan Sobo;
+c84eeb3ae012a86ee1097ccaca6e29e9a8658027,1,1,1,0,1.0,
+3f710a13980f109d8795ee3efcb45486eaff6cf5,0,2,0,0,0.0,
+5c3d6abb122ee45663d947309060a2d69142895c,1,2,0,0,0.0,src/application-delegate.coffee,Wliu,Max Brunsfeld;spec/main-process/atom-application.test.js,Wliu,Max Brunsfeld;
+b69631a44419d3355a49bc9d7379a7325cbafbf4,1,2,0,0,0.0,src/application-delegate.coffee,Wliu,Max Brunsfeld;src/main-process/atom-window.coffee,Wliu,Max Brunsfeld;
+fe4d14444faad4d6e3df4ba904359b5ec3ae795c,1,1,0,0,0.0,package.json,Max Brunsfeld,Bryant Ung;
+6998c2df8cc2a110fa869c069a20277abb644b1f,1,1,1,0,1.0,
+4833a175c2bdd3457bf5194bbaa494ae3bb2a2e6,0,1,0,0,0.0,
+0b6e994ac629d85518ecd194514d5606813a4e62,0,1,0,0,0.0,
+ad492ef3449ec6a01fc904602812c91143947713,0,1,0,0,0.0,
+b3cee41f282348960852cae6aedb52ddca80d6a0,0,1,0,0,0.0,
+3998556a0a3064c01c7c237c9056a5215b9feaca,1,2,2,0,1.0,
+eb4cd11025004678a2e890c54fcf05f265ab35d6,1,1,0,0,0.0,src/package.coffee,Wliu,Max Brunsfeld;
+4c102eeb2bb0f3902daadab7e49f55ca23eb4f7f,1,1,0,0,0.0,src/package.coffee,Wliu,Max Brunsfeld;
+3d5cc6993c611571962fe8add0516760240661a6,1,1,0,0,0.0,package.json,Max Brunsfeld,Michelle Tilley;
+653ecd7f52d8afbe3e15a156501a6f362f75041f,1,2,0,0,0.0,src/atom-environment.coffee,Max Brunsfeld,Michelle Tilley;package.json,Max Brunsfeld,Nathan Sobo;
+e77ed412b73dcedc2b2b2075e3049d99e2187c95,0,1,0,0,0.0,
+4ec1d85aad8250e608cbb4f468e5f0bcb6faab64,1,1,1,0,1.0,
+815572d522ffb2b2cb6136c03e8a9bb5c2a18aab,1,1,0,0,0.0,src/text-editor.coffee,Wliu,Michelle Tilley;
+8ae399a96be7440524d3cf65113b839314831f69,0,1,0,0,0.0,
+6ab4ca4aae6e1163e248cdc63bb7cfdfce2f4a3b,1,1,1,0,1.0,
+5d0f1bdbe9873a7eab4634887a2faab821ed746d,0,1,0,0,0.0,
+5b673d5a4e1ee6e26e3e1c4e02fb47af1893fe04,0,6,0,0,0.0,
+bbb331e1f7a6189a35bc84d182781e7ff0f1a793,0,2,0,0,0.0,
+9e74e164b606cc33017e5a0887cd8d75e0e6bd28,1,2,0,0,0.0,src/application-delegate.coffee,Michelle Tilley,Wliu;src/atom-environment.coffee,Michelle Tilley,Wliu;
+c536ef7881e1e2a7007f1a3707f41192ec07e0bb,0,1,0,0,0.0,
+3bf83445191d98adfc69761a1dca1bc6650f3947,1,1,0,0,0.0,package.json,Will Binns-Smith,Bryant Ung;
+84673775af2185485bd35b4add8099ca6e495c8e,1,1,0,0,0.0,package.json,Paul Betts,Nathan Sobo;
+4cf519f2d73f360cb260f51e9eae57ba3d803e91,1,1,1,0,1.0,
+3b56ef8cbf0bf8c2df8c6d3e1ad5b49ddb2a86d8,0,2,0,0,0.0,
+0cadf7e888d1ff49bc0b660d4d32def1339a6160,1,2,2,0,1.0,
+d50a9fac331faec3812166b63914e672f27c2090,0,1,0,0,0.0,
+0d8547e6407734ce76f174e1bc1abe65c7440b7b,0,6,0,0,0.0,
+16be073c91911c13cc55b9827f19a6d1070d7f02,0,2,0,0,0.0,
+912b6db5d50167a6bd763ae2ff0b482e3af7ca3a,0,1,0,0,0.0,
+9417888f60cf10033e7b1fd7ae505db725e918d6,0,1,0,0,0.0,
+d158e44374e81fb8ef5870c12b62c6963a9aef64,1,1,0,0,0.0,package.json,Antonio Scandurra,Max Brunsfeld;
+8702b840f5980c406e4902f478788f796442b79d,1,3,0,0,0.0,script/lib/backup-node-modules.js,Michelle Tilley,Katrina Uychaco;script/test,Michelle Tilley,Katrina Uychaco;script/lib/transpile-packages-with-custom-transpiler-paths.js,Michelle Tilley,Katrina Uychaco;
+d44876f3bcdf9bb585243f35c51f467000a56a6b,1,1,0,0,0.0,package.json,Antonio Scandurra,Wliu;
+898ca46495f4504e760e6ad03c0e2cb2f6b80194,0,2,0,0,0.0,
+7c2510eb9c044ebc41c4d643f5adc23835d1c5ea,0,5,0,0,0.0,
+729ae0ea5161d54dbb7c59b6d9888b3525935fb2,1,2,0,0,0.0,src/task.coffee,Nathan Sobo,Antonio Scandurra;script/package.json,Nathan Sobo,Antonio Scandurra;
+57281dd97a5c5b5106222ea2db33f0002655a85e,1,1,1,0,1.0,
+61fe77e918ea6e2544245bf37971d01f9e5ea908,1,1,0,0,0.0,script/lib/generate-startup-snapshot.js,Wliu,Max Brunsfeld;
+817467f0a82e68cc3a62c2ae88271368c15e3681,1,1,1,0,1.0,
+d202c1abd33a64da0c27b4334132f9ce8baad062,1,2,0,0,0.0,script/config.js,Wliu,Antonio Scandurra;script/lib/prebuild-less-cache.js,Wliu,Antonio Scandurra;
+d9e1fcc70bc0babad05ca453c4b9acd9857d5471,0,3,0,0,0.0,
+4c1cb16e77f8c8b35f72a2b4286c841164e169b0,0,1,0,0,0.0,
+590af46498d128cb3bf2aa1676b7c07b8256357d,1,2,1,0,0.5,spec/history-manager-spec.js,Wliu,Antonio Scandurra;
+27c66300e4afdb409248459ea207223401357671,1,2,0,0,0.0,script/lib/generate-metadata.js,Wliu,Antonio Scandurra;script/lib/create-windows-installer.js,Wliu,Antonio Scandurra;
+f4b6cfbdd6e281e96ab27662b11bb99084b0a6f7,0,1,0,0,0.0,
+95cf200a7c5719d948995c540fef07c60b19fedb,1,1,1,0,1.0,
+70177e5a4dd1f9bea6a26a8f134f2cbb28ebee43,1,7,7,0,1.0,
+8c671e9f874ae9a4a3fa5f025051591e99ab6138,0,1,0,0,0.0,
+9e864fac30dd1e55538e6a7c319ad75c77e202fc,1,1,0,0,0.0,package.json,Antonio Scandurra,Hubot;
+69d12d917bd816c37424e791da98dfb25e8cd893,1,3,0,0,0.0,circle.yml,Wliu,simurai;.travis.yml,Wliu,simurai;script/lib/code-sign-on-mac.js,Wliu,simurai;
+264ff4a8653a6af0306621510e61e12a1e877bba,1,1,0,0,0.0,static/index.js,Antonio Scandurra,Damien Guard;
+ec9aec66862006fd083b27a44552edec3a18daea,0,1,0,0,0.0,
+c3719b01769e7266273406547348205acb3ab1d2,0,1,0,0,0.0,
+d1a52b6db8afe5fa30b2e63beb38428ad0c0895d,0,1,0,0,0.0,
+feb60ca0d38816e1eda573f988ea91909c580ad7,1,1,0,0,0.0,spec/lines-yardstick-spec.coffee,Nathan Sobo,Damien Guard;
+9efae86238abb0cae0ddaa855c1be707290c1917,1,1,0,0,0.0,package.json,Ian Olsen,Antonio Scandurra;
+f3b5c5ad39217b636597826907625f9db6c089fc,0,1,0,0,0.0,
+e13a4534c87b0485792be5f5d435916e4cfa1c8d,1,1,0,0,0.0,package.json,Nathan Sobo,Katrina Uychaco;
+84bd000d025591c07daa8845db0605c7ec80fe47,0,1,0,0,0.0,
+a629e91cda4c1485d4e48bda4b126b9fc2d92ea9,0,1,0,0,0.0,
+2571bbc6f239a2fe2ad74c35cfe35b0e1bebd483,0,1,0,0,0.0,
+611018411b430356895369ca724a652d9f8b6930,1,1,0,0,0.0,package.json,Nathan Sobo,Hubot;
+5c9b9d87a44c8676de30c93c21861dbf839df856,1,1,1,0,1.0,
+ad0d1039830ded1cd680e53c9a3397bcac8c39f0,0,1,0,0,0.0,
+a4435305f1a709bc31b54aaf2017ed5598564036,0,1,0,0,0.0,
+34978bfedab0e98205114733eb0ac85e93f2cd35,1,1,1,0,1.0,
+194f927b87fbb1ded19c16cc910b6cc831347821,1,1,0,1,0.0,
+cf36ecf3cafdd0837a8e4278d0d44ee74c67994a,1,1,1,0,1.0,
+1f4cd6e00d2921eaf88046b2706c3fb49e9fb2b5,1,1,0,0,0.0,src/text-editor.coffee,Nathan Sobo,Max Brunsfeld;
+c5a6e9c6976b43329302fcec6d80cc32e9894068,1,1,0,0,0.0,src/text-editor.coffee,Max Brunsfeld,Antonio Scandurra;
+1c99c399d166ef23b926fe991d8d37132da20931,1,2,0,0,0.0,package.json,Max Brunsfeld,simurai;spec/text-editor-component-spec.js,Max Brunsfeld,Nathan Sobo;
+caad40c896780639945ebfc07202e79bb0690829,1,1,1,0,1.0,
+ebb03f022bee3a51c6408e6d6978934028664612,1,2,2,0,1.0,
+7146a6bde92d82d86f04f921d029fd3f3ccbeaef,1,1,0,0,0.0,spec/integration/startup-spec.coffee,Antonio Scandurra,Nathan Sobo;
+11463ef00b88aa44f269d2cfd4a787d7ee6e0fe9,1,6,0,0,0.0,src/text-editor.coffee,Max Brunsfeld,Antonio Scandurra;spec/text-editor-spec.coffee,Max Brunsfeld,Antonio Scandurra;src/text-editor-presenter.coffee,Max Brunsfeld,Antonio Scandurra;src/text-editor-component.coffee,Max Brunsfeld,Antonio Scandurra;spec/text-editor-presenter-spec.coffee,Max Brunsfeld,Antonio Scandurra;src/text-editor-element.coffee,Max Brunsfeld,Antonio Scandurra;
+38849474d0b2a208b35a7f84a263daa9303d20e0,1,2,0,0,0.0,src/tokenized-buffer.coffee,Max Brunsfeld,Nathan Sobo;package.json,Max Brunsfeld,Nathan Sobo;
+16a22b9f281d940d34562ae99b42c691b3fcc327,1,1,1,0,1.0,
+5d83874725aa4237a733cf806132590e70c207bb,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+35ea8133518db8bcdfa401e0a7b0504654b45aa3,1,1,1,0,1.0,
+0beb4bec42c4ee532ac3e877211da657918b924a,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+f3d486eb9c7f310bc6485ac7e48a7f4c253e2809,1,2,2,0,1.0,
+ed5ad3cee7e0f51de662c9e5a14eb237e2bb313d,1,1,1,0,1.0,
+f1a302a139554e2d9d320a4f9efdb6d6e706fd47,1,1,0,0,0.0,package.json,Max Brunsfeld,Damien Guard;
+7ca4145eb9997d63de4e8397ef4d85dce6fece60,1,1,0,0,0.0,build/package.json,Antonio Scandurra,Nathan Sobo;
+41f17c7b4300ed4971a79bf65214eb638183ce4f,0,1,0,0,0.0,
+ab2ede30daec0a945b1daa6400452913c6861e9c,0,1,0,0,0.0,
+d5de6e257f8570ce275e390c838459f450cdcd12,0,1,0,0,0.0,
+c6d431bdf1f26a9aceba48bacb638c4afd5e9e18,0,1,0,0,0.0,
+506a4b3dcc90aa827529ed36c5ade011124be4ed,0,1,0,0,0.0,
+3b46d7f50b1a92cfeb4e40dd96e794b38ed30bbe,0,1,0,0,0.0,
+7690331555c699ccd8722f3b8c199f2d1385e5c6,0,1,0,0,0.0,
+ce4b2fa8103471d9241b9a836ddfeceae67fa2ad,0,3,0,0,0.0,
+00ebe6bbbc2caf88a6dba46d21fb7f144d90b8b2,0,1,0,0,0.0,
+9175194f4790c46ef54c24d1450a3969cd963094,1,1,1,0,1.0,
+754cbc2a6788a396d2f4156549f75faa1339dc79,1,1,0,0,0.0,spec/tokenized-buffer-spec.coffee,Nathan Sobo,Wliu;
+7876d55d688d84d75b0c65c70e99849d5a2564f9,0,1,0,0,0.0,
+803305a5587c7f91151634a31e753b17b216655d,1,1,0,0,0.0,package.json,Wliu,Josh Abernathy;
+e932e3db050a9b64b12e1b7f9cf268f181011cae,0,3,0,0,0.0,
+55172c66e9e508c713e844859fdf3e9e9af2d470,1,1,0,0,0.0,src/git-repository-async.js,joshaber,Josh Abernathy;
+dfed7c453782e4c2efbc3bf2462bfb76f53c26c1,1,4,2,0,0.5,src/text-editor.coffee,Nathan Sobo,Antonio Scandurra;package.json,Nathan Sobo,Antonio Scandurra;
+707bdf3f39d1de3530e0a39f0c0801c83bb2c59f,1,1,0,0,0.0,src/text-editor.coffee,joshaber,Ian Olsen;
+4bc969d1dfc8caad35d902afcd0abd6db5d4f91a,1,3,0,0,0.0,src/initialize-test-window.coffee,Max Brunsfeld,Katrina Uychaco;static/index.js,Max Brunsfeld,Katrina Uychaco;src/initialize-application-window.coffee,Max Brunsfeld,Katrina Uychaco;
+bf264c6a6af98d6539a7e0206e250fc1e17c6039,1,1,0,0,0.0,package.json,Katrina Uychaco,Josh Abernathy;
+0ea06bad31ce1e585e46ba752b78f1676285e225,1,2,1,0,0.5,src/initialize-application-window.coffee,Max Brunsfeld,Katrina Uychaco;
+88fd1ef89d6b9531ad26c49d98b3edbc2d090986,1,2,0,0,0.0,package.json,Max Brunsfeld,joshaber;src/git-repository.coffee,Max Brunsfeld,Josh Abernathy;
+12adad88a3fbf02fdd28ca3cd5e1f3d351ad0262,1,1,0,0,0.0,package.json,Wliu,Katrina Uychaco;
+479a065c1ba492bd40ff8a3bb76b6a6f464b5aa1,1,1,0,0,0.0,package.json,Wliu,Katrina Uychaco;
+d759eb022df5962644b2c0088db07f975bbe2aa1,1,2,1,0,0.5,src/git-repository.coffee,Ian Olsen,Josh Abernathy;
+baa2c32a5148d07fda3a5e8b431f9dce023cc0b9,0,1,0,0,0.0,
+0243a345b7c20f89e73bef00b9d54c855fedb2cb,0,4,0,0,0.0,
+656cac88144a0de2bab339034198bd19d34c3fd1,1,1,0,0,0.0,package.json,Katrina Uychaco,Wliu;
+7c733f6dc4244647003a102d9af1140f8a51fbb7,1,1,0,0,0.0,package.json,Max Brunsfeld,Daniel Hengeveld;
+49776d114ce243a4fac7d1dc819c0631e08ff40f,1,1,0,0,0.0,package.json,Lee Dohm,Max Brunsfeld;
+6d561853003b42e3224d3096007b3d1704421fb9,1,1,1,0,1.0,
+a01dc47e69c9d4282ff0359aa848f63df1715a60,0,2,0,0,0.0,
+c4adc38273f078312cdacc88b1fa625401bd83cb,1,1,0,0,0.0,package.json,joshaber,Max Brunsfeld;
+191e607bd6d68d37e8e8540f884d69b0142de8ca,1,1,0,0,0.0,package.json,Wliu,Josh Abernathy;
+7ee74ed4c7351bab551d6ab1c4921d6e41e94a56,1,1,0,0,0.0,package.json,Wliu,Katrina Uychaco;
+4c1ebdf1b94f7f684e2dbd467b482d0857584d09,1,1,0,0,0.0,spec/text-editor-spec.coffee,Max Brunsfeld,Lee Dohm;
+6d61cc560e90c5ba13efa052f549278a311b07e8,1,1,0,0,0.0,package.json,Josh Abernathy,joshaber;
+18f2f28ad4e2af5631b5bec28c51b48fff8b83c8,0,1,0,0,0.0,
+2c4df2d69b599182f2ba4592e8fe4a66bdf4cd1b,1,2,1,0,0.5,package.json,Max Brunsfeld,Wliu;
+24db4586e4cd683eb514b84e27e86b605364fe34,1,1,0,0,0.0,src/git-repository.coffee,joshaber,Josh Abernathy;
+b8b2c88a0a5903d7bf79f5a9bfa06fb08c663131,1,1,0,0,0.0,script/bootstrap,joshaber,Nathan Sobo;
+a3a42e2d6d423fefdc6eafa404bc9365ea6806a1,1,1,0,0,0.0,package.json,Nathan Sobo,Max Brunsfeld;
+d6a2cee0d5bb1e4b85e8dd186845a15668a71f6f,1,1,0,0,0.0,package.json,Antonio Scandurra,Nathan Sobo;
+8c1f0b0e215914d020fd139fb9f40d18e8720258,1,6,0,0,0.0,spec/fake-lines-yardstick.coffee,Antonio Scandurra,Max Brunsfeld;spec/lines-yardstick-spec.coffee,Antonio Scandurra,Max Brunsfeld;src/lines-yardstick.coffee,Antonio Scandurra,Max Brunsfeld;src/text-editor-presenter.coffee,Antonio Scandurra,Max Brunsfeld;src/text-editor-component.coffee,Antonio Scandurra,Max Brunsfeld;spec/text-editor-presenter-spec.coffee,Antonio Scandurra,Max Brunsfeld;
+352a5abf1121560515ed231d3c6e053d3d2778ae,1,1,1,0,1.0,
+f670dd8ff25fee36a9a1348e0eacd8a036cd74e9,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+ccc984c88b6e077db7e5e09f007ebcf3ef323f47,1,1,0,0,0.0,package.json,Antonio Scandurra,Nathan Sobo;
+0f485cc98e3ddde0120c09a47231f4d78dac6f4e,1,1,0,0,0.0,package.json,Nathan Sobo,Sander van Harmelen;
+769b7bcd89b07f7f1355b935afdb08f17155d447,1,1,1,0,1.0,
+afb64e2650ac0de1950fe0f54645e574178ad043,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+7798ac1b772b2bea6b4bae92f3fe4e0a306105e8,1,1,1,0,1.0,
+9bd22d35b4722ced1ed950092a2f0a291853fdec,1,2,0,0,0.0,src/compile-cache.js,Antonio Scandurra,Nathan Sobo;package.json,Max Brunsfeld,Nathan Sobo;
+1c5c973823fc80f2bffc24207ac0ed3e60edbc56,0,1,0,0,0.0,
+b77c45859c3b6931600180c0d809095e1f744c90,0,1,0,0,0.0,
+d058814957d4fb2214c27d7694013779386ea645,1,1,0,0,0.0,package.json,Max Brunsfeld,Wliu;
+3a069538202d9b223b545640d9ba7b2c5e59e775,1,1,0,0,0.0,.travis.yml,joshaber,Wliu;
+936c17e550fca63417e4446853bc142cd96e3e02,0,1,0,0,0.0,
+71574d785ca620b7e5b313055529cfe809cb524c,0,2,0,0,0.0,
+040b1fa497770d0f1332103d65f2800929237008,1,1,0,0,0.0,package.json,joshaber,Nathan Sobo;
+231b9885ae5ffc479852170da549c0e623170070,1,1,1,0,1.0,
+f1af8c1d6ef8fba69e273da8f280ad0634a63c28,1,1,1,0,1.0,
+dae4539fbeb4a080f7b73185935988819f695902,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+43b2c460773bbe90baf1141b107ada70b099b98b,1,2,0,0,0.0,src/browser/atom-application.coffee,Nathan Sobo,Max Brunsfeld;package.json,Daniel Hengeveld,Max Brunsfeld;
+ef4631b5b690d5fa42fa661950ea8a2593cd8429,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+6bc35f96df60c32833f5e978e77716c3d0a9f9c7,1,1,0,0,0.0,package.json,Wliu,Nathan Sobo;
+e475065b4538ad9250879aca0697bc6025b55195,1,3,3,0,1.0,
+45f8eae887f3ee2b1a3fb3aa256a60ef525a2229,1,1,1,0,1.0,
+1955a549a2150de9f881e9ecdd6b68370dc6531a,1,1,1,0,1.0,
+6611246acf51be170f077383e2c92ba1576606c3,1,1,1,0,1.0,
+be7082093e2f25302bc36453c062ff59fbcabbd5,1,3,3,0,1.0,
+02ac863d387f7d0d886e479becb98e51e7c21bfe,1,1,0,0,0.0,package.json,Nathan Sobo,Max Brunsfeld;
+80d5aca049bab42d34389b11375f460676d42722,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+7e1a1bc8b099990a69c6310b900f36ac7cef0c02,0,1,0,0,0.0,
+fefb387d3cdcb78bc108d1d0e4723abdae71d7c5,1,2,0,0,0.0,src/text-editor.coffee,Max Brunsfeld,Nathan Sobo;src/text-editor-presenter.coffee,Max Brunsfeld,Nathan Sobo;
+0745348bcf98b6c1548a2cfb5437edc1e88f41f9,0,1,0,0,0.0,
+6b2725077abf2499d452c3a42ab72b710cfae16f,1,1,0,0,0.0,src/text-editor.coffee,abe33,Kevin Sawicki;
+357b6c6a014ebdea544c4d2e99f53bf9cc266a05,1,1,1,0,1.0,
+69dfdd0745209814b41c0c14e01f3d41ad0d27e8,2,1,1,0,1.0,
+2765c19cce203c5b76d4730fadd639480fcea413,1,1,0,0,0.0,package.json,Wliu,Nathan Sobo;
+f679c4319cc2c49c2bb11bda2abd6f556d06d583,1,1,0,0,0.0,package.json,Nathan Sobo,Ben Ogle;
+e0697ecc7fc6961b1c2e531f56e76a98b1a50010,0,1,0,0,0.0,
+b03aa4bf4013ee5eaa9ffbb4763be2dfbd50aa6d,1,1,0,0,0.0,spec/display-buffer-spec.coffee,Antonio Scandurra,Nathan Sobo;
+82c2323feb4e8b1a30416bec76fd3bf5f1c737e7,1,1,0,0,0.0,package.json,Max Brunsfeld,Thomas Johansen;
+32780e2823a1dea24ce24bf0261dd9e35ba1166e,1,1,0,0,0.0,package.json,Nathan Sobo,Max Brunsfeld;
+3876deddf396c3d5918d9d7b10b030d448128470,1,1,0,0,0.0,src/window-event-handler.coffee,Nathan Sobo,Max Brunsfeld;
+4c51d29868a52ab41af843e52efa49cd4f2860b8,1,4,1,0,0.25,src/lines-tile-component.coffee,Antonio Scandurra,Nathan Sobo;src/lines-component.coffee,Antonio Scandurra,Nathan Sobo;src/text-editor-component.coffee,Antonio Scandurra,Nathan Sobo;
+f067fdb7cd8e9991b0ac921712697b8e5fec3dd5,1,1,0,0,0.0,src/browser/main.coffee,Paul Betts,Max Brunsfeld;
+e43e1ed22e58a69a8fcd7f36d9274493f5b89865,1,1,1,0,1.0,
+47b6f043e9922de4ffd47d99512aff130ea8310d,1,1,1,0,1.0,
+ff8203460afaa2f08024618e90c2e8fbb6e24fc4,1,1,1,0,1.0,
+0e7abe4b8fa05b321ac5704e96253e6b7c79779d,1,1,1,0,1.0,
+ee8f4364903ddb0c8c99cde235aa5b1e9918c7e7,1,1,0,0,0.0,package.json,Wliu,Max Brunsfeld;
+46ed4132419a3bf02c02c8f3b98c2a9416afde34,1,1,1,0,1.0,
+bf4999cb0e9c9fd0ebd46d22ea3a7722683475b8,1,1,0,0,0.0,package.json,Ben Ogle,Max Brunsfeld;
+0ad9701ef5693eea59bbb72beff4922596643874,1,1,1,0,1.0,
+cd527b8cffd59a89f60ec5d89c1e91d201d609f4,1,1,0,0,0.0,package.json,Kevin Sawicki,Max Brunsfeld;
+2a1c9f0cf32d938b6518a13bbf68f70b824f60bc,0,1,0,0,0.0,
+bb2bd5492fa0fbd0e71cad41143510047e6b8301,0,1,0,0,0.0,
+91ef57ed292bde34258ca6051a93b3a03b4e0b51,0,1,0,0,0.0,
+41fb82b6a091070eb9efe632d33b2a8a4c357dbe,1,1,1,0,1.0,
+87606c8072e46527d8ef96d9397e0b2641fb64b3,1,1,0,0,0.0,package.json,Max Brunsfeld,Nathan Sobo;
+ddcc2f2af03438c8899a53fc5230dadccc899ecc,0,1,0,0,0.0,
+5a2e4ba2aa6bcabbc8bc873c584c4638e6d7cc68,1,1,0,0,0.0,src/text-editor-presenter.coffee,Antonio Scandurra,Wliu;
+ef158cd23b02dfb3a86a8ceeab07ddee6784be06,0,1,0,0,0.0,
+ad83a03440c47855964861e986a116435fd301b0,1,2,2,0,1.0,
+30d8216bf6f394fa14a2403f277465933ab64c86,1,1,0,0,0.0,package.json,Max Brunsfeld,Kevin Sawicki;
+83bddaf34e648c3bc2052386e499d0424c71fe52,0,1,0,0,0.0,
+119f29728091c53c246626a0ab8e0d598bbc905c,1,2,0,0,0.0,src/lines-component.coffee,Antonio Scandurra,Kevin Sawicki;src/text-editor-presenter.coffee,Antonio Scandurra,Kevin Sawicki;
+8980c01549fb0f003da1dca9c460c14f5cb16c6b,0,1,0,0,0.0,
+76c696f1a24178fffded7c4fa74b79bcede0cd57,0,2,0,0,0.0,
+299ee5dbf3d09506f30bce50a11173d66c65b58b,0,3,0,0,0.0,
+b66fdca0578b12d7724491fa34c5f38c97b057f5,0,1,0,0,0.0,
+d0e579478b97ab101c345691978db64d14d0ab96,0,1,0,0,0.0,
+e694b18ae2847564a6ac8222360ce675b47d15d1,0,2,0,0,0.0,
+319cff8010bfe8a4fde5f74fbf080e51a240ec4e,0,1,0,0,0.0,
+57a82ac23953340fc4def02bad0b2cd49e07b04c,0,1,0,0,0.0,
+e46d3b0d27e50c748b2a46547762a44cac4251cf,1,2,0,0,0.0,src/pane-element.coffee,liuxiong,Ivan Žužak;src/pane.coffee,liuxiong,Kevin Sawicki;
+32f2e4c4bc4a813e9809af173391b1e7989d2610,1,1,0,0,0.0,apm/package.json,Cheng Zhao,Jessica Lord;
+6b6d395d943f1a0b723ecca05f31520ff8cc5afd,0,1,0,0,0.0,
+e94b163c330941ce3a7ef9ff4818f1380d031ce2,0,1,0,0,0.0,
+0948f1abdfeb0be1ace97d1bf1f0ba8a65cc0b5e,1,1,0,0,0.0,src/text-editor-presenter.coffee,Antonio Scandurra,Nathan Sobo;
+e80f5acd50320a41c7fa0c725d600d60f1257344,1,1,0,0,0.0,docs/apm-rest-api.md,Daniel Hengeveld,Ben Ogle;
+f004f8c45ddbff2031a4ae29b463e287dcd00790,1,4,4,0,1.0,
+72538891ddc464be037dbcd4dcd4782924f0efd7,1,1,1,0,1.0,
+be7d093a4a2263a267e9887dbb2105b69af9fef0,1,1,0,0,0.0,package.json,Nathan Sobo,Kevin Sawicki;
+0ebedeec3a110bee746e1e7357c2dcf782654e15,0,2,0,0,0.0,
+54b89cebcc9c5ac7e11bdaaa9241a1ad19bc006e,0,1,0,0,0.0,
+5afceb39514771343ac29e4b0f90ebf0c2867a79,1,1,0,0,0.0,apm/package.json,Cheng Zhao,Kevin Sawicki;
+a50f62dc93dcd4ff5494be780fe54d7d6c0465eb,0,1,0,0,0.0,
+af2f1550829f4d26c094fd84a0229475bf2efe5f,0,1,0,0,0.0,
+4946eec367f552faccf29a06419fb8688f150b98,1,1,1,0,1.0,
+002f9ca2b18d15089e88e3e20d2891a7f77eb86a,0,1,0,0,0.0,
+431555195af2f23b8c4b5701516cfa65de76fce7,1,1,1,0,1.0,
+7e415ffdb795f92fe6565194723d727dc85ea745,1,1,0,0,0.0,package.json,Cheng Zhao,Kevin Sawicki;
+caa6f9b06eb8016e77f6b5e5715767d2cb26bf0e,1,1,0,0,0.0,package.json,Cheng Zhao,Kevin Sawicki;
+a3d82e9414d769c1ea6d24d9a151f75161b698eb,1,1,0,0,0.0,package.json,Nathan Sobo,Kevin Sawicki;
+7515fd94ba970c6589e1776bbf878b6b46ef27f3,1,1,0,0,0.0,package.json,Kevin Sawicki,Nathan Sobo;
+b922f0125749d6a13aa60f3ccbc52e3880d2a4b5,1,1,0,0,0.0,package.json,Cheng Zhao,Kevin Sawicki;
+dcbf7301290e95341fca7f248845fc9290485dd8,1,2,0,0,0.0,apm/package.json,Kevin Sawicki,Ben Ogle;package.json,Kevin Sawicki,Ben Ogle;
+52e049bedc1a50af0ba74b139d2b69e5601e7ffe,0,2,0,0,0.0,
+ec8805e99e6963a93a5687599f77b63ec6c26979,0,1,0,0,0.0,
+94dd1eed543d2031c500d310fb89e759490872b1,1,1,1,0,1.0,
+9e7e77bdf8041dba477f0c28e64d1d5ddc4b48c1,1,1,0,0,0.0,src/gutter-component.coffee,Nathan Sobo,Ben Ogle;
+21623b9c37b716acb024386e8b8e471cd2151b59,1,1,1,0,1.0,
+2f3d74c04709c7d7f3e6c09930555d1b2affd3d0,1,1,1,0,1.0,
+037306a30cb42160379109058c99d5875d4a428f,2,1,1,0,1.0,
+152a8b311f9ba82d7127f6be8131e444a1cafd61,0,1,0,0,0.0,
+875cfefd367b09b2bc3449ed545ac5a9b6a5ede8,1,4,0,0,0.0,src/lines-component.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;spec/editor-component-spec.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/editor-component.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/editor-scroll-view-component.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;
+3a3adf43a4cefef21def74ae9020ad4bbe242b9c,0,1,0,0,0.0,
+9278920093a3e45208e533c0bf8f9dc877851049,1,1,0,0,0.0,src/editor-component.coffee,probablycorey,Nathan Sobo;
+6f0882a098b7d3def614de92204b3bf82c7abfed,0,1,0,0,0.0,
+917b223c6cae343d5e4a1d756e35e1755ef66735,1,1,0,0,0.0,keymaps/win32.cson,Kirill Nikitin,Corey Johnson;
+bb9d67a1b10221e060b7491a7185c7fe56c2b803,0,1,0,0,0.0,
+d6a4c7092911fce1623ef613c06c8787d6c4a6a1,0,1,0,0,0.0,
+5165f0df88ab7237975b509f52317fe641f4de8a,0,1,0,0,0.0,
+a649d75ab85108d40c490d52dce84fb5769b06d5,0,1,0,0,0.0,
+0b7475a4c17bc7cb85d893ef3996baf272540c68,1,1,0,0,0.0,package.json,Corey Johnson,Kevin Sawicki;
+8eb23dbe5c66561a7a14b2af706be27dc23ef8a6,1,1,1,0,1.0,
+59108322e7069088e3dac72e25796bc495dd190a,0,1,0,0,0.0,
+9784d49667202928747ca55fc1cb1f04c1061ec8,0,1,0,0,0.0,
+8405041f64f4814b57436012493a425043a2eafd,1,1,0,0,0.0,package.json,Nathan Sobo,Kevin Sawicki;
+d09a2d07723d795ec5a2a9360ae606ee497dc588,0,1,0,0,0.0,
+d7d2a6f1f03807b00a35a862f2e81b57a855906d,1,1,0,0,0.0,package.json,Nathan Sobo,Kevin Sawicki;
+c1cf4efb31dd0955343a999b044a68257817171d,1,1,0,0,0.0,package.json,Nathan Sobo,Kevin Sawicki;
+d64fefd96c8a738a4a056534eafb75ac8a983b66,0,1,0,0,0.0,
+3929189e7a7e8fd6594d9aa082e43d8c08c4e1a5,0,1,0,0,0.0,
+c6baed045d2d531dca06c8fcca5b14395e46f857,2,1,0,0,0.0,package.json,Kevin Sawicki,probablycorey;
+57e7335907c6bc39ef4bc4480592e033d2742819,1,1,0,0,0.0,src/pane.coffee,Corey Johnson,probablycorey;
+ffb7093cf30f6b4b3c52eb07a8fdb5c13ad6d932,1,2,2,0,1.0,
+8d40e4df10f4c0867722455d27797acd35b25b37,1,3,1,0,0.3333333333333333,package.json,probablycorey,Kevin Sawicki;src/package-manager.coffee,probablycorey,Kevin Sawicki;
+649f0ac24641ab900168a32f3122db62f06fb392,1,1,0,0,0.0,package.json,Nathan Sobo,Cheng Zhao;
+b7ae12f86f6584ca8d4ed4f21ce5c515a7cd009f,1,1,0,0,0.0,package.json,Cheng Zhao,Nathan Sobo;
+fcffcc83f96b4dc6033d234edf1ccbb708650484,1,2,0,1,0.0,package.json,Cheng Zhao,Kevin Sawicki;
+ac07cf3d9a9d4afcab36d596964fa28b9d46aa69,1,1,0,0,0.0,package.json,probablycorey,Nathan Sobo;
+95f2d02d18e9dc5864a9a2943026e1e14b28f4a4,1,4,0,0,0.0,src/gutter.coffee,probablycorey,Nathan Sobo;spec/workspace-view-spec.coffee,probablycorey,Nathan Sobo;package.json,probablycorey,Nathan Sobo;src/editor.coffee,probablycorey,Nathan Sobo;
+63df8dfcdb1e034c74c75a171ef451c372a2c9a5,0,1,0,0,0.0,
+fe0cdbf349b661c5f3dfe94cd28b29053ef2a780,0,1,0,0,0.0,
+ccc5f8fa666be6d13720ef6b4d98fa529f94b16c,0,2,0,0,0.0,
+1074c6c34ecb64618562f2b422bfa09b46673057,0,1,0,0,0.0,
+0d89be26be5b1510763c4e2abf60ed47c3a19ec3,0,1,0,0,0.0,
+e8ce55903468831f469d098394531a75b42dd608,0,1,0,0,0.0,
+0e6bc275b73b621a438c856a1657ddfd706244b6,0,1,0,0,0.0,
+b6d5a1ddd82b0570f62fb32413a6f4c33bd8c72f,0,1,0,0,0.0,
+c6770aa83ede83da6c33b0cb1344c05c74a610db,1,2,0,0,0.0,package.json,Nathan Sobo,Corey Johnson;src/pane.coffee,Nathan Sobo,Corey Johnson;
+fd7c3f398062eb596b1e6eec84c73475e7100ee1,1,1,1,0,1.0,
+bf021ab7f79bb6edc0f0823b5a758917e0ece2da,0,1,0,0,0.0,
+cbfa87a3b40a1a5fd0dc8b5100c32b4427ad03da,1,1,1,0,1.0,
+bd3cfda2bb8f90c023cd58fa3782f30dcab624e4,0,1,0,0,0.0,
+beb2fb08ea66d8f4e2ead78a5683539e7091d087,1,1,0,0,0.0,package.json,Nathan Sobo,Kevin Sawicki;
+2d5b04579fe0a81b8190e0a97b043b0b06f2037f,1,1,0,0,0.0,src/pane.coffee,probablycorey,Nathan Sobo;
+7138d5b88850a00251e3eabc19e6fb79ad6ae7e2,1,1,1,0,1.0,
+776d58bf21ed6b53df5f510fe1420d9614438cf1,0,2,0,0,0.0,
+dde46ca9316b4be4818767f4f9126499301bc644,0,1,0,0,0.0,
+161c9a62b55f62074ed11255807c462163ff4c5b,0,1,0,0,0.0,
+dfa870f514c38bb946621f31fe0af0fa82141602,1,1,0,0,0.0,keymaps/win32.cson,Matt Colyer,Ben Ogle;
+001fe5931ef88522e28309a30127f69cf0b18258,1,1,0,0,0.0,package.json,Matt Colyer,Kevin Sawicki;
+dfa5ac11a24032b62bf6500c0ef01d5317b39565,1,1,0,0,0.0,package.json,Matt Colyer,Daniel Hengeveld;
+26d9d7a8fd9d73b46be7a3d279f5e9fefebd11e5,0,1,0,0,0.0,
+43c54a93e54100f13c2aa63163927f972420ca2d,0,1,0,0,0.0,
+0ee49561094755f97e8f801c7b21398ea59cc0d5,0,1,0,0,0.0,
+29a9a9d2ed77a5ac62fbb3d78d4f4178af7082cf,1,1,0,0,0.0,package.json,probablycorey,Ben Ogle;
+33cf5dda15e3a271304ddd09482f86ef53748578,1,2,0,0,0.0,src/config.coffee,Matt Colyer,Kevin Sawicki;src/atom.coffee,Matt Colyer,Kevin Sawicki;
+e95e64c4fb09556b9fff5be690b39f65c82e8fcb,0,1,0,0,0.0,
+25e49550cb18abe3f27bef58c363d2661831d825,1,1,0,0,0.0,src/atom.coffee,Matt Colyer,Kevin Sawicki;
+347801b0744f59efd9d60009ac76cd05317af5f9,1,3,3,0,1.0,
+c6d1409151de14168cbc6c9cc6a04d4242c75682,1,41,11,1,0.2682926829268293,src/app/range.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/packages/bracket-matcher/lib/bracket-matcher.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/command-panel/lib/commands/line-address.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/app/edit-session.coffee,Corey Johnson & Nathan Sobo,Kevin Sawicki;src/packages/command-panel/lib/commands/address-range.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/archive-view/lib/archive-edit-session.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/image-view/lib/image-edit-session.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/command-panel/lib/commands/regex-address.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/spell-check/lib/corrections-view.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/atom-application.coffee,Kevin Sawicki & Nathan Sobo,Jessica Lord & Kevin Sawicki;src/app/project.coffee,Kevin Sawicki,Cheng Zhao;src/packages/collaboration/lib/bootstrap.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/collaboration/lib/join-prompt-view.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/snippets/lib/snippet.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/snippets/spec/snippets-spec.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/go-to-line/lib/go-to-line-view.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/symbols-view/lib/symbols-view.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;static/root-view.less,Ben Ogle,Kevin Sawicki;spec/app/tokenized-buffer-spec.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/packages/autocomplete/spec/autocomplete-spec.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/command-panel/lib/commands/eof-address.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/spell-check/lib/misspelling-view.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/autocomplete/lib/autocomplete-view.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/snippets/lib/snippet-expansion.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/app/window.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/command-panel/lib/commands/zero-address.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/packages/symbols-view/lib/tag-generator.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;.pairs,probablycorey,Jessica Lord & Kevin Sawicki;src/packages/collaboration/lib/session-utils.coffee,Corey Johnson & Nathan Sobo,Kevin Sawicki;
+146573697490d9f25da6e4a6552a8264212d231d,1,1,1,0,1.0,
+642df0924d7b3b3e4a882e7c741f859f6226a085,1,1,0,1,0.0,
+56a2c79fe1177a5711b68d3a4887be9573cdd226,1,7,0,1,0.0,src/app/window.coffee,Nathan Sobo,Corey Johnson & Kevin Sawicki;src/app/project.coffee,Nathan Sobo,Kevin Sawicki;src/app/edit-session.coffee,Nathan Sobo,Kevin Sawicki;src/packages/collaboration/lib/bootstrap.coffee,Kevin Sawicki & Nathan Sobo,Kevin Sawicki;src/app/text-buffer.coffee,Nathan Sobo,Kevin Sawicki;src/packages/collaboration/lib/session-utils.coffee,Nathan Sobo,Kevin Sawicki;
+47e5c0df1610804eddfa34bd6d59dd7ba93fb1b1,1,1,1,0,1.0,
+8c9aad9e34c8fbe9bd264cc9e96913b86ebf8c5f,1,1,0,1,0.0,
+2bd95a2b57f27707c393b5efd073442aa5b442f2,0,1,0,0,0.0,
+61f8878e05163cf8b687c248450aeba72935ec19,1,4,0,0,0.0,spec/app/window-spec.coffee,Cheng Zhao,Kevin Sawicki & Nathan Sobo;src/app/window.coffee,probablycorey,Kevin Sawicki;script/bootstrap,Cheng Zhao,Kevin Sawicki;package.json,probablycorey,Garen Torikian;
+b4206d3202874b4fd056ed7f075a0905978a98d5,0,1,0,0,0.0,
+3e937e9811e79cf192b325401d59bbbb3f352739,1,10,0,0,0.0,src/app/buffer-marker.coffee,Corey Johnson & Nathan Sobo,Garen Torikian;src/app/line-map.coffee,Nathan Sobo,Garen Torikian;src/app/range.coffee,Nathan Sobo,Garen Torikian;src/app/display-buffer.coffee,Nathan Sobo,Garen Torikian;src/app/edit-session.coffee,Nathan Sobo,Garen Torikian;src/app/display-buffer-marker.coffee,Nathan Sobo,Garen Torikian;src/app/fold.coffee,Corey Johnson & Nathan Sobo,Garen Torikian;src/app/text-buffer.coffee,Nathan Sobo,Garen Torikian;src/app/cursor.coffee,Nathan Sobo,Garen Torikian;src/app/selection.coffee,Nathan Sobo,Garen Torikian;
+9432f9703ecdcbfbb77d9f2ef8f2606cac88be52,0,2,0,0,0.0,
+bf7608393981eda92739747f8ca453ca047b8052,0,3,0,0,0.0,
+c91de1e515d290c1b1207dbcfd0946b4487c0fd6,0,1,0,0,0.0,
+a16428c5b67af68ae9d1320fd1eee7f93b222255,1,3,0,0,0.0,src/app/editor.coffee,Garen Torikian,Kevin Sawicki;src/app/edit-session.coffee,Garen Torikian,Kevin Sawicki;src/app/text-buffer.coffee,Garen Torikian,Kevin Sawicki;
+a12c78100ecb86726c3287ea9460f74808ea4adb,0,1,0,0,0.0,
+42119ecb29e77d8d9a3091c099c93a2d8adaf3eb,0,1,0,0,0.0,
+ede5e88a19be7cc6bc294ef21c3bb748c551b2e4,1,2,0,0,0.0,src/packages/command-panel/lib/preview-list.coffee,Garen Torikian,Nathan Sobo;src/packages/fuzzy-finder/lib/load-paths-task.coffee,Kevin Sawicki,Nathan Sobo;
+7ab79d05f0f96dfe4a73bf14b4c4d5f10a4c2f92,1,3,0,0,0.0,src/packages/fuzzy-finder/spec/fuzzy-finder-spec.coffee,Garen Torikian,Kevin Sawicki;src/packages/fuzzy-finder/lib/fuzzy-finder-view.coffee,Garen Torikian,Kevin Sawicki;src/packages/fuzzy-finder/lib/load-paths-task.coffee,Garen Torikian,Kevin Sawicki;
+4971a73c013e155a9b05b49d5f3343a97884c26f,1,2,0,0,0.0,vendor/coffee-script.js,John Barnette,Kevin Sawicki;package.json,John Barnette,Garen Torikian;
+b298f63e4c722d12a756628c3273a95c6247b36f,0,1,0,0,0.0,
+764a7bf2570b5a02d46bfbe784fca74aa4b6705c,1,1,0,0,0.0,src/packages/fuzzy-finder/lib/load-paths-handler.coffee,Chris Wanstrath,Kevin Sawicki;
+501dc9b76c89b76f181f58affd6ea7088033057f,1,12,1,1,0.08333333333333333,native/v8_extensions/native.mm,Kevin Sawicki,Nathan Sobo;spec/app/window-spec.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;spec/spec-helper.coffee,Kevin Sawicki,Nathan Sobo;spec/app/config-spec.coffee,Kevin Sawicki & Nathan Sobo,Corey Johnson & Nathan Sobo;src/packages/markdown-preview/lib/markdown-preview-view.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/app/config.coffee,Kevin Sawicki,Nathan Sobo;src/stdlib/require.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/packages/tree-view/spec/tree-view-spec.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/app/atom-package.coffee,Kevin Sawicki & Nathan Sobo,Nathan Sobo;src/packages/fuzzy-finder/lib/load-paths-handler.coffee,Kevin Sawicki,Nathan Sobo;
+06b63c24dc8f3ae750b6f642eef5c81314cfab61,1,3,0,0,0.0,src/packages/markdown-preview/stylesheets/markdown-preview.css,Nathan Sobo,Justin Palmer;static/atom.css,Nathan Sobo,Justin Palmer;static/command-panel.css,Corey Johnson & Nathan Sobo,Justin Palmer;
+b0ec0cda7f08676b9329a73a36968c882bdeacce,1,1,0,1,0.0,
+492a5d2ff0b64995031adb0854c71393d472427c,0,1,0,0,0.0,
+b2ce4ca6d58323fd006aa8dbcbb0c943f41a8038,1,3,0,1,0.0,src/app/root-view.coffee,Justin Palmer,Corey Johnson & Kevin Sawicki;src/packages/fuzzy-finder/spec/fuzzy-finder-spec.coffee,Nathan Sobo,Corey Johnson & Kevin Sawicki;
+75e040b73b213ced67f270a80a58da1466078262,0,1,0,0,0.0,
+8512bee6c9720fc94190a42c59ed9bef402286ff,0,1,0,0,0.0,
+dd7835faf407ae95ee9c887804a3f53a49ce4889,0,1,0,0,0.0,
+e796616921e197d50f4999569614c61272a3a6fd,0,1,0,0,0.0,
+b9b3daba77eed00179837dc214feb2d3196abda6,0,1,0,0,0.0,
+d1e47fd31cafe0674c26ebbc68fa991ef1503e8f,1,1,0,0,0.0,src/packages/editor-stats/src/editor-stats-view.coffee,Justin Palmer,Kevin Sawicki;
+113a8fa279518720d6813854da17bb74ce847f8a,0,2,0,0,0.0,
+3b257988d717a0063adb128b6a98ce1bdbcdd518,1,1,1,0,1.0,
+bb43b2e79aecafc61b40ded360b4963683316acc,0,1,0,0,0.0,
+46331ded031c5c1c4451ffd3c5e48cbca1a08021,1,4,0,0,0.0,spec/app/root-view-spec.coffee,Corey Johnson,Kevin Sawicki;spec/app/editor-spec.coffee,Nathan Sobo,Kevin Sawicki;src/app/editor.coffee,Nathan Sobo,Kevin Sawicki;src/extensions/strip-trailing-whitespace.coffee,Corey Johnson,Kevin Sawicki;
+2c4da1b8dd86d4dc62d21c2dac9d27c39995b9b5,1,2,0,0,0.0,src/packages/snippets/src/snippets.coffee,Corey Johnson,Nathan Sobo;src/app/package.coffee,Corey Johnson & Nathan Sobo,Nathan Sobo;
+00b86ffac493ee3066b64bbbac984f20e283b81c,1,5,2,2,0.4,src/app/keymap.coffee,Corey Johnson & Nathan Sobo,Kevin Sawicki;
+55dc3e1cdfbd10b55df718eedc565768ede97aa9,0,2,0,0,0.0,
+25744fcd611c7c942d8a76003c3acab62890dbad,0,1,0,0,0.0,
+2b8c946a65fed38995a4718fe92af2c3c5e58374,0,2,0,0,0.0,
+e38367df8c76af4120c2b01be233a4aab13b69c7,1,1,1,0,1.0,
+a180e6d7032de68cde24aa29cec6ce9cc1e70597,1,3,3,0,1.0,
+96e2a66065bf323d9775d8b62d23c8682ff0876c,1,2,0,0,0.0,.gitignore,Corey Johnson & Nathan Sobo,Corey Johnson;Rakefile,Corey Johnson & Nathan Sobo,Corey Johnson;
+eaafa9eade1065d13426d74f023ed221dc375d59,0,1,0,0,0.0,
+c24c9e20034d4877dd31638f5f4a32eaaf8cfb6b,0,3,0,0,0.0,
+dfdcce9785ab68297234eed8b0fa73a6f4f56f16,0,1,0,0,0.0,
+9d203b9425e774c81a528327909f12c1d7ae73b7,1,1,0,0,0.0,src/app/atom.coffee,Nathan Sobo,Corey Johnson;
+847b5141641b0d19e1e03ed0ffdc0356b89897a7,1,3,1,0,0.3333333333333333,benchmark/benchmark-suite.coffee,Nathan Sobo,Corey Johnson & Nathan Sobo;src/app/language-mode.coffee,Corey Johnson & Nathan Sobo,Corey Johnson;
+1886b2a48eff10e189e9c6947b9fe040b6156f68,2,6,3,0,0.5,spec/app/buffer-spec.coffee,Nathan Sobo,Corey Johnson;spec/extensions/tree-view-spec.coffee,Nathan Sobo,Corey Johnson & Nathan Sobo;src/app/buffer.coffee,Nathan Sobo,Corey Johnson & Nathan Sobo;
+1f5416f5dde49d762a4565e204bbb2662ecd7e63,1,1,1,0,1.0,
+c05fa7dc6f30a53b75a6fcd99d8a8b5295ea6bfc,1,1,0,0,0.0,src/app/buffer.coffee,Corey Johnson & Nathan Sobo,Nathan Sobo;
+3e3bc99161220cb3e47e29675f5965745c43c63b,1,1,0,0,0.0,spec/app/editor-spec.coffee,Corey Johnson & Nathan Sobo,Corey Johnson;
+5ea1e6f05c2c9c63a7a76bb4484258fa2b245819,1,2,0,2,0.0,
+086b33f60657d4243bc68e158ef9ae2eba57f0e2,0,1,0,0,0.0,
+4c8aeb16bb30eb4060375b282f2c3da5213d22ae,1,1,0,0,0.0,src/app/window.coffee,David Graham & Nathan Sobo,Nathan Sobo;
+daa688b1e14d3211c16f0555420ef0da4f8a4980,1,1,0,0,0.0,src/app/edit-session.coffee,Corey Johnson & Nathan Sobo,Corey Johnson;
+06fffe6c4b5e8987d20c6592e0238c85ecb0e86d,0,1,0,0,0.0,
+92395a9cfb3042772fdc13cec1667e990cd774ac,0,1,0,0,0.0,
+79315b0ef6032ceca49933bfd5ef4fef33743b5e,0,1,0,0,0.0,
+648649d472f4972e7d44bb80fddbc91492ba61e3,0,2,0,0,0.0,
+28ff26e845a2b09379e5e47197664e4a4b0c1f9d,1,3,1,0,0.3333333333333333,src/app/root-view.coffee,Nathan Sobo,Corey Johnson;src/app/project.coffee,Nathan Sobo,Corey Johnson;
+f9ee35dc87dc7a2b28ab565bf7db8654037170be,0,1,0,0,0.0,
+91bdc20b8102f6ed4418a1fe229a3465827044a2,0,1,0,0,0.0,
+43653d7f032d911f092d210f19cdb8ec60d98306,1,1,0,0,0.0,src/atom/highlighter.coffee,Nathan Sobo,Corey Johnson & Nathan Sobo;
+90e019a4ac38e116e3ba59147db4881f50cb44f5,0,1,0,0,0.0,
+323fabf6a2a571fd36ebd054f08e88a5fcb6c1c0,0,2,0,0,0.0,
+6a963e88456f70c397d2cbcf9bf1e11923d6e9fc,0,3,0,0,0.0,
+2b748dd8a729ac14f39366875bc89160e020e31d,2,1,1,0,1.0,
+2f6c16c9411790cdccc81d598e5428ae80a4c1b9,1,1,0,0,0.0,src/atom/editor.coffee,Nathan Sobo,Corey Johnson;
+21a5f25d93366cb45701c3e05d53380858a2cb1f,1,1,0,0,0.0,src/atom/editor.coffee,Corey Johnson,Corey Johnson & Nathan Sobo;
+1a16a755b469aed67205a8be92b3dd68c0665941,2,1,1,0,1.0,
+192166d61a280288979b4497f5e493d36446a963,0,1,0,0,0.0,
+816f3774e1d0a97b021a0c75c248b8a69bc1993d,0,2,0,0,0.0,
+7fff476a628d6f51394db7b7a53f7585c1fa86ce,1,1,1,0,1.0,
+61f128865b4ece8d41410672576913ac1a0cc68b,0,1,0,0,0.0,
+3c1c00cc1b3ba0e8c7a84970fb4f07804fe81ba1,0,1,0,0,0.0,
+cc3abee58a9cd8279ab83b0b47b9c43822f37890,1,1,1,0,1.0,
+5c7c97f3dffb27301fe2f4e9f1d450ca6fbb17d4,0,1,0,0,0.0,
