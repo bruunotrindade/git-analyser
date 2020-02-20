@@ -53,8 +53,8 @@ public class RunGit {
         try {
             return stdInput.readLine();
         } catch (IOException ex) {
-            System.out.println(ex);
-            Logger.getLogger(RunGit.class.getName()).log(Level.SEVERE, null, ex);
+            //System.out.println(ex);
+            //Logger.getLogger(RunGit.class.getName()).log(Level.SEVERE, null, ex);
             return null;
         }
     }
@@ -88,8 +88,8 @@ public class RunGit {
                 }
             }
         } catch (IOException e) {
-            System.out.println(e);
-            Logger.getLogger(RunGit.class.getName()).log(Level.SEVERE, null, e);
+            //System.out.println(e);
+            //Logger.getLogger(RunGit.class.getName()).log(Level.SEVERE, null, e);
         }
         return stdInput;
     }

@@ -213,7 +213,7 @@ public class Git {
             }
 
         } catch (IOException ex) {
-            Logger.getLogger(Git.class.getName()).log(Level.SEVERE, null, ex);
+            //Logger.getLogger(Git.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return output;

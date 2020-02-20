@@ -1,6 +1,7 @@
 package br.uff.ic.gems.tipmerge;
 
 import java.io.File;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -48,10 +49,18 @@ public class MergeAnalyser4
 		for(int i = 0; i < args.length; i++)
 		{
 			System.out.println("Repositorio: " + args[i]);
-			repos = new RepositoryDao(new File(args[i])).getRepository();
-			RepositoryDao rdao = new RepositoryDao(repos.getProject());
-	        rdao.setGeneralBasicDatas(repos);
-			runAnalysis();
+
+			try 
+			{
+				repos = new RepositoryDao(new File(args[i])).getRepository();
+				RepositoryDao rdao = new RepositoryDao(repos.getProject());
+				rdao.setGeneralBasicDatas(repos);
+				runAnalysis();
+			}
+			catch(NullPointerException ex)
+			{
+				System.out.println("\tRepositório inválido!");
+			}
 			System.out.println("Terminado\n");
 		}
 	}
@@ -237,9 +246,16 @@ public class MergeAnalyser4
             
             linesGeral += merge.getHash()+","+mergeTimestamp+","+isolamentoAncestor1+","+isolamentoAncestor2+","+isolamentoParent1+","+isolamentoParent2+","+isolamentoMerge+","+committers1+","+committers2+","+numIntersec+","+commits1+","+commits2+","+arquivosAlterados1+","+arquivosAlterados2+","+arqIntersec+","+ (conflito ? "SIM" : "NAO") +","+arquivos+","+chunks+"/x/";
         }
-        Export.toCSV2(repos, "conflito", headerConflito, linesConflito.substring(0, linesConflito.length()-3).split("/x/"));
-        Export.toCSV2(repos, "geral", headerGeral, linesGeral.substring(0, linesGeral.length()-3).split("/x/"));
-	}
+        try
+        {
+	        Export.toCSV2(repos, "conflito", headerConflito, linesConflito.substring(0, linesConflito.length()-3).split("/x/"));
+	        Export.toCSV2(repos, "geral", headerGeral, linesGeral.substring(0, linesGeral.length()-3).split("/x/"));
+        }
+        catch(StringIndexOutOfBoundsException ex)
+        {
+        	System.out.println("\tNenhum merge foi analisado.");
+        }
+    }
 	
 	/*
 	 * git diff HASH arquivo
