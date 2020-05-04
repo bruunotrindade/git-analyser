@@ -2,6 +2,9 @@ package br.uff.ic.gems.tipmerge;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.UncheckedIOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -9,6 +12,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.TimeZone;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.stream.Stream;
 import java.util.Map.Entry;
 
 import br.uff.ic.gems.tipmerge.dao.EditedFilesDao;
@@ -25,7 +34,8 @@ import br.uff.ic.gems.tipmerge.util.Export;
 import br.uff.ic.gems.tipmerge.util.RunGit;
 import br.uff.ic.gems.tipmerge.util.Statistics;
 
-public class MergeAnalyser5
+
+public class MergeAnalyser6 
 {
 	public static class ArquivoConflito 
 	{
@@ -44,108 +54,81 @@ public class MergeAnalyser5
 
 	public static Repository repos = null;
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException
 	{
 		for(int i = 0; i < args.length; i++)
 		{
 			System.out.println("Repositorio: " + args[i]);
+
 			long start = System.nanoTime();
+			
 			try 
 			{
 				repos = new RepositoryDao(new File(args[i])).getRepository();
 				RepositoryDao rdao = new RepositoryDao(repos.getProject());
 				rdao.setGeneralBasicDatas(repos);
-				runAnalysis();
+				
+				List<String> merges = repos.getListOfMerges();
+				
+				ExecutorService executor = Executors.newFixedThreadPool(10);
+				List<Future<String>> list = new ArrayList<Future<String>>();
+				for(int t = 0; t < 4; t++)
+				{
+					File nrep = new File(repos.getProject().getAbsolutePath()+t);
+					copyFolder(repos.getProject().getAbsolutePath(), nrep.getAbsolutePath());
+					//List<String> sub = merges.subList((int)(Math.ceil((t/4.0)*merges.size())), (int)Math.ceil((t+1)/4.0)*merges.size());
+					//list.add(executor.submit(new Multithreading(new Repository(nrep), sub)));
+				}
+				
+				for(Future<String> fut : list){
+	                //print the return value of Future, notice the output delay in console
+	                // because Future.get() waits for task to get completed
+	                System.out.println(new Date()+ "::"+fut.get());
+		        }
+		        //shut down the executor service now
+		        executor.shutdown();
+				
 			}
 			catch(NullPointerException ex)
 			{
+				ex.printStackTrace();
 				System.out.println("\tRepositório inválido!");
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ExecutionException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 			System.out.println("Terminado\n");
 			double elapsed = (System.nanoTime() - start)/1000000;
 			System.out.println("Tempo de execução = " + String.format("%.2f", elapsed/1000));
 		}
+		
+		
 	}
 	
-	public static void runAnalysis()
-	{	
-		MergeFilesDao mergeFilesDao = new MergeFilesDao();
-		MergeCommitsDao mergeCommitsDao = new MergeCommitsDao(repos.getProject());
-
-        String headerTime[] = {"Hash do merge", "Data do merge", "Branching Time", "Iso. Merge"};
-        
-        String linesTime = "";
-        List<String> merges = repos.getListOfMerges();
-        int max = merges.size(), cont = 0;
-        
-        for(String hashMerge : merges) 
-        {
-            hashMerge = hashMerge.split(" ")[0];
-        	System.out.printf("\t-> Merge (%s) %02d/%02d", hashMerge, ++cont, max);
-
-        	
-            MergeFiles merge = mergeFilesDao.getMerge(hashMerge, repos.getProject());
-            //merge.setFilesOnBranchOne(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[0], repos.getProject(), "All Files"));
-            //merge.setFilesOnBranchTwo(new EditedFilesDao().getFiles(merge.getHashBase(), merge.getParents()[1], repos.getProject(), "All Files"));
-            
-            try
-            {
-	            if(merge.getHashBase().equals(merge.getParents()[0]) || merge.getHashBase().equals(merge.getParents()[1]))
-	            {
-	            	System.out.println();
-	            	continue;
+	public static void copyFolder(Path src, Path dest) {
+	    try {
+	        Files.walk( src ).forEach( s -> {
+	            try {
+	                Path d = dest.resolve( src.relativize(s) );
+	                if( Files.isDirectory( s ) ) {
+	                    if( !Files.exists( d ) )
+	                        Files.createDirectory( d );
+	                    return;
+	                }
+	                Files.copy( s, d );// use flag to override existing
+	            } catch( Exception e ) {
+	                e.printStackTrace();
 	            }
-	            else
-	            	System.out.println(" - De ramos");
-            }
-            catch(NullPointerException npe)
-            {
-            	System.out.println();
-            	continue;
-            }
-            
-            /*if(!hashMerge.equals("6788b2bc353f31d804de42ea7b7f942eb564cf68"))
-            	continue;*/
-            
-          //=================// Data do merge //=================//
-            String mergeTimestamp = getMergeTimestamp(hashMerge);
-            mergeTimestamp = convertToDefaultTimeZone(mergeTimestamp);
-            
-			//=================// Tempo de isolamento //=================//
-			
-			String commitNext1 = getAncestorNextHash(merge.getHashBase(), merge.getParents()[0]), commitNext2 = getAncestorNextHash(merge.getHashBase(), merge.getParents()[1]);
-			long bTime = 0;
-
-			long timeNext1 = getCommitUnixTime(commitNext1), timeNext2 = getCommitUnixTime(commitNext2);
-			if(timeNext1 > timeNext2)
-				bTime = timeNext2;
-			else
-				bTime = timeNext1;
-
-			long timeParent1 = getCommitUnixTime(merge.getParents()[0]), timeParent2 = getCommitUnixTime(merge.getParents()[1]);
-			if(timeParent1 > timeParent2)
-				bTime = timeParent1 - bTime;
-			else
-				bTime = timeParent2 - bTime;
-			
-			String branchingTime = String.format("%.7f", Statistics.timeToDays(bTime)).replace(",", ".");
-			String isolamentoMerge = getIsolationTimeBetweenCommits(merge.getHashBase(), hashMerge);
-			
-			if(Double.parseDouble(branchingTime) > Double.parseDouble(isolamentoMerge)) {
-				System.out.println("DEDU RUIM PACERO");
-				//break;
-			}
-            linesTime += merge.getHash()+","+mergeTimestamp+","+branchingTime+","+isolamentoMerge+"/x/";
-        }
-        try
-        {
-	        Export.toCSV2(repos, "time", headerTime, linesTime.substring(0, linesTime.length()-3).split("/x/"));
-        }
-        catch(StringIndexOutOfBoundsException ex)
-        {
-        	System.out.println("\tNenhum merge foi analisado.");
-        }
-    }
+	        });
+	    } catch( Exception ex ) {
+	        ex.printStackTrace();
+	    }
+	}
+	
+	
 	
 	/*
 	 * git diff HASH arquivo
@@ -261,23 +244,20 @@ public class MergeAnalyser5
 	//Recuperar o hash do commit após o base
 	public static String getAncestorNextHash(String hashBase, String hashParent)
 	{
-		List<String> commits = RunGit.getListOfResult("git rev-list --ancestry-path --reverse " + hashBase + ".." + hashParent, repos.getProject());
-		if(commits.size() > 0)
+		List<String> beginLineTotal = RunGit.getListOfResult("git log --first-parent --pretty=format:%HX%ciX%ct " + hashBase + ".." + hashParent, repos.getProject());
+		if(beginLineTotal.size() > 0)
         {
 			long parentUnixTs = getCommitUnixTime(hashParent);
-			long baseUnixTs = getCommitUnixTime(hashBase);
-			long ancestorUnixTs = getCommitUnixTime(commits.get(0));
-			String ancestor = commits.get(0);
 			
-			for(String hash : commits) {
-				if(ancestorUnixTs <= parentUnixTs && ancestorUnixTs > baseUnixTs)
-					break;
-				
-				ancestorUnixTs = getCommitUnixTime(hash);
-				ancestor = hash;
-			}
-			
-			return ancestor;
+			String parts[] = beginLineTotal.get(beginLineTotal.size()-1).split("X");
+        	long ancestorUnixTs = Long.parseLong(parts[2]);
+        	
+        	for(int i = beginLineTotal.size()-2; i >= 0 && ancestorUnixTs > parentUnixTs; i--) //Evitando que o tempo do ancestral seja maior que o do pai (tempo negativo)
+        	{
+        		parts = beginLineTotal.get(i).split("X");
+        		ancestorUnixTs = Long.parseLong(parts[2]);
+        	}
+			return parts[0];
         }
 		return "null";
 	}
