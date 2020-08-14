@@ -6,19 +6,13 @@
 
 package br.ufac.si.mactool.experiment;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import br.uff.ic.gems.tipmerge.experiment.Git;
-import br.uff.ic.gems.tipmerge.experiment.MergeStatusAnalizer;
 
 /**
  *
- * @author j2cf
+ * @author j2cf, Bruno Trindade
  */
 public class RevisionAnalyzer {
 

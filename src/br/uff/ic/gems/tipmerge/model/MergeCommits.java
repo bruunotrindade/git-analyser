@@ -104,7 +104,7 @@ public class MergeCommits extends Merge{
 
 	public List<Conciliator> getConciliators() {
 		List<Conciliator> conciliatorCandidates = new ArrayList<>();
-		List<Committer> committersOnBranch2 = new ArrayList(this.getCommittersBranchTwo());
+		List<Committer> committersOnBranch2 = new ArrayList<Committer>(this.getCommittersBranchTwo());
 		
 		for(Committer committer1 : this.getCommittersBranchOne()){
 			Conciliator conciliator = new Conciliator(committer1);

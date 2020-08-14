@@ -5,7 +5,6 @@
  */
 package br.uff.ic.gems.tipmerge.model;
 
-import br.ufac.si.mactool.util.RunGit;
 import br.uff.ic.gems.tipmerge.util.Auxiliary;
 
 import java.io.File;

@@ -10,11 +10,10 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Date;
 
 /**
  *
- * @author j2cf, Catarina
+ * @author j2cf, Catarina, Bruno Trindade
  */
 public class Statistics {
 	

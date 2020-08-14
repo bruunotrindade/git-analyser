@@ -21,9 +21,20 @@ import br.uff.ic.gems.tipmerge.model.MergeCommits;
 import br.uff.ic.gems.tipmerge.model.MergeFiles;
 import br.uff.ic.gems.tipmerge.model.Repository;
 
+/**
+ * @author Bruno Trindade
+ * */
+
 public class MACTool
 {
 	public static Repository repos = null;
+	
+	public static final String CONFLICT_HEADER[] = {"Hash", "Devs intersection", "Conflicted files", 
+    		"Conflicted files caused by same dev", "Null files", "Conflicted files caused by same dev / Conflicted files"};
+    
+	public static final String GENERAL_HEADER[] = {"Hash", "Merge timestamp", "Branching time", "Merge isolation time", 
+    		"Devs 1", "Devs 2", "Different devs", "Same devs", "Devs intersection", 
+    		"Commits 1", "Commits 2", "Changed files 1", "Changed files 2", "Changed files intersection", "Has conflict?", "Conflicted Files", "Chunks"};
 	
 	public static void main(String[] args)
 	{
@@ -48,13 +59,6 @@ public class MACTool
 		MergeFilesDao mergeFilesDao = new MergeFilesDao();
 		MergeCommitsDao mergeCommitsDao = new MergeCommitsDao(repos.getProject());
 
-        String headerConflito[] = {"Hash do merge", "Intersecção de Desenvolvedores", "Arquivos em Conflito", 
-        		"Arquivos com Conflito causado pelo Mesmo", "Arquivos Null", "Relação Arquivos Mesmo / Total de Arquivos"};
-        
-        String headerGeral[] = {"Hash do merge", "Data do merge", "Tempo de isolamento [ramos]", "Tempo de isolamento [merge]", 
-        		"Desenvolvedores 1", "Desenvolvedores 2", "Diferentes desenvolvedores", "Mesmos desenvolvedores", "Intersecção de Desenvolvedores", 
-        		"Commits 1", "Commits 2", "Arquivos alterados 1", "Arquivos alterados 2", "Intersecção de Arquivos", "Conflito", "Arquivos", "Chunks"};
-        
         ArrayList<String> linesConflito = new ArrayList<String>(), linesGeral = new ArrayList<String>();
         List<String> merges = repos.getListOfMerges();
         int max = merges.size(), cont = 0;
@@ -228,16 +232,17 @@ public class MACTool
                 linesConflito.add(merge.getHash()+","+numIntersec+","+arquivos+","+contAmbos+","+contNull+","+((double)contAmbos/arquivos)+","+descricaoArquivos);
             }
             
-            linesGeral.add(merge.getHash()+","+mergeTimestamp+","+branchingTime+","+isolamentoMerge+","+committers1+","+committers2+","+diffCommitters+","+sameCommitters+","+numIntersec+","+commits1+","+commits2+","+arquivosAlterados1+","+arquivosAlterados2+","+arqIntersec+","+ (conflito ? "SIM" : "NAO") +","+arquivos+","+chunks);
+            linesGeral.add(merge.getHash()+","+mergeTimestamp+","+branchingTime+","+isolamentoMerge+","+committers1+","+committers2+","+diffCommitters+","+sameCommitters+","+
+            		numIntersec+","+commits1+","+commits2+","+arquivosAlterados1+","+arquivosAlterados2+","+arqIntersec+","+ (conflito ? "YES" : "NO") +","+arquivos+","+chunks);
         }
         try
         {
-	        Export.toCSV(repos, "conflito", headerConflito, linesConflito);
-	        Export.toCSV(repos, "geral", headerGeral, linesGeral);
+	        Export.toCSV(repos, "conflict", CONFLICT_HEADER, linesConflito);
+	        Export.toCSV(repos, "general", GENERAL_HEADER, linesGeral);
         }
         catch(StringIndexOutOfBoundsException ex)
         {
-        	System.out.println("\tNenhum merge foi analisado.");
+        	System.out.println("\tNo merge was analyzed.");
         }
     }
 	

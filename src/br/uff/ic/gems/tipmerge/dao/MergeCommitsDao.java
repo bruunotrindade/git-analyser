@@ -10,7 +10,6 @@ import br.uff.ic.gems.tipmerge.model.MergeCommits;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**

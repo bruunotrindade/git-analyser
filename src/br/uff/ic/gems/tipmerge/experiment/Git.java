@@ -36,7 +36,7 @@ public class Git {
 
             BufferedReader stdInput = new BufferedReader(new InputStreamReader(exec.getInputStream()));
 
-            BufferedReader stdError = new BufferedReader(new InputStreamReader(exec.getErrorStream()));
+            //BufferedReader stdError = new BufferedReader(new InputStreamReader(exec.getErrorStream()));
 
             // read the output from the command
             while ((s = stdInput.readLine()) != null) {
@@ -85,7 +85,7 @@ public class Git {
 
             BufferedReader stdInput = new BufferedReader(new InputStreamReader(exec.getInputStream()));
 
-            BufferedReader stdError = new BufferedReader(new InputStreamReader(exec.getErrorStream()));
+            //BufferedReader stdError = new BufferedReader(new InputStreamReader(exec.getErrorStream()));
 
             // read the output from the command
             while ((s = stdInput.readLine()) != null) {
