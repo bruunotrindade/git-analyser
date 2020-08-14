@@ -5,9 +5,10 @@
  */
 package br.uff.ic.gems.tipmerge.dao;
 
+import br.ufac.si.mactool.util.RunGit;
 import br.uff.ic.gems.tipmerge.experiment.Git;
 import br.uff.ic.gems.tipmerge.model.Repository;
-import br.uff.ic.gems.tipmerge.util.RunGit;
+
 import java.io.File;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

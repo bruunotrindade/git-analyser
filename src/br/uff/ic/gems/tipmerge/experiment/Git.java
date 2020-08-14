@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package br.uff.ic.gems.tipmerge.experiment;
 
 import java.io.BufferedReader;
@@ -144,7 +145,7 @@ public class Git {
         return output;
     }
 
-    static List<String> reset(String repositoryPath) {
+    public static List<String> reset(String repositoryPath) {
 
         String command = "git reset --hard ";
 

@@ -5,8 +5,9 @@
  */
 package br.uff.ic.gems.tipmerge.dao;
 
+import br.ufac.si.mactool.util.RunGit;
 import br.uff.ic.gems.tipmerge.model.EditedFile;
-import br.uff.ic.gems.tipmerge.util.RunGit;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;

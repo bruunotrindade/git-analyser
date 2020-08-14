@@ -1,0 +1,4 @@
+Hash do merge,Data do merge,Branch time,Merge time,Desenvolvedores 1,Desenvolvedores 2,Intersecção de Desenvolvedores,Commits 1,Commits 2,Arquivos alterados 1,Arquivos alterados 2,Intersecção de Arquivos,Conflito,Arquivos,Chunks,linguagem
+ad029c794e816033f5ada874eed1d1779a5dece8,2020-04-17 13:29:38 +0300,0.07,0.09,1.00,1.00,2.00,1.00,1.00,1.00,1.00,0.00,NAO,0.00,0.00,C#
+5a3941fa60415aca205e915ec1dc58d009337d1b,2020-04-17 11:55:06 +0300,0.02,0.33,2.00,1.00,1.00,2.00,1.00,3.00,1.00,0.00,NAO,0.00,0.00,C#
+de1c8e72f88261f020d7b73f71c38b8a2a174522,2020-04-17 11:26:20 +0300,0.02,0.31,1.00,1.00,0.00,1.00,1.00,2.00,1.00,0.00,NAO,0.00,0.00,C#

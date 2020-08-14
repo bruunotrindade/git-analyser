@@ -6,8 +6,9 @@
  */
 package br.uff.ic.gems.tipmerge.dao;
 
+import br.ufac.si.mactool.util.RunGit;
 import br.uff.ic.gems.tipmerge.model.MergeFiles;
-import br.uff.ic.gems.tipmerge.util.RunGit;
+
 import java.io.File;
 
 /**
